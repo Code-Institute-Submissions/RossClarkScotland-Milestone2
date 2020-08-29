@@ -96,7 +96,12 @@ Though the images, linear-gradient values, and button differ from those given on
 }
 
 .navbar a:hover {
+    font-size: 2.75rem;
+}
+
+.you-are-here {
     border: 1px solid #fafafa;
+    padding: 0.5rem;
 }
 
 
@@ -137,22 +142,10 @@ Though the images, linear-gradient values, and button differ from those given on
 /*************************************Banner**************************************/
 #banner-image {
 
-    background-image:linear-gradient(rgb(0, 0, 0), rgba(160, 159, 159, 0.5)), url("../images/roadmap2.png");
+    background-image:linear-gradient(rgb(0, 0, 0), rgba(66, 66, 66, 0.5)), url("../images/roadmap2.png");
     width: 100vw;
     height: 40vh;
-    background-size: 100% 100%;
-    
-}
-
-.banner-text-box {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fafafa;
-    font-family: 'Amatic SC', cursive;
-    font-weight: 700;
-    text-align: center;
+    background-size: 100% 100%; 
 }
 
 /************************************ About page ***********************************/
@@ -194,13 +187,9 @@ Though the images, linear-gradient values, and button differ from those given on
         font-size: 3.5rem;
         word-spacing: 1.5rem;
     }
+
+    .navbar a:hover {
+        font-size: 5rem;
+    }
     
-    .banner-text-box {
-        position: absolute;
-        top: 12%;
-        left: 12%;
-    }
-    #about-head {
-        font-size:12rem;
-    }
     
