@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 10px;
+}
+
+/*****************Default font sizes*********************/
+
+h1 {
+    font-size:5.5rem;
+}
+
+h2 {
+    font-size:5rem;
+}
+
+h3 {
+    font-size:4.5rem;
+}
+
+h4 {
+    font-size:3rem;
+}
+
+h5 {
+    font-size:2rem;
+}
+
+p {
+    font-size:1.5rem;
+}
+
+p a {
+    font-size:1.5rem;
+}
+
+p em {
+    font-size:1.5rem;
+}
+
+/*****************Hero-image*********************/
+
+#hero-image {
+
+    background-image:linear-gradient(rgb(20, 20, 20), rgba(0, 0, 0, 0.5)), url("../images/highway2.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%;
+    
+}
+
+/*I learned how to set the linear gradient over a background image and to center a text box and call to action button on the following Udemy course: 
+https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/ 
+Though the images, linear-gradient values, and button differ from those given on the course*/
+
+.hero-text-box {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fafafa;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    text-align: center;
+}
+
+    #landing-head {
+        font-size: 7rem;
+    }
+ 
+    #landing-sub {
+        font-size: 3rem;
+        color: #fafafa;
+        border: 1px solid #fafafa;
+        text-decoration: none;
+    } 
+
+/*****************Navbars*********************/
+
+.navbar {
+    text-transform: uppercase;
+    font-family: 'Amatic SC', sans-serif;
+    min-height: 0.8rem;
+}
+
+.navbar a {
+    color: #fafafa;
+    font-size: 2.25rem;
+}
+
+.navbar a:hover {
+    border: 1px solid #fafafa;
+}
+
+
+/*****************Footer*********************/
+
+#position-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+/*Social links adapted from Resume mini-project*/
+
+.social-links li a i {
+    width: 2.75rem;
+    height: 2.75rem;
+    padding: 1.2rem 0;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    line-height: 0.7rem;
+    text-align: center;
+    color: #fafafa;
+    background: #555353;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: rgb(117, 231, 117);
+}
+
+#footer-details {
+    padding: 2rem;
+}
+
+/************************************ Media queries ***********************************/
+
+@media only screen and (min-width:80rem) {
+    .hero-text-box {
+        position: absolute;
+        top: 22%;
+        left: 23%;
+    }
+
+    #landing-head {
+        font-size:12rem;
+    }
+
+    #landing-sub {
+        font-size: 7rem;
+        border: none;
+    }
+
+     #landing-sub:hover {
+        border: 1px solid #fafafa;
+    }
+
+    .navbar {
+        min-height: 0.8rem;
+        position: absolute;
+        top: 5%;
+        left: 60%;
+    }
+    .navbar a {
+        font-size: 3.5rem;
+        word-spacing: 1.5rem;
+    }
+    
