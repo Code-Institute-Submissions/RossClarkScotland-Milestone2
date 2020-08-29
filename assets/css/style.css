@@ -78,8 +78,6 @@ Though the images, linear-gradient values, and button differ from those given on
     #landing-sub {
         font-size: 3rem;
         color: #fafafa;
-        border: 1px solid #fafafa;
-        text-decoration: none;
     } 
 
 /*****************Navbars*********************/
@@ -106,9 +104,13 @@ Though the images, linear-gradient values, and button differ from those given on
 
 
 /*****************Footer*********************/
+#homepage-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
 
 #position-footer {
-    position: fixed;
     bottom: 0;
     left: 0;
 }
@@ -153,6 +155,23 @@ Though the images, linear-gradient values, and button differ from those given on
 .about-text {
     margin-left: 5rem;
     margin-right: 5rem;
+    margin-bottom: 0;
+}
+
+#quoteScreen {
+    margin-bottom: 0;
+    font-size:5rem;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.btn {
+    margin-right: 45%;
+    margin-left: 50%;
+    margin-bottom: 5rem;
+    margin-top: 0;
+    font-size:1rem;
+    text-align: center;
 }
 
 /************************************ Media queries ***********************************/
@@ -191,5 +210,9 @@ Though the images, linear-gradient values, and button differ from those given on
     .navbar a:hover {
         font-size: 5rem;
     }
+
+    #banner-image {
+        height: 45vh;
+}
     
     

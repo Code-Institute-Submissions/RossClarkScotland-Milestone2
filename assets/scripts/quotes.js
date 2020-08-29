@@ -1,6 +1,7 @@
 console.log("Kimba!");
 
-let quotes = [
+function quoteGenerator() {
+    let quotes = [
     "Organizing gods is like herding cats into straight lines. They don't take naturally to it.",
     "Angry gets shit done.",
     "Every hour wounds. The last one kills",
@@ -14,12 +15,9 @@ let quotes = [
     "I believe that anyone who claims to know what's going on will lie about the little things too.",
     "If hell is other people . . . then ppurgatory is airports.",
     "There was nowhere they could have gone and they went there anyway.",
-    "Information and knowledge: to currencies that have never gone out of style.",
+    "Information and knowledge: two currencies that have never gone out of style.",
     "Mostly you are what you think you are."
-
 ];
-
-function quoteGenerator() {
     let randomNum = Math.floor(Math.random() * (quotes.length));
     document.getElementById('quoteScreen').innerHTML = quotes[randomNum];
 }
