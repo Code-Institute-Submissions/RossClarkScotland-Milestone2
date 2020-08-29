@@ -5,7 +5,7 @@
     font-size: 10px;
 }
 
-/*****************Default font sizes*********************/
+/*****************Default text settings*********************/
 
 h1 {
     font-size:5.5rem;
@@ -29,6 +29,8 @@ h5 {
 
 p {
     font-size:1.5rem;
+    letter-spacing: 0.07rem;
+    font-family: 'Lato', 'Times', sans-serif;
 }
 
 p a {
@@ -39,6 +41,10 @@ p em {
     font-size:1.5rem;
 }
 
+#page-intro {
+    font-size:4.5rem;
+    text-transform: uppercase;
+}
 /*****************Hero-image*********************/
 
 #hero-image {
@@ -128,17 +134,17 @@ Though the images, linear-gradient values, and button differ from those given on
     padding: 2rem;
 }
 
-/*************************************About page **************************************/
-#road-map-image {
+/*************************************Banner**************************************/
+#banner-image {
 
-    background-image:linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0.5)), url("../images/roadmap.jpg");
+    background-image:linear-gradient(rgb(0, 0, 0), rgba(160, 159, 159, 0.5)), url("../images/roadmap2.png");
     width: 100vw;
-    height: 55vh;
+    height: 40vh;
     background-size: 100% 100%;
     
 }
 
-.about-text-box {
+.banner-text-box {
     position: absolute;
     top: 45%;
     left: 50%;
@@ -147,6 +153,13 @@ Though the images, linear-gradient values, and button differ from those given on
     font-family: 'Amatic SC', cursive;
     font-weight: 700;
     text-align: center;
+}
+
+/************************************ About page ***********************************/
+
+.about-text {
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 /************************************ Media queries ***********************************/
@@ -182,7 +195,7 @@ Though the images, linear-gradient values, and button differ from those given on
         word-spacing: 1.5rem;
     }
     
-    .about-text-box {
+    .banner-text-box {
         position: absolute;
         top: 12%;
         left: 12%;
