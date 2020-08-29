@@ -128,6 +128,27 @@ Though the images, linear-gradient values, and button differ from those given on
     padding: 2rem;
 }
 
+/*************************************About page **************************************/
+#road-map-image {
+
+    background-image:linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0.5)), url("../images/roadmap.jpg");
+    width: 100vw;
+    height: 55vh;
+    background-size: 100% 100%;
+    
+}
+
+.about-text-box {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fafafa;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    text-align: center;
+}
+
 /************************************ Media queries ***********************************/
 
 @media only screen and (min-width:80rem) {
@@ -159,5 +180,14 @@ Though the images, linear-gradient values, and button differ from those given on
     .navbar a {
         font-size: 3.5rem;
         word-spacing: 1.5rem;
+    }
+    
+    .about-text-box {
+        position: absolute;
+        top: 12%;
+        left: 12%;
+    }
+    #about-head {
+        font-size:12rem;
     }
     
