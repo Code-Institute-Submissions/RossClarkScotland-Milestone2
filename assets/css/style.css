@@ -203,10 +203,6 @@ Though the images, linear-gradient values, and button differ from those given on
         border: none;
     }
 
-     #landing-sub:hover {
-        border: 1px solid #fafafa;
-    }
-
     .navbar {
         min-height: 0.8rem;
         position: absolute;

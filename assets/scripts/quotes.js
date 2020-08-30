@@ -38,4 +38,5 @@ function quoteGenerator() {
 ];
     let randomNum = Math.floor(Math.random() * (quotes.length));
     document.getElementById('quoteScreen').innerHTML = quotes[randomNum];
-}
+} 
+

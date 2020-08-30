@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Music</title>
+</head>
+
+<body>
+    <div id="banner-image">
+    <nav class="navbar justify-content-center">
+        <a href="index.html" class="nav-item nav-link active">Home</a>
+        <a href="about.html" class="nav-item nav-link">About</a>
+        <a href="trip.html" class="nav-item nav-link">Trip</a>
+        <a class="you-are-here" href="music.html" class="nav-item nav-link">Music</a>
+        <a href="quiz.html" class="nav-item nav-link">Quiz</a>
+        <a href="contact.html" class="nav-item nav-link">Contact</a>
+    </nav>
+    </div>
+
+    <div>
+        <iframe id="jukebox" class="embed-responsive-item" title="random song">Jukebox</iframe>
+    </div>
+    <div class="button-container">
+        <button type="button" class="btn btn-secondary btn-lg" onClick="player()">Click me!</button>
+    </div>
+
+    <script>
+
+    function player() {
+        let rando = Math.random();
+        let num = (rando * 3) + 1;
+        let playlist = Math.floor(num);
+
+        if (playlist == 1) {
+            document.getElementById("jukebox").setAttribute("src", "https://www.youtube.com/embed/uCkiScpXWk8");
+        }
+
+
+        if (playlist == 2) {
+            document.getElementById("jukebox").setAttribute("src", "https://www.youtube.com/embed/YfB-w_wqExw");
+        }
+
+        if (playlist == 3) {
+            document.getElementById("jukebox").setAttribute("src", "https://www.youtube.com/embed/bB7UvCpGYC0");
+        }
+    }
+    </script>
+
+    <!--Footer code adapted from that in the Boostrap mini project of the User Centric Frontend Development module--> 
+    <footer class="container-fluid" id="position-footer">
+        <div id="footer-details" class="row">
+            <div class="col-sm-12 text-center">
+                <ul class="list-inline social-links text-center">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                        <i class="fa fa-youtube" aria-hidden="true"></i>
+                        <span class="sr-only">YouTube</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                        <i class="fa fa-pinterest" aria-hidden="true"></i>
+                        <span class="sr-only">Pinterest</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/scripts/quotes.js"></script>
+</body>
+</html>
