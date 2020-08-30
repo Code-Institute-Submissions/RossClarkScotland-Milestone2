@@ -174,11 +174,11 @@ Though the images, linear-gradient values, and button differ from those given on
 }
 
 .btn {
-    margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin: 0;
     font-size:2.5rem;
     text-align: center;
     text-transform: uppercase;
