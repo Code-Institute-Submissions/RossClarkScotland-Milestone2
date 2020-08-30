@@ -153,25 +153,35 @@ Though the images, linear-gradient values, and button differ from those given on
 /************************************ About page ***********************************/
 
 .about-text {
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-bottom: 0;
+    margin: 0 5rem 0 5rem;
 }
 
 #quoteScreen {
-    margin-bottom: 0;
-    font-size:5rem;
+    margin: 2.5rem 0 0 0;
+    font-size: 4rem;
+    font-family: 'Amatic SC', cursive;
     text-align: center;
     padding-bottom: 0;
+    color: rgb(90, 88, 88);
+    border-top: 1px solid rgb(117, 115, 115);
+    border-bottom: 1px solid rgb(117, 115, 115);
+
+}
+
+.button-container {
+    height: 10rem;
+    position: relative;
 }
 
 .btn {
-    margin-right: 45%;
-    margin-left: 50%;
-    margin-bottom: 5rem;
-    margin-top: 0;
-    font-size:1rem;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:2.5rem;
     text-align: center;
+    text-transform: uppercase;
 }
 
 /************************************ Media queries ***********************************/
