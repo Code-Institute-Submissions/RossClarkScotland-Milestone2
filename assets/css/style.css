@@ -192,9 +192,9 @@ Though the images, linear-gradient values, and button differ from those given on
 
 #jukebox {
     display: block;
-    margin: auto;
-    width: 50%;
+    width: 45%;
     height: 35rem;
+    margin: auto;
 }
 
 
