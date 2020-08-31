@@ -20,39 +20,29 @@
         <a href="about.html" class="nav-item nav-link">About</a>
         <a href="trip.html" class="nav-item nav-link">Trip</a>
         <a class="you-are-here" href="music.html" class="nav-item nav-link">Music</a>
-        <a href="quiz.html" class="nav-item nav-link">Quiz</a>
+        <a href="game.html" class="nav-item nav-link">Game</a>
         <a href="contact.html" class="nav-item nav-link">Contact</a>
     </nav>
     </div>
-
     <div>
-        <iframe id="jukebox" class="embed-responsive-item" title="random song">Jukebox</iframe>
+        <p class="about-text"><span id="page-intro">Every road trip</span> needs a killer soundtrack. 
+        Fortunately, American Gods is full of songs playing on the road, in dank bars, and in roadside
+        diners, as well as more subtle nods to sings scattered throughout the book. In total,
+        there are <a href="https://www.tor.com/2017/04/27/every-song-mentioned-in-neil-gaimans-american-gods-plus-a-few-bonus-tracks/" target="_blank">more than 50 songs</a> 
+        referenced in American Gods.</p>
+        <p class="about-text">So let's hit the road with a boss mix tape. Just scroll to
+         hit the button below the cassette, and the gods will provide you with a track from
+        the novel. Want another song? Pay homage to the gods by hitting the button again.</p>
+    </div>
+    <div>
+        <p id="song-title"></p>
+    </div>
+    <div>
+        <iframe id="jukebox" class="embed-responsive-item" src="assets/images/cassette.jpg" title="random song">Jukebox</iframe>
     </div>
     <div class="button-container">
         <button type="button" class="btn btn-secondary btn-lg" onClick="player()">Click me!</button>
     </div>
-
-    <script>
-
-    function player() {
-        let rando = Math.random();
-        let num = (rando * 3) + 1;
-        let playlist = Math.floor(num);
-
-        if (playlist == 1) {
-            document.getElementById("jukebox").setAttribute("src", "https://www.youtube.com/embed/uCkiScpXWk8");
-        }
-
-
-        if (playlist == 2) {
-            document.getElementById("jukebox").setAttribute("src", "https://www.youtube.com/embed/YfB-w_wqExw");
-        }
-
-        if (playlist == 3) {
-            document.getElementById("jukebox").setAttribute("src", "https://www.youtube.com/embed/bB7UvCpGYC0");
-        }
-    }
-    </script>
 
     <!--Footer code adapted from that in the Boostrap mini project of the User Centric Frontend Development module--> 
     <footer class="container-fluid" id="position-footer">
@@ -93,6 +83,6 @@
             </div>
         </div>
     </footer>
-    <script src="assets/scripts/quotes.js"></script>
+    <script src="assets/scripts/music.js"></script>
 </body>
 </html>
