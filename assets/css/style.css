@@ -107,19 +107,19 @@ Though the images, linear-gradient values, and button differ from those given on
 
     background-image:linear-gradient(rgb(0, 0, 0), rgba(66, 66, 66, 0.5)), url("../images/roadmapsmall.png");
     width: 100vw;
-    height: 25vh;
+    height: 18vh;
     background-size: 100% 100%;
     margin-bottom: 1.5rem; 
 }
 
 #banner-image nav a {
     color: #fafafa;
-    font-size: 3.25rem;
+    font-size: 1.75rem;
 }
 
 #banner-image nav a:hover {
     color: #fafafa;
-    font-size: 4.5rem;
+    font-size: 2rem;
 }
 /*****************Footer*********************/
 #homepage-footer {
@@ -242,7 +242,18 @@ Though the images, linear-gradient values, and button differ from those given on
     }
 
     #banner-image {
-        height: 45vh;
+        height: 38vh;
+    }
+
+    #banner-image nav a {
+    color: #fafafa;
+    font-size: 3.25rem;
+}
+
+    #banner-image nav a:hover {
+    color: #fafafa;
+    font-size: 4.5rem;
+}
 }
     
     
