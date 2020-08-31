@@ -86,16 +86,16 @@ Though the images, linear-gradient values, and button differ from those given on
 .navbar {
     text-transform: uppercase;
     font-family: 'Amatic SC', sans-serif;
-    min-height: 0.8rem;
+    min-height: 2rem;
 }
 
 .navbar a {
     color: #fafafa;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
 }
 
 .navbar a:hover {
-    font-size: 1.75rem;
+    font-size: 2rem;
 }
 
 .you-are-here {
@@ -105,14 +105,22 @@ Though the images, linear-gradient values, and button differ from those given on
 
 #banner-image {
 
-    background-image:linear-gradient(rgb(0, 0, 0), rgba(66, 66, 66, 0.5)), url("../images/roadmap2.png");
+    background-image:linear-gradient(rgb(0, 0, 0), rgba(66, 66, 66, 0.5)), url("../images/roadmapsmall.png");
     width: 100vw;
-    height: 40vh;
+    height: 25vh;
     background-size: 100% 100%;
     margin-bottom: 1.5rem; 
 }
 
+#banner-image nav a {
+    color: #fafafa;
+    font-size: 3.25rem;
+}
 
+#banner-image nav a:hover {
+    color: #fafafa;
+    font-size: 4.5rem;
+}
 /*****************Footer*********************/
 #homepage-footer {
     position: fixed;
