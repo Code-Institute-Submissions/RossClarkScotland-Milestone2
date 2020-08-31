@@ -195,6 +195,7 @@ Though the images, linear-gradient values, and button differ from those given on
     width: 45%;
     height: 35rem;
     margin: auto;
+    border: 1rem solid black;
 }
 
 
