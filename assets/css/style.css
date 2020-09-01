@@ -42,14 +42,15 @@ p em {
 }
 
 #page-intro {
-    font-size:4.5rem;
+    font-size:6rem;
     text-transform: uppercase;
+    font-family: 'Amatic SC', cursive;
 }
 /*****************Hero-image*********************/
 
 #hero-image {
 
-    background-image:linear-gradient(rgb(20, 20, 20), rgba(0, 0, 0, 0.5)), url("../images/highway2.jpg");
+    background-image:linear-gradient(rgb(7, 7, 7), rgba(75, 73, 73, 0.5)), url("../images/highway2.jpg");
     width: 100vw;
     height: 100vh;
     background-size: 100% 100%;
@@ -105,7 +106,7 @@ Though the images, linear-gradient values, and button differ from those given on
 
 #banner-image {
 
-    background-image:linear-gradient(rgb(0, 0, 0), rgba(66, 66, 66, 0.5)), url("../images/roadmapsmall.png");
+    background-image:linear-gradient(rgb(0, 0, 0), rgba(18, 109, 64, 0.5)), url("../images/roadmapsmall.png");
     width: 100vw;
     height: 18vh;
     background-size: 100% 100%;
