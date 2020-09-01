@@ -196,6 +196,26 @@ Though the images, linear-gradient values, and button differ from those given on
     text-transform: uppercase;
 }
 
+/************************************ Trip page ***********************************/
+#trip-banner-image {
+    background-image:linear-gradient(rgb(0, 0, 0), rgba(18, 109, 64, 0.5)), url("../images/roadmapsmall.png");
+    width: 100vw;
+    height: 18vh;
+    background-size: 100% 100%;
+    margin-bottom: 1.5rem; 
+}
+
+#trip-banner-image nav a {
+    color: #fafafa;
+    font-size: 1.75rem;
+}
+
+#trip-banner-image nav a:hover {
+    color: #fafafa;
+    font-size: 2rem;
+}
+
+
 /************************************ Music page ***********************************/
 #music-banner-image {
     background-image:linear-gradient(rgb(0, 0, 0), rgba(18, 109, 64, 0.5)), url("../images/music1.png");
@@ -222,6 +242,43 @@ Though the images, linear-gradient values, and button differ from those given on
     border: 1rem solid black;
 }
 
+/************************************ Game page ***********************************/
+#game-banner-image {
+    background-image:linear-gradient(rgb(0, 0, 0), rgba(18, 109, 64, 0.5)), url("../images/game.png");
+    width: 100vw;
+    height: 18vh;
+    background-size: 100% 100%;
+    margin-bottom: 1.5rem; 
+}
+
+#game-banner-image nav a {
+    color: #fafafa;
+    font-size: 1.75rem;
+}
+
+#game-banner-image nav a:hover {
+    color: #fafafa;
+    font-size: 2rem;
+}
+
+/************************************ Contacts page ***********************************/
+#contact-banner-image {
+    background-image:linear-gradient(rgb(0, 0, 0), rgba(18, 109, 64, 0.5)), url("../images/post.png");
+    width: 100vw;
+    height: 18vh;
+    background-size: 100% 100%;
+    margin-bottom: 1.5rem; 
+}
+
+#contact-banner-image nav a {
+    color: #fafafa;
+    font-size: 1.75rem;
+}
+
+#contact-banner-image nav a:hover {
+    color: #fafafa;
+    font-size: 2rem;
+}
 
 
 /************************************ Media queries ***********************************/
@@ -257,27 +314,59 @@ Though the images, linear-gradient values, and button differ from those given on
         font-size: 5rem;
     }
 
-    #about-banner-image, #music-banner-image {
+    p {
+    font-size:2.25rem;
+    }
+
+    p a {
+    font-size:2.5rem;
+    }
+
+    #about-banner-image, 
+    #music-banner-image, 
+    #trip-banner-image, 
+    #game-banner-image,
+    #contact-banner-image {
         height: 38vh;
     }
 
     #about-banner-image nav a {
-    color: #fafafa;
     font-size: 3.25rem;
     }
 
     #about-banner-image nav a:hover {
-    color: #fafafa;
     font-size: 4.5rem;
     }
 
     #music-banner-image nav a {
-    color: #fafafa;
     font-size: 3.25rem;
     }
 
     #music-banner-image nav a:hover {
-    color: #fafafa;
+    font-size: 4.5rem;
+    }
+
+    #trip-banner-image nav a {
+    font-size: 3.25rem;
+    }
+
+    #trip-banner-image nav a:hover {
+    font-size: 4.5rem;
+    }
+
+    #game-banner-image nav a {
+    font-size: 3.25rem;
+    }
+
+    #game-banner-image nav a:hover {
+    font-size: 4.5rem;
+    }
+
+    #contact-banner-image nav a {
+    font-size: 3.25rem;
+    }
+
+    #contact-banner-image nav a:hover {
     font-size: 4.5rem;
     }
 
