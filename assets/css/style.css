@@ -104,24 +104,6 @@ Though the images, linear-gradient values, and button differ from those given on
     padding: 0.5rem;
 }
 
-#banner-image {
-
-    background-image:linear-gradient(rgb(0, 0, 0), rgba(18, 109, 64, 0.5)), url("../images/roadmapsmall.png");
-    width: 100vw;
-    height: 18vh;
-    background-size: 100% 100%;
-    margin-bottom: 1.5rem; 
-}
-
-#banner-image nav a {
-    color: #fafafa;
-    font-size: 1.75rem;
-}
-
-#banner-image nav a:hover {
-    color: #fafafa;
-    font-size: 2rem;
-}
 /*****************Footer*********************/
 #homepage-footer {
     position: fixed;
@@ -163,7 +145,24 @@ Though the images, linear-gradient values, and button differ from those given on
 
 /************************************ About page ***********************************/
 
+#about-banner-image {
 
+    background-image:linear-gradient(rgb(0, 0, 0), rgba(18, 109, 64, 0.5)), url("../images/info.jpg");
+    width: 100vw;
+    height: 18vh;
+    background-size: 100% 100%;
+    margin-bottom: 1.5rem; 
+}
+
+#about-banner-image nav a {
+    color: #fafafa;
+    font-size: 1.75rem;
+}
+
+#about-banner-image nav a:hover {
+    color: #fafafa;
+    font-size: 2rem;
+}
 
 .about-text {
     margin: 0 5rem 0 5rem;
@@ -198,7 +197,23 @@ Though the images, linear-gradient values, and button differ from those given on
 }
 
 /************************************ Music page ***********************************/
+#music-banner-image {
+    background-image:linear-gradient(rgb(0, 0, 0), rgba(18, 109, 64, 0.5)), url("../images/music1.png");
+    width: 100vw;
+    height: 18vh;
+    background-size: 100% 100%;
+    margin-bottom: 1.5rem; 
+}
 
+#music-banner-image nav a {
+    color: #fafafa;
+    font-size: 1.75rem;
+}
+
+#music-banner-image nav a:hover {
+    color: #fafafa;
+    font-size: 2rem;
+}
 #jukebox {
     display: block;
     width: 45%;
@@ -242,19 +257,29 @@ Though the images, linear-gradient values, and button differ from those given on
         font-size: 5rem;
     }
 
-    #banner-image {
+    #about-banner-image, #music-banner-image {
         height: 38vh;
     }
 
-    #banner-image nav a {
+    #about-banner-image nav a {
     color: #fafafa;
     font-size: 3.25rem;
-}
+    }
 
-    #banner-image nav a:hover {
+    #about-banner-image nav a:hover {
     color: #fafafa;
     font-size: 4.5rem;
+    }
+
+    #music-banner-image nav a {
+    color: #fafafa;
+    font-size: 3.25rem;
+    }
+
+    #music-banner-image nav a:hover {
+    color: #fafafa;
+    font-size: 4.5rem;
+    }
+
 }
-}
-    
     
