@@ -20,8 +20,8 @@
         }
 
          if (playlist == 4) {
-            document.getElementById("jukebox").setAttribute("src", "Who loves the sun by The Velvet Underground");
-            document.getElementById("song").innerHTML = "Iko Iko by The Dixie Cups";
+            document.getElementById("jukebox").setAttribute("src", "https://www.youtube.com/embed/");
+            document.getElementById("song").innerHTML = "Who loves the sun by The Velvet Underground";
         }
 
         if (playlist == 5) {
@@ -191,7 +191,7 @@
 
           if (playlist == 39) {
             document.getElementById("jukebox").setAttribute("src", "https://www.youtube.com/embed/o7U3lo80YrQ");
-            document.getElementById("song").innerHTML = "Cheers theme sons";
+            document.getElementById("song").innerHTML = "Cheers theme song";
         }
 
           if (playlist == 40) {
