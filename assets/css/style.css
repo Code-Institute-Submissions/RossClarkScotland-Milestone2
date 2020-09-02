@@ -234,6 +234,14 @@ Though the images, linear-gradient values, and button differ from those given on
     color: #fafafa;
     font-size: 2rem;
 }
+
+#song {
+    width: 50%;
+    margin: auto;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 #jukebox {
     display: block;
     width: 45%;

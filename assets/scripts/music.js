@@ -16,11 +16,11 @@
 
         if (playlist == 3) {
             document.getElementById("jukebox").setAttribute("src", "https://www.youtube.com/embed/OuC519ni1aE");
-            document.getElementById("song").innerHTML = "";
+            document.getElementById("song").innerHTML = "Iko Iko by The Dixie Cups";
         }
 
          if (playlist == 4) {
-            document.getElementById("jukebox").setAttribute("src", "https://www.youtube.com/embed/DgGuTicdtyg");
+            document.getElementById("jukebox").setAttribute("src", "Who loves the sun by The Velvet Underground");
             document.getElementById("song").innerHTML = "Iko Iko by The Dixie Cups";
         }
 
@@ -56,12 +56,12 @@
 
         if (playlist == 11) {
             document.getElementById("jukebox").setAttribute("src", "https://www.youtube.com/embed/DE5lsoXeQDg");
-            document.getElementById("song").innerHTML = "";
+            document.getElementById("song").innerHTML = "I have the moon by Magnetic Fields";
         }
 
         if (playlist == 12) {
             document.getElementById("jukebox").setAttribute("src", "https://www.youtube.com/embed/euJ22UqLD5Y");
-            document.getElementById("song").innerHTML = "I have the moon by Magnetic Fields";
+            document.getElementById("song").innerHTML = "Sweet home Chicago by The Blues Brothers";
         }
 
         if (playlist == 13) {
@@ -71,12 +71,12 @@
 
         if (playlist == 14) {
             document.getElementById("jukebox").setAttribute("src", "https://www.youtube.com/embed/lot1xjsFbTc");
-            document.getElementById("song").innerHTML = "";
+            document.getElementById("song").innerHTML = "Danse macabre by Bela Fleck";
         }
 
         if (playlist == 15) {
             document.getElementById("jukebox").setAttribute("src", "https://www.youtube.com/embed/De1LCQvbqV4");
-            document.getElementById("song").innerHTML = "Danse macabre by Bela Fleck";
+            document.getElementById("song").innerHTML = "Octupus's garden by The Beatles";
         }
 
         if (playlist == 17) {
@@ -116,12 +116,12 @@
 
         if (playlist == 24) {
             document.getElementById("jukebox").setAttribute("src", "https://www.youtube.com/embed/FSZxJpf1IHI");
-            document.getElementById("song").innerHTML = "";
+            document.getElementById("song").innerHTML = "Tango till they're sore by Tom Waits";
         }
 
         if (playlist == 25) {
             document.getElementById("jukebox").setAttribute("src", "https://www.youtube.com/embed/2mhPjXiZg64");
-            document.getElementById("song").innerHTML = "Tango till they're sore by Tom Waits";
+            document.getElementById("song").innerHTML = "Winterwonderland by Darlene Love";
         }
 
         if (playlist == 26) {
@@ -171,7 +171,7 @@
 
           if (playlist == 35) {
             document.getElementById("jukebox").setAttribute("src", "https://www.youtube.com/embed/V_IrdS-zu48");
-            document.getElementById("song").innerHTML = "Johnyy Appleseed";
+            document.getElementById("song").innerHTML = "Johnny Appleseed";
         }
 
           if (playlist == 36) {
