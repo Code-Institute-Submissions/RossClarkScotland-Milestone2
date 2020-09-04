@@ -221,18 +221,18 @@ Though the images, linear-gradient values, and button differ from those given on
     margin: auto;
 }
 
-#destinations {
-  columns: 4;
-  -webkit-columns: 4;
-  -moz-columns: 4;
+#destinations-list {
+    width: 72%;
+    margin: auto;
 }
 
 #destinations-list li {
   list-style: none;
-  text-align: center;
   font-size:1.5rem;
   letter-spacing: 0.07rem;
   font-family: 'Lato', 'Times', sans-serif;
+  color: black;
+  
 }
 
 
