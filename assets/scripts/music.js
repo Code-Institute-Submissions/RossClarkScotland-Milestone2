@@ -166,7 +166,7 @@
 
           if (playlist == 34) {
             document.getElementById("jukebox").setAttribute("src", "https://www.youtube.com/embed/dVxYL2sI1oM");
-            document.getElementById("song").innerHTML = "The lament of the Cherokke by Indian Reservation";
+            document.getElementById("song").innerHTML = "The lament of the Cherokee by Indian Reservation";
         }
 
           if (playlist == 35) {

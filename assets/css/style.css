@@ -215,6 +215,29 @@ Though the images, linear-gradient values, and button differ from those given on
     font-size: 2rem;
 }
 
+#map {
+    height: 95vh;
+    width: 70%;
+    margin: auto;
+}
+
+#destinations {
+  columns: 4;
+  -webkit-columns: 4;
+  -moz-columns: 4;
+}
+
+#destinations-list li {
+  list-style: none;
+  text-align: center;
+  font-size:1.5rem;
+  letter-spacing: 0.07rem;
+  font-family: 'Lato', 'Times', sans-serif;
+}
+
+
+/*I learned how to split the unordered list into colums here: https://www.w3docs.com/snippets/html/how-to-display-an-unordered-list-in-two-columns.html*/
+
 
 /************************************ Music page ***********************************/
 #music-banner-image {
