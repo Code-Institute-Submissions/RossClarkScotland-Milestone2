@@ -25,6 +25,7 @@ h4 {
 
 h5 {
     font-size:2rem;
+    font-family: 'Lato', 'Times', sans-serif;
 }
 
 p {
@@ -215,6 +216,12 @@ Though the images, linear-gradient values, and button differ from those given on
     font-size: 2rem;
 }
 
+#map-heading {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
 #map {
     height: 60rem;
     width: 100%;
@@ -349,6 +356,10 @@ Though the images, linear-gradient values, and button differ from those given on
     }
 
     p a {
+    font-size:2.5rem;
+    }
+
+    h5 {
     font-size:2.5rem;
     }
 
