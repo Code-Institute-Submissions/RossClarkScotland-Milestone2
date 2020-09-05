@@ -238,8 +238,16 @@ Though the images, linear-gradient values, and button differ from those given on
   font-size:1.5rem;
   letter-spacing: 0.07rem;
   font-family: 'Lato', 'Times', sans-serif;
-  color: black;
-  
+  color: black; 
+}
+
+.map-embed {
+    width: 40rem;
+    height: 40rem; 
+    border: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
