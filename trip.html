@@ -34,13 +34,20 @@
         <div>
             <p class="trip-heading"><span id="page-intro">the map</span></p>
             <p class="about-text">Tap or click the nodes on the map to zoom in. Or scroll on down for info
-             on the role each destination plays in the novel as well as tourist sites and accomodation available
+             on the role each destination plays in the novel as well as tourist sites, restaurants, and accomodation available
              in every place.</p>
         </div>
     </div>
     <div id="map"></div>
 
-    <div class=" col-12 container">
+    <div>
+        <p class="trip-heading"><span id="page-intro">destinations</span></p>
+        <p class="about-text">Click on any destination to read about the role it
+         plays in the novel and for maps showing tourist sites, restaurants, 
+         and accomodation in each area.</p>
+    </div>
+
+    <div class="col-12 container">
         <ul id="destinations-list" class=" list-unstyled row">
             <li class="list-group-item list-group-item-success col-md-3">A) St Louis, MO</li>
             <li class="list-group-item list-group-item-success col-md-3">B) Eagle Point, IN </li>
@@ -70,13 +77,24 @@
     </div>
 
     <div>
-        <iframe class="map-embed"
-            width="600"
-            height="450"
-            frameborder="0" style="border:0"
-            src="https://www.google.com/maps/embed/v1/search?key=AIzaSyBQrF8tTzmRfEHbHjOpEFQZoUZ16qgrPlg&q=hotel+prices+in+St+Louis">
+        <p class="trip-heading"><span id="page-intro">St Louis, MO</span></p>
+        <p class="about-text">This is where it all starts for Shadow. 
+        On his way back to Eagle Point from Prison, his plane is diverted to
+        St Louis and somewhere in between he starts working for Wednesday and 
+        gets in a fight with Mad Sweeney for good measure. </p>
+    </div>
+    <div>
+        <iframe id="StLouis" class="map-embed embed" title="Maps of St Louis"  src="https://www.google.com/maps/embed/v1/search?key=AIzaSyBQrF8tTzmRfEHbHjOpEFQZoUZ16qgrPlg&q=hotels+in+St+Louis">
         </iframe>
     </div>
+
+    <div class="button-container">
+        <button type="button" class="btn btn-success btn-block" onClick="SLEats()">SHOW PLACES TO DINE</button>
+    </div>
+    <div class="button-container">
+        <button type="button" class="btn btn-secondary btn-block" onClick="SLStays()">SHOW PLACES TO STAY</button>
+    </div>
+
 
     
 
@@ -121,6 +139,7 @@
     </footer>
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-I3_d3a16d3XEm8CSNxbexq40oM6gyy8&callback=initMap"></script>
-    <script src="assets/scripts/maps.js"></script>
+    <script src="assets/scripts/map.js"></script>
+    <script src="assets/scripts/mapEmbeds.js"></script>
 </body>
 </html>

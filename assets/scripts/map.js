@@ -47,3 +47,7 @@ function initMap() {
     var markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
         
 }
+
+    function SLEat() {
+            document.getElementById("StLouis").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyBQrF8tTzmRfEHbHjOpEFQZoUZ16qgrPlg&q=restaurants+in+St+Louis");
+        }

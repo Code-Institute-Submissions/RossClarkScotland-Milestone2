@@ -51,7 +51,7 @@ p em {
 
 #hero-image {
 
-    background-image:linear-gradient(rgb(7, 7, 7), rgba(75, 73, 73, 0.5)), url("../images/highwaysmall.png");
+    background-image:linear-gradient(rgb(7, 7, 7), rgba(75, 73, 73, 0.05)), url("../images/highwaysmall.png");
     width: 100vw;
     height: 100vh;
     background-size: 100% 100%;
@@ -242,15 +242,13 @@ Though the images, linear-gradient values, and button differ from those given on
 }
 
 .map-embed {
-    width: 40rem;
+    width: 100%;
     height: 40rem; 
     border: 0;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
-
 
 
 /************************************ Music page ***********************************/
@@ -289,7 +287,7 @@ Though the images, linear-gradient values, and button differ from those given on
 
 /************************************ Game page ***********************************/
 #game-banner-image {
-    background-image:linear-gradient(rgb(0, 0, 0), rgba(26, 26, 26, 0.7)), url("../images/gaming.png");
+    background-image:linear-gradient(rgb(0, 0, 0), rgba(26, 26, 26, 0.4)), url("../images/gaming.png");
     width: 100vw;
     height: 18vh;
     background-size: 100% 100%;
@@ -308,7 +306,7 @@ Though the images, linear-gradient values, and button differ from those given on
 
 /************************************ Contacts page ***********************************/
 #contact-banner-image {
-    background-image:linear-gradient(rgb(0, 0, 0), rgba(1, 20, 7, 0.65)), url("../images/mail.png");
+    background-image:linear-gradient(rgb(0, 0, 0), rgba(1, 20, 7, 0.45)), url("../images/mail.png");
     width: 100vw;
     height: 18vh;
     background-size: 100% 100%;
