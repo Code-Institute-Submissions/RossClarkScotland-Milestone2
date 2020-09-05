@@ -26,13 +26,13 @@
     </div>
 
     <div>
-        <p class="about-text"><span id="page-intro">All aboard</span> for the fantastical, 
+        <p class="about-text"><span class="page-intro">All aboard</span> for the fantastical, 
         chronological, American Gods-inspired road trip! On the map below you'll find all 
         the points Shadow drives to or from in American Gods, in the very order that they 
         appear in the novel.</p> 
         <br>
         <div>
-            <p class="trip-heading"><span id="page-intro">the map</span></p>
+            <p class="trip-heading"><span class="page-intro">the map</span></p>
             <p class="about-text">Tap or click the nodes on the map to zoom in. Or scroll on down for info
              on the role each destination plays in the novel as well as tourist sites, restaurants, and accomodation available
              in every place.</p>
@@ -41,7 +41,7 @@
     <div id="map"></div>
 
     <div>
-        <p class="trip-heading"><span id="page-intro">destinations</span></p>
+        <p class="trip-heading"><span class="page-intro">destinations</span></p>
         <p class="about-text">Click on any destination to read about the role it
          plays in the novel and for maps showing tourist sites, restaurants, 
          and accomodation in each area.</p>
@@ -77,7 +77,7 @@
     </div>
 
     <div>
-        <p class="trip-heading"><span id="page-intro">St Louis, MO</span></p>
+        <p class="trip-heading"><span class="page-intro">St Louis, MO</span></p>
         <p class="about-text">This is where it all starts for Shadow. 
         On his way back to Eagle Point from Prison, his plane is diverted to
         St Louis and somewhere in between he starts working for Wednesday and 
@@ -88,10 +88,18 @@
         </iframe>
     </div>
 
-    <div class="btn-group" role="group" aria-label="button group">
-        <button type="button" class="btn btn-success btn-lg" onClick="SLEats()">SHOW PLACES TO DINE</button>
-        <button type="button" class="btn btn-dark btn-lg" onClick="SLSights()">SHOW PLACES TO SEE</button>
-        <button type="button" class="btn btn-secondary btn-lg" onClick="SLStays()">SHOW PLACES TO STAY</button>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <button type="button" id="SLDine" class="btn btn-success btn-lg">SHOW PLACES TO DINE</button>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <button type="button" id="SLDSee" class="btn btn-dark btn-lg">SHOW PLACES TO SEE</button>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <button type="button" id="SLHotels" class="btn btn-secondary btn-lg">SHOW PLACES TO STAY</button>
+            </div>
+        </div>
     </div>
 
   
@@ -139,7 +147,7 @@
         </div>
     </footer>
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-I3_d3a16d3XEm8CSNxbexq40oM6gyy8&callback=initMap"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&callback=initMap"></script>
     <script src="assets/scripts/map.js"></script>
     <script src="assets/scripts/mapEmbeds.js"></script>
 </body>
