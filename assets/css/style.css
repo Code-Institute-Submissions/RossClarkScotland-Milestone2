@@ -253,6 +253,11 @@ Though the images, linear-gradient values, and button differ from those given on
     margin-right: auto;
 }
 
+.map-btn {
+    width: 100%;
+    margin-top: 1rem;
+}
+
 
 /************************************ Music page ***********************************/
 #music-banner-image {
