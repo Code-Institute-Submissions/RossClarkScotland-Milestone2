@@ -202,7 +202,7 @@ Though the images, linear-gradient values, and button differ from those given on
 
 /************************************ Trip page ***********************************/
 #trip-banner-image {
-    background-image:linear-gradient(rgb(0, 0, 0), rgba(102, 131, 116, 0.5)), url("../images/roadmapsmall.png");
+    background-image:linear-gradient(rgb(0, 0, 0), rgba(49, 49, 49, 0.5)), url("../images/roadmapsmall.png");
     width: 100vw;
     height: 18vh;
     background-size: 100% 100%;
@@ -283,7 +283,7 @@ Though the images, linear-gradient values, and button differ from those given on
 
 /************************************ Music page ***********************************/
 #music-banner-image {
-    background-image:linear-gradient(rgb(0, 0, 0), rgba(18, 109, 64, 0.5)), url("../images/music1.png");
+    background-image:linear-gradient(rgb(0, 0, 0), rgba(17, 22, 20, 0.5)), url("../images/music1.png");
     width: 100vw;
     height: 18vh;
     background-size: 100% 100%;
@@ -324,7 +324,7 @@ Though the images, linear-gradient values, and button differ from those given on
 
 /************************************ Game page ***********************************/
 #game-banner-image {
-    background-image: url("../images/gaming.png");
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(16, 17, 16, 0.65)), url("../images/gaming.png");
     width: 100vw;
     height: 18vh;
     background-size: 100% 100%;
@@ -343,7 +343,7 @@ Though the images, linear-gradient values, and button differ from those given on
 
 /************************************ Contacts page ***********************************/
 #contact-banner-image {
-    background-image:linear-gradient(rgb(0, 0, 0), rgba(1, 20, 7, 0.45)), url("../images/mail.png");
+    background-image:linear-gradient(rgb(0, 0, 0), rgba(42, 42, 42, 0.7)), url("../images/mail.png");
     width: 100vw;
     height: 18vh;
     background-size: 100% 100%;
