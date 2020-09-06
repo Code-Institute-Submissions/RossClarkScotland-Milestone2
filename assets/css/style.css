@@ -232,7 +232,7 @@ Though the images, linear-gradient values, and button differ from those given on
 }
 
 #destinations-list {
-    width: 100%;
+    width: 90%;
     margin: 3rem auto 3rem auto; 
    
 }
@@ -268,6 +268,16 @@ Though the images, linear-gradient values, and button differ from those given on
 .map-btn {
     width: 100%;
     margin-top: 1rem;
+}
+
+.top-return {
+    padding: 5%;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    color: rgb(73, 71, 71);
+    font-size: 2rem;
 }
 
 
