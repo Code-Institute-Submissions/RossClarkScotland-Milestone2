@@ -283,7 +283,7 @@ Though the images, linear-gradient values, and button differ from those given on
 
 /************************************ Music page ***********************************/
 #music-banner-image {
-    background-image:linear-gradient(rgb(0, 0, 0), rgba(17, 22, 20, 0.5)), url("../images/music1.png");
+    background-image:linear-gradient(rgb(0, 0, 0), rgba(17, 22, 20, 0.4)), url("../images/music1.png");
     width: 100vw;
     height: 18vh;
     background-size: 100% 100%;
