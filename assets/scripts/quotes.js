@@ -1,4 +1,6 @@
-function quoteGenerator() {
+var quoteBtn = document.getElementById('quoteBtn');
+ 
+quoteBtn.addEventListener("click", function() {
     let quotes = [
     "Organizing gods is like herding cats into straight lines. They don't take naturally to it.",
     "Angry gets shit done.",
@@ -38,5 +40,5 @@ function quoteGenerator() {
 ];
     let randomNum = Math.floor(Math.random() * (quotes.length));
     document.getElementById('quoteScreen').innerHTML = quotes[randomNum];
-} 
+}); 
 

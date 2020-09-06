@@ -1,5 +1,6 @@
+var jukeboxBtn = document.getElementById("jukeboxBtn");
+jukeboxBtn.addEventListener("click", function() {
 
-    function player() {
         let rando = Math.random();
         let num = (rando * 52) + 1;
         let playlist = Math.floor(num);
@@ -258,4 +259,4 @@
             document.getElementById("jukebox").setAttribute("src", "https://www.youtube.com/embed/atkVaKz9r5Y");
             document.getElementById("song").innerHTML = "Closer to fine by The Indigo Girls";
         }
-    }
+    });
