@@ -47,11 +47,18 @@ p em {
     text-transform: uppercase;
     font-family: 'Amatic SC', cursive;
 }
+
+.btn {
+    font-size:2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 /*****************Hero-image*********************/
 
 #hero-image {
 
-    background-image:linear-gradient(rgb(7, 7, 7), rgba(75, 73, 73, 0.05)), url("../images/highwaysmall.png");
+    background-image:linear-gradient(rgb(7, 7, 7), rgba(75, 73, 73, 0.3)), url("../images/highwaysmall.png");
     width: 100vw;
     height: 100vh;
     background-size: 100% 100%;
@@ -186,12 +193,11 @@ Though the images, linear-gradient values, and button differ from those given on
     position: relative;
 }
 
-.btn {
-    font-size:2.5rem;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 2rem auto auto 2rem;
-    width: 100%;
+#quoteBtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /************************************ Trip page ***********************************/
@@ -282,9 +288,16 @@ Though the images, linear-gradient values, and button differ from those given on
     border: 1rem solid black;
 }
 
+#jukeboxBtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 /************************************ Game page ***********************************/
 #game-banner-image {
-    background-image:linear-gradient(rgb(0, 0, 0), rgba(26, 26, 26, 0.4)), url("../images/gaming.png");
+    background-image: url("../images/gaming.png");
     width: 100vw;
     height: 18vh;
     background-size: 100% 100%;
