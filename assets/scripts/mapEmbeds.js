@@ -178,6 +178,35 @@ MenHotels.addEventListener("click", function() {
             document.getElementById("Men").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Menomonie+WI");
         });
 
+var MRDine = document.getElementById("MRDine");
+ MRDine.addEventListener("click", function() {
+     document.getElementById("MR").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+near+Mount+Rushmore");
+        });
+           
+var MRSee = document.getElementById("MRSee");
+MRSee.addEventListener("click", function() {
+            document.getElementById("MR").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+near+Mount+Rushmore");
+        });
+
+var MRHotels = document.getElementById("MRHotels");
+MRHotels.addEventListener("click", function() {
+            document.getElementById("MR").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+near+Mount+Rushmore");
+        });
+
+var MitchellDine = document.getElementById("MitchellDine");
+ MitchellDine.addEventListener("click", function() {
+     document.getElementById("Mitchell").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Mitchell+SD");
+        });
+           
+var MitchellSee = document.getElementById("MitchellSee");
+MitchellSee.addEventListener("click", function() {
+            document.getElementById("Mitchell").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+Mitchell+SD");
+        });
+
+var MitchellHotels = document.getElementById("MitchellHotels");
+MitchellHotels.addEventListener("click", function() {
+            document.getElementById("Mitchell").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Mitchell+SD");
+        });
 
 
 
