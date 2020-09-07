@@ -176,6 +176,12 @@ Though the images, linear-gradient values, and button differ from those given on
     margin: 0 5rem 0 5rem;
 }
 
+.embed-responsive {
+  width: 30%;
+  height: 30%;
+  margin: 1rem auto 2rem auto;
+}
+
 #quoteScreen {
     margin: 2.5rem 0 0 0;
     font-size: 4rem;
