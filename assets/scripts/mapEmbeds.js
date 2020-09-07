@@ -118,5 +118,66 @@ ChesterHotels.addEventListener("click", function() {
             document.getElementById("Chester").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Chester+IL");
         });
 
+var muddyDine = document.getElementById("muddyDine");
+ muddyDine.addEventListener("click", function() {
+     document.getElementById("muddy").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+near+Big+Muddy+River+Illinois");
+        });
+           
+var muddySee = document.getElementById("muddySee");
+muddySee.addEventListener("click", function() {
+            document.getElementById("muddy").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+near+Big+Muddy+River+Illinois");
+        });
+
+var muddyHotels = document.getElementById("muddyHotels");
+muddyHotels.addEventListener("click", function() {
+            document.getElementById("muddy").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+near+Big+Muddy+River+Illinois");
+        });
+
+var CairoDine = document.getElementById("CairoDine");
+ CairoDine.addEventListener("click", function() {
+     document.getElementById("Cairo").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Cairo+IL");
+        });
+           
+var CairoSee = document.getElementById("CairoSee");
+CairoSee.addEventListener("click", function() {
+            document.getElementById("Cairo").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+Cairo+IL");
+        });
+
+var CairoHotels = document.getElementById("CairoHotels");
+CairoHotels.addEventListener("click", function() {
+            document.getElementById("Cairo").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Cairo+IL");
+        });
+
+var LaCDine = document.getElementById("LaCDine");
+ LaCDine.addEventListener("click", function() {
+     document.getElementById("LaC").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+La+Crosse+WI");
+        });
+           
+var LaCSee = document.getElementById("LaCSee");
+LaCSee.addEventListener("click", function() {
+            document.getElementById("LaC").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+La+Crosse+WI");
+        });
+
+var LaCHotels = document.getElementById("LaCHotels");
+LaCHotels.addEventListener("click", function() {
+            document.getElementById("LaC").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+La+Crosse+WI");
+        });
+
+var MenDine = document.getElementById("MenDine");
+ MenDine.addEventListener("click", function() {
+     document.getElementById("Men").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+Menomonie+WI");
+        });
+           
+var MenSee = document.getElementById("MenSee");
+MenSee.addEventListener("click", function() {
+            document.getElementById("Men").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+Menomonie+WI");
+        });
+
+var MenHotels = document.getElementById("MenHotels");
+MenHotels.addEventListener("click", function() {
+            document.getElementById("Men").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Menomonie+WI");
+        });
+
+
 
 
