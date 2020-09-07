@@ -220,9 +220,23 @@ FallsSee.addEventListener("click", function() {
 
 var FallsHotels = document.getElementById("FallsHotels");
 FallsHotels.addEventListener("click", function() {
-    document.getElementById("Falls").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Sioux+Falls+SD+South+Dakota");
+    document.getElementById("Falls").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Sioux+Falls+South+Dakota");
         });
 
+var PaulDine = document.getElementById("PaulDine");
+ PaulDine.addEventListener("click", function() {
+    document.getElementById("Paul").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+St+Paul+Minnesota");
+        });
+           
+var PaulSee = document.getElementById("PaulSee");
+PaulSee.addEventListener("click", function() {
+    document.getElementById("Paul").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+St+Paul+Minnesota");
+        });
+
+var PaulHotels = document.getElementById("PaulHotels");
+PaulHotels.addEventListener("click", function() {
+    document.getElementById("Paul").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+St+Paul+Minnesota");
+        });
 
 
 
