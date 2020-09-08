@@ -184,15 +184,6 @@ Though the images, linear-gradient values, and button differ from those given on
 
 /************************************ Quotes page ***********************************/
 
-/*#about-banner-image {
-
-    background-image:linear-gradient(rgb(0, 0, 0), rgba(18, 109, 64, 0.5)), url("../images/info.jpg");
-    width: 100vw;
-    height: 18vh;
-    background-size: 100% 100%;
-    margin-bottom: 1.5rem; */
-}
-
 #quoteScreen {
     margin: 2.5rem 0 0 0;
     font-size: 4rem;
@@ -218,14 +209,6 @@ Though the images, linear-gradient values, and button differ from those given on
 }
 
 /************************************ Map page ***********************************/
-
-/*#trip-banner-image {
-    background-image:linear-gradient(rgb(0, 0, 0), rgba(49, 49, 49, 0.5)), url("../images/roadmapsmall.png");
-    width: 100vw;
-    height: 18vh;
-    background-size: 100% 100%;
-    margin-bottom: 1.5rem; */
-}
 
 #map {
     height: 60rem;
