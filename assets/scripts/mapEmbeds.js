@@ -299,4 +299,64 @@ PMOHotels.addEventListener("click", function() {
     document.getElementById("PMO").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Princeton+MO");
         });
 
+var BVADine = document.getElementById("BVADine");
+ BVADine.addEventListener("click", function() {
+    document.getElementById("BVA").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Blacksburg+VA");
+        });
+           
+var BVAsee = document.getElementById("BVASee");
+BVASee.addEventListener("click", function() {
+    document.getElementById("BVA").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+Blacksburg+VA");
+        });
+
+var BVAHotels = document.getElementById("BVAHotels");
+BVAHotels.addEventListener("click", function() {
+    document.getElementById("BVA").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Blacksburg+VA");
+        });
+
+var RCVADine = document.getElementById("RCVADine");
+ RCVADine.addEventListener("click", function() {
+    document.getElementById("RCVA").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+near+Rock+City+VA");
+        });
+           
+var RCVAsee = document.getElementById("RCVASee");
+RCVASee.addEventListener("click", function() {
+    document.getElementById("RCVA").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+near+Rock+City+VA");
+        });
+
+var RCGAHotels = document.getElementById("RCVAHotels");
+RCVAHotels.addEventListener("click", function() {
+    document.getElementById("RCVA").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+near+Rock+City+VA");
+        });
+
+var FPDine = document.getElementById("FPDine");
+ FPDine.addEventListener("click", function() {
+    document.getElementById("FP").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Blacksburg+VA");
+        });
+           
+var FPsee = document.getElementById("FPSee");
+FPSee.addEventListener("click", function() {
+    document.getElementById("FP").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+Blacksburg+VA");
+        });
+
+var FPHotels = document.getElementById("FPHotels");
+FPHotels.addEventListener("click", function() {
+    document.getElementById("FP").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Blacksburg+VA");
+        });
+
+var MILDine = document.getElementById("MILDine");
+ MILDine.addEventListener("click", function() {
+    document.getElementById("MIL").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Madison+IL");
+        });
+           
+var MILsee = document.getElementById("MILSee");
+MILSee.addEventListener("click", function() {
+    document.getElementById("MIL").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+Madison+IL");
+        });
+
+var MILHotels = document.getElementById("MILHotels");
+MILHotels.addEventListener("click", function() {
+    document.getElementById("MIL").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Madison+IL");
+        });
+
 
