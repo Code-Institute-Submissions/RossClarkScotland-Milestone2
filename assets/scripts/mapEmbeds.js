@@ -80,12 +80,12 @@ var PeruDine = document.getElementById("PeruDine");
            
 var PeruSee = document.getElementById("PeruSee");
 PeruSee.addEventListener("click", function() {
-    document.getElementById("Peru").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+Peru+IL");
+    document.getElementById("Peru").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+Peru+Illinois");
         });
 
 var PeruHotels = document.getElementById("PeruHotels");
 PeruHotels.addEventListener("click", function() {
-    document.getElementById("Peru").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Peru+IL");
+    document.getElementById("Peru").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Peru+Illinois+USA");
         });
 
 var ElPasoDine = document.getElementById("ElPasoDine");
@@ -304,7 +304,7 @@ var BVADine = document.getElementById("BVADine");
     document.getElementById("BVA").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Blacksburg+VA");
         });
            
-var BVAsee = document.getElementById("BVASee");
+var BVASee = document.getElementById("BVASee");
 BVASee.addEventListener("click", function() {
     document.getElementById("BVA").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+Blacksburg+VA");
         });
@@ -344,20 +344,21 @@ FPHotels.addEventListener("click", function() {
     document.getElementById("FP").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Blacksburg+VA");
         });
 
-var MILDine = document.getElementById("MILDine");
- MILDine.addEventListener("click", function() {
-    document.getElementById("MIL").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Madison+Illinois");
+var MADILDine = document.getElementById("MADILDine");
+ MADILDine.addEventListener("click", function() {
+    document.getElementById("MADIL").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Madison+IL");
         });
            
-var MILSee = document.getElementById("MILSee");
-MILSee.addEventListener("click", function() {
-    document.getElementById("MIL").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+Madison+Illinois");
+var MADILSee = document.getElementById("MADILSee");
+MADILSee.addEventListener("click", function() {
+    document.getElementById("MADIL").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+Madison+IL");
         });
 
-var MILHotels = document.getElementById("MILHotels");
-MILotels.addEventListener("click", function() {
-    document.getElementById("MIL").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Madison+Illinois");
+var MADILHotels = document.getElementById("MADILHotels");
+MADILHotels.addEventListener("click", function() {
+    document.getElementById("MADIL").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Madison+IL");
         });
+
 
 
 
