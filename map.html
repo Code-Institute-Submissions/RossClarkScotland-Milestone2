@@ -10,56 +10,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>About</title>
+    <title>Map</title>
 </head>
 
 <body>
-    <div id="about-banner-image">
+    <div id="trip-banner-image">
     <nav class="navbar justify-content-center">
         <a href="index.html" class="nav-item nav-link active">Home</a>
-        <a class="you-are-here" href="about.html" class="nav-item nav-link">About</a>
-        <a class="nav-item nav-link" href="trip.html">Quotes</a>
-        <a class="nav-item nav-link" href="trip.html">Map</a>
-        <a href="trip.html" class="nav-item nav-link">Trip</a>
+        <a href="about.html" class="nav-item nav-link">About</a>
+        <a class="nav-item nav-link" href="quotes.html">Quotes</a>
+        <a class="you-are-here nav-item nav-link" href="map.html">Map</a>
+        <a class="nav-item nav-link" href="trip.html">Trip</a>
         <a href="music.html" class="nav-item nav-link">Music</a>
         <a href="game.html" class="nav-item nav-link">Game</a>
         <a href="contact.html" class="nav-item nav-link">Contact</a>
     </nav>
     </div>
 
-
-
-    <section>
-        <p class="about-text"><span class="intro">American Gods </span> by Neil Gaiman is a supernatural, 
-        historical, sort-of-but-not-really horror, urban fantasy road trip, instant cult classic of a novel.
-        It takes place on American back roads less travelled by and has inspired numerous readers to follow
-        Shadow's, the main character's, tyre tracks to discover an America that doesn't often appear on the silver screen. 
-        But if you're a Technical Boy, Technical Girl or Technical Anywhere In Between who's interacting with this collection of ones and zeros,
-        then you probably already knew that. So let's let the man himself explain things in the video below.</p>
-    </section>
-
-    <section>
-        <div class="embed-responsive embed-responsive-1by1">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eQH38D_KpAU"></iframe>
+    <div>
+        <p class="about-text"><span class="intro">All aboard</span> for the fantastical, 
+        chronological, American Gods-inspired road trip! The map below displays all 
+        the points Shadow drives to or from in American Gods, in the very order they 
+        appear in the novel. Click the nodes to zoom in. Or scroll on down for info
+        on the role each destination plays in the novel as well as , maps of tourist
+        sites, restaurants, and accomodation in every place.</p>
         </div>
-    <section>
+    </div>
+    <div id="map"></div>
 
-    <section>
-        <p class="about-text">So let’s get your motor running with a quote from American Gods.
-         Hit the button below and let the gods decide which words of wisdom might just characterize
-         your journey. Don't like what the gods have to say? Beseech them for another fortune by
-         hitting the button again.</p>
-    </section>
-
-    <section>
-        <div id="quoteScreen">
-        </div>
-        <div class="button-container">
-            <button type="button" id="quoteBtn" class="btn btn-secondary btn-lg">Click me!</button>
-        </div>
-    </section>
-
-    <!--Footer code adapted from that in the Boostrap mini project of the User Centric Frontend Development module--> 
+        <!--Footer code adapted from that in the Boostrap mini project of the User Centric Frontend Development module--> 
     <footer class="container-fluid" id="position-footer">
         <div id="footer-details" class="row">
             <div class="col-sm-12 text-center">
@@ -98,6 +77,9 @@
             </div>
         </div>
     </footer>
-    <script src="assets/scripts/quotes.js"></script>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&callback=initMap"></script>
+    <script src="assets/scripts/map.js"></script>
+    <script src="assets/scripts/mapEmbeds.js"></script>
 </body>
 </html>

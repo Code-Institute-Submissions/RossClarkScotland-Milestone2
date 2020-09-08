@@ -1,16 +1,16 @@
  var SLDine = document.getElementById("SLDine");
  SLDine.addEventListener("click", function() {
-     document.getElementById("StLouis").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+St+Louis");
+     document.getElementById("StLouis").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+St+Louis+MO");
         });
            
 var SLDSee = document.getElementById("SLSee");
 SLSee.addEventListener("click", function() {
-    document.getElementById("StLouis").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+St+Louis");
+    document.getElementById("StLouis").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+St+Louis+MO");
         });
 
 var SLHotels = document.getElementById("SLHotels");
 SLHotels.addEventListener("click", function() {
-    document.getElementById("StLouis").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+St+Louis");
+    document.getElementById("StLouis").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+St+Louis+MO");
         });
 
  var EPDine = document.getElementById("EPDine");
@@ -316,7 +316,7 @@ BVAHotels.addEventListener("click", function() {
 
 var RCVADine = document.getElementById("RCVADine");
  RCVADine.addEventListener("click", function() {
-    document.getElementById("RCVA").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+near+Rock+City+VA");
+    document.getElementById("RCVA").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Chatanooga+VA");
         });
            
 var RCVAsee = document.getElementById("RCVASee");
@@ -334,7 +334,7 @@ var FPDine = document.getElementById("FPDine");
     document.getElementById("FP").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Blacksburg+VA");
         });
            
-var FPsee = document.getElementById("FPSee");
+var FPSee = document.getElementById("FPSee");
 FPSee.addEventListener("click", function() {
     document.getElementById("FP").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+Blacksburg+VA");
         });
@@ -346,17 +346,19 @@ FPHotels.addEventListener("click", function() {
 
 var MILDine = document.getElementById("MILDine");
  MILDine.addEventListener("click", function() {
-    document.getElementById("MIL").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Madison+IL");
+    document.getElementById("MIL").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Madison+Illinois");
         });
            
-var MILsee = document.getElementById("MILSee");
+var MILSee = document.getElementById("MILSee");
 MILSee.addEventListener("click", function() {
-    document.getElementById("MIL").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+Madison+IL");
+    document.getElementById("MIL").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+Madison+Illinois");
         });
 
 var MILHotels = document.getElementById("MILHotels");
-MILHotels.addEventListener("click", function() {
-    document.getElementById("MIL").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Madison+IL");
+MILotels.addEventListener("click", function() {
+    document.getElementById("MIL").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Madison+Illinois");
         });
+
+
 
 
