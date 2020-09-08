@@ -177,9 +177,9 @@ Though the images, linear-gradient values, and button differ from those given on
 }
 
 .embed-responsive {
-  width: 30%;
-  height: 30%;
-  margin: 1rem auto 2rem auto;
+  width: 70%;
+  height: 70%;
+  margin: 3rem auto 2rem auto;
 }
 
 #quoteScreen {
