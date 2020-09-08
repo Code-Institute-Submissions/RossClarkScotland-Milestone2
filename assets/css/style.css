@@ -182,6 +182,17 @@ Though the images, linear-gradient values, and button differ from those given on
   margin: 3rem auto 2rem auto;
 }
 
+/************************************ Quotes page ***********************************/
+
+/*#about-banner-image {
+
+    background-image:linear-gradient(rgb(0, 0, 0), rgba(18, 109, 64, 0.5)), url("../images/info.jpg");
+    width: 100vw;
+    height: 18vh;
+    background-size: 100% 100%;
+    margin-bottom: 1.5rem; */
+}
+
 #quoteScreen {
     margin: 2.5rem 0 0 0;
     font-size: 4rem;
@@ -204,6 +215,22 @@ Though the images, linear-gradient values, and button differ from those given on
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+/************************************ Map page ***********************************/
+
+/*#trip-banner-image {
+    background-image:linear-gradient(rgb(0, 0, 0), rgba(49, 49, 49, 0.5)), url("../images/roadmapsmall.png");
+    width: 100vw;
+    height: 18vh;
+    background-size: 100% 100%;
+    margin-bottom: 1.5rem; */
+}
+
+#map {
+    height: 60rem;
+    width: 90%;
+    margin: 2rem auto 3rem auto;
 }
 
 /************************************ Trip page ***********************************/
@@ -229,12 +256,6 @@ Though the images, linear-gradient values, and button differ from those given on
     margin: auto;
     width: 50%;
     text-align: center;
-}
-
-#map {
-    height: 60rem;
-    width: 90%;
-    margin: 2rem auto 3rem auto;
 }
 
 #destinations-list {
@@ -421,43 +442,48 @@ Though the images, linear-gradient values, and button differ from those given on
     }
 
     #about-banner-image nav a {
-    font-size: 3.25rem;
+    font-size: 3.4rem;
+    margin-right: 2.5rem;
     }
 
     #about-banner-image nav a:hover {
-    font-size: 4.5rem;
+    font-size: 4rem;
     }
 
     #music-banner-image nav a {
-    font-size: 3.25rem;
+    font-size: 3.4rem;
+    margin-right: 2.5rem;
     }
 
     #music-banner-image nav a:hover {
-    font-size: 4.5rem;
+    font-size: 4rem;
     }
 
     #trip-banner-image nav a {
-    font-size: 3.25rem;
+    font-size: 3.4rem;
+    margin-right: 2.5rem;
     }
 
     #trip-banner-image nav a:hover {
-    font-size: 4.5rem;
+    font-size: 4rem;
     }
 
     #game-banner-image nav a {
-    font-size: 3.25rem;
+    font-size: 3.4rem;
+    margin-right: 2.5rem;
     }
 
     #game-banner-image nav a:hover {
-    font-size: 4.5rem;
+    font-size: 4rem;
     }
 
     #contact-banner-image nav a {
-    font-size: 3.25rem;
+    font-size: 3.4rem;
+    margin-right: 2.5rem;
     }
 
     #contact-banner-image nav a:hover {
-    font-size: 4.5rem;
+    font-size: 4rem;
     }
 
     .destination-heading {
