@@ -238,5 +238,65 @@ PaulHotels.addEventListener("click", function() {
     document.getElementById("Paul").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+St+Paul+Minnesota");
         });
 
+var BCDine = document.getElementById("BCDine");
+ BCDine.addEventListener("click", function() {
+    document.getElementById("BC").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Boulder+CO");
+        });
+           
+var BCSee = document.getElementById("BCSee");
+BCSee.addEventListener("click", function() {
+    document.getElementById("BC").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+Boulder+CO");
+        });
+
+var BCHotels = document.getElementById("BCHotels");
+BCHotels.addEventListener("click", function() {
+    document.getElementById("BC").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Boulder+CO");
+        });
+
+var HumDine = document.getElementById("HumDine");
+ HumDine.addEventListener("click", function() {
+    document.getElementById("Hum").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Humansville+MO");
+        });
+           
+var Humsee = document.getElementById("HumSee");
+HumSee.addEventListener("click", function() {
+    document.getElementById("Hum").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=parks+in+Humansville+MO");
+        });
+
+var HumHotels = document.getElementById("HumHotels");
+HumHotels.addEventListener("click", function() {
+    document.getElementById("Hum").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Humansville+MO");
+        });
+
+
+var LKDine = document.getElementById("LKDine");
+ LKDine.addEventListener("click", function() {
+    document.getElementById("LK").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Lebanon+Kansas");
+        });
+           
+var LKsee = document.getElementById("LKSee");
+LKSee.addEventListener("click", function() {
+    document.getElementById("LK").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+Lebanon+Kansas");
+        });
+
+var LKHotels = document.getElementById("LKHotels");
+LKHotels.addEventListener("click", function() {
+    document.getElementById("LK").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Lebanon+Kansas");
+        });
+
+var PMODine = document.getElementById("PMODine");
+ PMODine.addEventListener("click", function() {
+    document.getElementById("PMO").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Princeton+MO");
+        });
+           
+var PMOsee = document.getElementById("PMOSee");
+PMOSee.addEventListener("click", function() {
+    document.getElementById("PMO").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=parks+in+Princeton+MO");
+        });
+
+var PMOHotels = document.getElementById("PMOHotels");
+PMOHotels.addEventListener("click", function() {
+    document.getElementById("PMO").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Princeton+MO");
+        });
 
 
