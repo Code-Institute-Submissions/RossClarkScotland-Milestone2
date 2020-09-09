@@ -311,7 +311,7 @@ font-size:1.5rem;
 
 /************************************ Media queries ***********************************/
 
-@media only screen and (min-width:80rem) {
+@media only screen and (min-width:79.5rem) {
     .hero-text-box {
         position: absolute;
         top: 19.25%;
@@ -391,13 +391,13 @@ font-size:1.5rem;
 
 }
 
-@media only screen and (min-width:100rem) {
-   
+@media only screen and (min-width:80rem) {
     .hero-text-box {
-        position: absolute;
-        top: 10.25%;
-        left: 24%;
+        top: 15.7%;
     }
 
-}
+@media only screen and (min-width:90rem) {
+    .hero-text-box {
+        top: 15%;
+    }
     
