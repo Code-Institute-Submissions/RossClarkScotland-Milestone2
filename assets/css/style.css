@@ -391,10 +391,6 @@ font-size:1.5rem;
 
 }
 
-@media only screen and (min-width:80rem) {
-    .hero-text-box {
-        top: 15.7%;
-    }
 
 @media only screen and (min-width:90rem) {
     .hero-text-box {
