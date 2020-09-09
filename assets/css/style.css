@@ -256,7 +256,7 @@ font-size:1.5rem;
 }
 
 .map-embed {
-    width: 100%;
+    width: 87.5%;
     height: 40rem; 
     border: 0;
     display: block;
@@ -331,11 +331,11 @@ font-size:1.5rem;
         min-height: 0.8rem;
         position: absolute;
         top: 6.5%;
-        left: 60%;
+        left: 55%;
     }
 
     #home-nav a {
-        font-size: 2.5rem;
+        font-size: 2.75rem;
     }
 
     #home-nav a:hover {
@@ -349,6 +349,10 @@ font-size:1.5rem;
 
     .navbar a:hover {
         font-size: 3rem;
+    }
+
+    .nav-link {
+        padding: 0.5rem 1rem;
     }
 
     p {
@@ -383,7 +387,17 @@ font-size:1.5rem;
 
     #map {
         margin-bottom: 3.75rem;
+    }
+
 }
+
+@media only screen and (min-width:100rem) {
+   
+    .hero-text-box {
+        position: absolute;
+        top: 10.25%;
+        left: 24%;
+    }
 
 }
     
