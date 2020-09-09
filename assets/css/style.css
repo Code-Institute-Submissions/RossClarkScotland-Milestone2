@@ -1,10 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
 * {
     margin: 0;
     padding: 0;
@@ -65,10 +58,6 @@ p em {
 
 #hero-image {
 
-    background-image:-webkit-gradient(linear, left top, left bottom, from(rgb(7, 7, 7)), to(rgba(75, 73, 73, 0.3))), url("../images/highwaysmall.png");
-
-    background-image:-o-linear-gradient(rgb(7, 7, 7), rgba(75, 73, 73, 0.3)), url("../images/highwaysmall.png");
-
     background-image:linear-gradient(rgb(7, 7, 7), rgba(75, 73, 73, 0.3)), url("../images/highwaysmall.png");
     width: 100vw;
     height: 100vh;
@@ -84,9 +73,7 @@ Though the images, linear-gradient values, and button differ from those given on
     position: absolute;
     top: 45%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     color: #fafafa;
     text-transform: uppercase;
     text-align: center;
@@ -115,8 +102,6 @@ Though the images, linear-gradient values, and button differ from those given on
 
 
 .banner-image {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 0, 0)), to(rgba(54, 56, 54, 0.5))), url("../images/stars.png");
-    background-image: -o-linear-gradient(rgb(0, 0, 0), rgba(54, 56, 54, 0.5)), url("../images/stars.png");
     background-image: linear-gradient(rgb(0, 0, 0), rgba(54, 56, 54, 0.5)), url("../images/stars.png");
     width: 100vw;
     height: 17vh;
@@ -143,9 +128,7 @@ Though the images, linear-gradient values, and button differ from those given on
     position: relative;
     top: 35%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     color: #fafafa;
     text-transform: uppercase;
     text-align: center;
@@ -246,9 +229,7 @@ Though the images, linear-gradient values, and button differ from those given on
     position: absolute;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 /************************************ Map page ***********************************/
@@ -341,9 +322,7 @@ font-size:1.5rem;
     position: absolute;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 /************************************ Game page ***********************************/
@@ -433,7 +412,7 @@ font-size:1.5rem;
     }
 
     .banner-image nav a:hover {
-    font-size: 4.5rem;
+    font-size: 4rem;
     margin-right: 1rem;
     }
 
@@ -453,4 +432,6 @@ font-size:1.5rem;
         top: 15%;
     }
 }
+
+
     
