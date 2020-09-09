@@ -108,6 +108,11 @@ Though the images, linear-gradient values, and button differ from those given on
     margin-bottom: 1.5rem; 
 }
 
+.banner-image nav {
+    position: relative;
+    top: 28%;
+}
+
 .banner-image nav a {
     color: #fafafa;
     font-size: 1.5rem;
@@ -229,7 +234,10 @@ Though the images, linear-gradient values, and button differ from those given on
 
 #destinations-list li {
   list-style: none;
-  font-size:1.5rem;
+}
+
+#destinations-list a {
+font-size:1.5rem;
   letter-spacing: 0.07rem;
   font-family: 'Lato', 'Times', sans-serif;
   color: black; 
