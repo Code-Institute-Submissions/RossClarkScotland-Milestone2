@@ -91,6 +91,15 @@ Though the images, linear-gradient values, and button differ from those given on
     } 
 /*****************Navbars*********************/
 
+#home-nav a {
+    color: #fafafa;
+    font-size: 1.5rem;
+}
+
+#home-nav a:hover {
+    font-size: 2rem;
+}
+
 .banner-image {
     background-image: linear-gradient(rgb(0, 0, 0), rgba(54, 56, 54, 0.5)), url("../images/stars.png");
     width: 100vw;
@@ -101,7 +110,7 @@ Though the images, linear-gradient values, and button differ from those given on
 
 .banner-image nav a {
     color: #fafafa;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
 }
 
 .banner-image nav a:hover {
@@ -112,16 +121,6 @@ Though the images, linear-gradient values, and button differ from those given on
 .navbar {
     text-transform: uppercase;
     font-family: 'Amatic SC', sans-serif;
-    min-height: 2rem;
-}
-
-.navbar a {
-    color: #fafafa;
-    font-size: 2rem;
-}
-
-.navbar a:hover {
-    font-size: 2rem;
 }
 
 .you-are-here {
@@ -184,7 +183,7 @@ Though the images, linear-gradient values, and button differ from those given on
 
 #quoteScreen {
     margin: 2.5rem 0 0 0;
-    font-size: 6rem;
+    font-size: 4rem;
     font-family: 'Amatic SC', cursive;
     text-align: center;
     padding-bottom: 0;
@@ -327,10 +326,14 @@ Though the images, linear-gradient values, and button differ from those given on
         left: 60%;
     }
 
-    .navbarPages {
-        min-height: 1.5rem;
-        position: relative;
+    #home-nav a {
+        font-size: 2.5rem;
     }
+
+    #home-nav a:hover {
+        font-size: 3rem;
+    }
+
     .navbar a {
         font-size: 2.5rem;
         word-spacing: 1.5rem;
@@ -357,7 +360,12 @@ Though the images, linear-gradient values, and button differ from those given on
     }
 
     .banner-image nav a {
-    font-size: 1.6rem;
+    font-size: 3rem;
+    margin-right: 1rem;
+    }
+
+    .banner-image nav a:hover {
+    font-size: 4.5rem;
     margin-right: 1rem;
     }
 
