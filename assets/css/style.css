@@ -104,7 +104,7 @@ Though the images, linear-gradient values, and button differ from those given on
 .banner-image {
     background-image: linear-gradient(rgb(0, 0, 0), rgba(54, 56, 54, 0.5)), url("../images/stars.png");
     width: 100vw;
-    height: 17vh;
+    height: 30vh;
     background-size: 100% 100%;
     margin-bottom: 1.5rem; 
 }
@@ -116,7 +116,7 @@ Though the images, linear-gradient values, and button differ from those given on
 
 .banner-image nav a {
     color: #fafafa;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .banner-image nav a:hover {
@@ -126,7 +126,7 @@ Though the images, linear-gradient values, and button differ from those given on
 
 .banner-text-box {
     position: relative;
-    top: 35%;
+    top: 32%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fafafa;
@@ -136,18 +136,19 @@ Though the images, linear-gradient values, and button differ from those given on
 
 #banner-head {
     font-family: 'Lato', 'Times', sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
 }
  
 #banner-sub {
     color: #fafafa;
-    font-family: 'Amatic SC', sans-serif;
-    font-size: 2rem;
+    font-family: 'Lato', 'Times', sans-serif;
+    font-size: 1rem;
 } 
 
 .navbar {
     text-transform: uppercase;
     font-family: 'Amatic SC', sans-serif;
+    margin-top: 2.5rem;
 }
 
 .you-are-here {
@@ -333,7 +334,7 @@ font-size:1.5rem;
 
 /************************************ Media queries ***********************************/
 
-@media only screen and (min-width:79.5rem) {
+@media only screen and (min-width:1025px) {
     .hero-text-box {
         position: absolute;
         top: 19.25%;
@@ -362,6 +363,10 @@ font-size:1.5rem;
 
     #home-nav a:hover {
         font-size: 3rem;
+    }
+
+    .navbar {
+        margin-top: 0;
     }
 
     .navbar a {
@@ -396,18 +401,28 @@ font-size:1.5rem;
 
     .banner-text-box {
         position: absolute;
-        top: 35%;
-        left: 15%;
+        top: 38%;
+        left: 18%;
+    }
+
+    #banner-head {
+        font-size: 4rem;
+    }
+
+    #banner-sub {
+    font-family: 'AmaticSC', sans-serif;
+    font-size: 2rem;
     }
 
     .banner-image nav {
         position: absolute;
-        top: 6.5%;
+        top: 0%;
         left: 45%;
+        margin-top: 0;
     }
 
     .banner-image nav a {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-right: 1rem;
     }
 
@@ -432,6 +447,53 @@ font-size:1.5rem;
         top: 15%;
     }
 }
+
+@media only screen and (min-width:411px) {
+    .navbar {
+        margin-top: 3.5rem;
+    }
+    .banner-image nav a {
+    font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-width:320px) {
+    .navbar {
+        margin-top: 2rem;
+    }
+
+    .banner-image {
+        height: 33vh;
+    }
+}
+
+@media only screen and (min-width:375px) {
+    .navbar {
+        margin-top: 3.5rem;
+    }
+
+}
+
+@media only screen and (min-width:768px) {
+    .navbar {
+        margin-top: 3rem;
+    }
+
+    .banner-image {
+        height: 25vh;
+    }
+    #banner-head {
+        font-size: 5rem;
+    }
+    #banner-sub {
+        font-size: 2.5rem;
+    }
+    .banner-image nav a {
+    font-size: 3.5rem;
+    }
+}
+
+
 
 
     
