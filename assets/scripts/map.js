@@ -7,9 +7,9 @@ function initMap() {
         }
     });
 
-    let labels = "ABCDEFGHIJKLMONPQRSTUVWXYZ";
+    const labels = "ABCDEFGHIJKLMONPQRSTUVWXYZ";
 
-    let locations = [
+    const locations = [
         { lat: 38.6270, lng: -90.1994 }, 
         { lat: 41.3275, lng: -85.6778 },  
         { lat: 41.8781, lng: -87.6298 },  
@@ -37,14 +37,14 @@ function initMap() {
         { lat: 38.9041, lng: -89.9253 }  
     ];
 
-    let markers = locations.map(function(location, i) {
+    const markers = locations.map(function(location, i) {
         return new google.maps.Marker({
                 position: location,
                 label: labels[i % labels.length]
         });
     });
 
-    let markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
+    const markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
         
 }
 

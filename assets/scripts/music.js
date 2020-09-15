@@ -1,9 +1,9 @@
-var jukeboxBtn = document.getElementById("jukeboxBtn");
+const jukeboxBtn = document.getElementById("jukeboxBtn");
 jukeboxBtn.addEventListener("click", function() {
 
-        let rando = Math.random();
-        let num = (rando * 52) + 1;
-        let playlist = Math.floor(num);
+        const rando = Math.random();
+        const num = (rando * 52) + 1;
+        const playlist = Math.floor(num);
 
         if (playlist == 1) {
             document.getElementById("jukebox").setAttribute("src", "https://www.youtube.com/embed/I5emPqmZSrM");
@@ -122,7 +122,7 @@ jukeboxBtn.addEventListener("click", function() {
 
         if (playlist == 25) {
             document.getElementById("jukebox").setAttribute("src", "https://www.youtube.com/embed/2mhPjXiZg64");
-            document.getElementById("song").innerHTML = "Winterwonderland by Darlene Love";
+            document.getElementById("song").innerHTML = "Winter wonderland by Darlene Love";
         }
 
         if (playlist == 26) {
