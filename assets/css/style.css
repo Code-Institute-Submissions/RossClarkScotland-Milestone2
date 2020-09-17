@@ -110,7 +110,7 @@ Though the images, linear-gradient values, and button differ from those given on
 }
 
 #home-nav a:hover {
-    font-size: 2rem;
+    border: 1px solid #fafafa;
 }
 
 
@@ -135,8 +135,7 @@ Though the images, linear-gradient values, and button differ from those given on
 }
 
 .banner-image nav a:hover {
-    color: #fafafa;
-    font-size: 2rem;
+    border: 1px solid #fafafa;
 }
 
 .banner-text-box {
@@ -168,10 +167,7 @@ Though the images, linear-gradient values, and button differ from those given on
     margin-top: 2.5rem;
 }
 
-.you-are-here {
-    border: 1px solid #fafafa;
-    padding: 0.5rem;
-}
+
 
 /*****************Footer*********************/
 #homepage-footer {
@@ -415,10 +411,6 @@ textarea {
         font-size: 2.75rem;
     }
 
-    #home-nav a:hover {
-        font-size: 3rem;
-    }
-
     .navbar {
         margin-top: 0;
     }
@@ -426,10 +418,6 @@ textarea {
     .navbar a {
         font-size: 2.5rem;
         word-spacing: 1.5rem;
-    }
-
-    .navbar a:hover {
-        font-size: 3rem;
     }
 
     .nav-link {
@@ -477,11 +465,6 @@ textarea {
 
     .banner-image nav a {
     font-size: 2rem;
-    margin-right: 1rem;
-    }
-
-    .banner-image nav a:hover {
-    font-size: 2.7rem;
     margin-right: 1rem;
     }
 
