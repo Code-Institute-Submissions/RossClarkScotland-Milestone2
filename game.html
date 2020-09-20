@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <!--Scripts are at the top of the page to load the game data first-->
+    <script src="assets/scripts/game.js"></script>
+    <script src="assets/scripts/player.js"></script>
+    <script src="assets/scripts/opponent.js"></script>
     <title>Game</title>
 </head>
 
@@ -38,7 +41,7 @@
 
     <section class="character-interface">
         <a href="#">
-            <img src="assets/images/Wednesday.jpg" alt="Mister Wednesday">
+            <img class="game-img" src="assets/images/Wednesday.jpg" alt="Mister Wednesday">
             <div>
                 <h4>Mister Wednesday</h4>
                 <h5>Ladies and gentlemen, making his way to the ring:
@@ -50,7 +53,7 @@
             </div>
         </a>
          <a href="#">
-            <img src="assets/images/Bilquis.jpg" alt="Bilquis">
+            <img class="game-img" src="assets/images/Bilquis.jpg" alt="Bilquis">
             <div>
                 <h4>Bilquis</h4>
                 <h5>Ladies and gentlemen, please welcome to the ring
@@ -63,7 +66,7 @@
             </div>
         </a>
          <a href="#">
-            <img src="assets/images/Nancy.jpg" alt="Mr Nancy">
+            <img class="game-img" src="assets/images/Nancy.jpg" alt="Mr Nancy">
             <div>
                 <h4>Mister Nancy</h4>
                 <h5>Originally hailing from West Africa and now fighting out of
@@ -75,7 +78,7 @@
             </div>
         </a>
          <a href="#">
-            <img src="assets/images/Czernobog.png" alt="Mister Wednesday">
+            <img class="game-img" src="assets/images/Czernobog.png" alt="Mister Wednesday">
             <div>
                 <h4>Czernobog</h4>
                 <h5>Fighting out of 12th century Christian chronicles
@@ -140,6 +143,5 @@
             </div>
         </div>
     </footer>
-    <script src="assets/scripts/game.js"></script>
 </body>
 </html>
