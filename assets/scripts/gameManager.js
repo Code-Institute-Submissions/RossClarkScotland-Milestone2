@@ -19,6 +19,9 @@ const gameManager = {
                 player = new Player(classType, 8, 10, 6, 7, 6, 8);
                 break;
         }
+
+        const getInterface = document.querySelector(".interface");
+        getInterface.innerHTML = '<img src="assets/images/' + classType.toLowerCase() + '.png" class="image-avatar"><div><h4>' + classType + '</h4><p>Health: ' + player.health + '</p><p>Strength: ' + player.strength + '</p><p>Speed: ' + player.speed + '</p><p>Intelligence: ' + player.intelligence + '</p><p>Agility: ' + player.agility + '</p><p>Endurance: ' + player.endurance + '</p></div>';
     },
 
     setPreFight: function() {
