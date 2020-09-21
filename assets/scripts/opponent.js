@@ -1,4 +1,4 @@
-const opponent;
+let opponent;
 
 function Opponent(opponentType, health, strength, speed, intelligence, agility, endurance) {
     this.classType = opponentType;

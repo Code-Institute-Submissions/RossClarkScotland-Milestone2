@@ -1,4 +1,4 @@
-const gameManager = {
+let gameManager = {
     setGameStart: function(classType) {
         this.setPlayer(classType);
         this.setPreFight();
@@ -20,8 +20,8 @@ const gameManager = {
                 break;
         }
 
-        const getInterface = document.querySelector(".interface");
-        getInterface.innerHTML = '<img src="assets/images/' + classType.toLowerCase() + '.png" class="image-avatar"><div><h4>' + classType + '</h4><p>Health: ' + player.health + '</p><p>Strength: ' + player.strength + '</p><p>Speed: ' + player.speed + '</p><p>Intelligence: ' + player.intelligence + '</p><p>Agility: ' + player.agility + '</p><p>Endurance: ' + player.endurance + '</p></div>';
+        let getInterface = document.querySelector(".interface");
+        getInterface.innerHTML = '<img src="assets/images/' + classType + '.jpg" class="image-avatar"><div><h4>' + classType + '</h4><p>Health: ' + player.health + '</p><p>Strength: ' + player.strength + '</p><p>Speed: ' + player.speed + '</p><p>Intelligence: ' + player.intelligence + '</p><p>Agility: ' + player.agility + '</p><p>Endurance: ' + player.endurance + '</p></div>';
     },
 
     setPreFight: function() {

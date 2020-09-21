@@ -1,4 +1,4 @@
-const player;
+let player;
 
 function Player(classType, health, strength, speed, intelligence, agility, endurance) {
     this.classType = classType;
