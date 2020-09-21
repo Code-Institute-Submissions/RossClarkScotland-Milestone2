@@ -6,16 +6,16 @@ const gameManager = {
 
     setPlayer: function(classType) {
         switch (classType) {
-            case: "Wednesday":
+            case "Wednesday" :
                 player = new Player(classType, 7, 6, 6, 10, 6, 10);
                 break;
-            case: "Bilquis":
+            case "Bilquis" :
                 player = new Player(classType, 6, 7, 6, 8, 10, 9);
                 break;
-            case: "Nancy":
+            case "Nancy" :
                 player = new Player(classType, 7, 7, 7, 9, 8, 7);
                 break;
-            case: "Czernobog":
+            case "Czernobog" :
                 player = new Player(classType, 8, 10, 6, 7, 6, 8);
                 break;
         }
@@ -27,4 +27,4 @@ const gameManager = {
     setPreFight: function() {
 
     }
-}
+};
