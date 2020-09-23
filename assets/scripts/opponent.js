@@ -1,7 +1,7 @@
 let opponent;
 
 function Opponent(opponentType, health, strength, speed, intelligence, agility, endurance) {
-    this.classType = opponentType;
+    this.opponentType = opponentType;
     this.health = health;
     this.strength = strength;
     this.speed = speed;

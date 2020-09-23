@@ -39,7 +39,7 @@ let gameManager = {
         let getOpponent = document.querySelector(".opponent");
         let opponent1 = new Opponent("Technical Boy", 6, 8, 6, 9, 6, 10);
         let opponent2 = new Opponent("Media", 6, 7, 9, 9, 8, 6);
-        let opponent3 = new Opponent("Mister World", 7, 8, 8, 8, 7, 7);
+        let opponent3 = new Opponent("World", 7, 8, 8, 8, 7, 7);
         let opponent4 = new Opponent("Spooks", 7, 7, 7, 7, 7, 7);
         let chooseOpponent = Math.floor(Math.random() * Math.floor(4) + 1);
         switch (chooseOpponent) {
