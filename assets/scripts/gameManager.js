@@ -37,11 +37,27 @@ let gameManager = {
         let getHeader = document.querySelector(".game-header");
         let getActions = document.querySelector(".actions");
         let getOpponent = document.querySelector(".opponent");
-        let opponent00 = new Opponent("Technical Boy", 6, 8, 6, 9, 6, 10);
-        let opponent01 = new Opponent("Media", 6, 7, 9, 9, 8, 6);
-        let opponent03 = new Opponent("Mister World", 7, 8, 8, 8, 7, 7);
-        let opponent04 = new Opponent("Spooks", 7, 7, 7, 7, 7, 7);
+        let opponent1 = new Opponent("Technical Boy", 6, 8, 6, 9, 6, 10);
+        let opponent2 = new Opponent("Media", 6, 7, 9, 9, 8, 6);
+        let opponent3 = new Opponent("Mister World", 7, 8, 8, 8, 7, 7);
+        let opponent4 = new Opponent("Spooks", 7, 7, 7, 7, 7, 7);
         let chooseOpponent = Math.floor(Math.random() * Math.floor(4) + 1);
-        console.log(chooseOpponent);
+        switch (chooseOpponent) {
+            case 1: 
+                opponent = opponent1;
+                break;
+            case 2: 
+                opponent = opponent2;
+                break;
+            case 3: 
+                opponent = opponent3;
+                break;
+            case 4: 
+                opponent = opponent4;
+                break;   
+        }
+        getHeader.innerHTML = '<p>Make your move!</p>';
+        getActions.innerHTML = '<a href="#" class="btn-prefight" onclick="PlayerMoves.calcAttack()">Attack!</a>';
+        getOpponent.innerHTML = '<img src="assets/images/' + opponent.opponentType + '.jpg" class="image-avatar"><div><h4>' + opponent.opponentType + '</h4><p>Health: ' + opponent.health + '</p><p>Strength: ' + opponent.strength + '</p><p>Speed: ' + opponent.speed + '</p><p>Intelligence: ' + opponent.intelligence + '</p><p>Agility: ' + opponent.agility + '</p><p>Endurance: ' + opponent.endurance + '</p></div>';
     }
 };
