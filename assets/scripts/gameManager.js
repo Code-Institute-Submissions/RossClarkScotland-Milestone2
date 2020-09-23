@@ -7,21 +7,21 @@ let gameManager = {
     setPlayer: function(classType) {
         switch (classType) {
             case "Wednesday" :
-                player = new Player(classType, 7, 6, 6, 10, 6, 10);
+                player = new Player(classType, 35, 30, 30, 50, 30, 50);
                 break;
             case "Bilquis" :
-                player = new Player(classType, 6, 7, 6, 8, 10, 9);
+                player = new Player(classType, 30, 35, 30, 40, 50, 45);
                 break;
             case "Nancy" :
-                player = new Player(classType, 7, 7, 7, 9, 8, 7);
+                player = new Player(classType, 35, 35, 35, 45, 40, 35);
                 break;
             case "Czernobog" :
-                player = new Player(classType, 8, 10, 6, 7, 6, 8);
+                player = new Player(classType, 40, 50, 30, 35, 30, 40);
                 break;
         }
 
         let getInterface = document.querySelector(".interface");
-        getInterface.innerHTML = '<img src="assets/images/' + classType + '.jpg" class="image-avatar"><div><h4>' + classType + '</h4><p>Health: ' + player.health + '</p><p>Strength: ' + player.strength + '</p><p>Speed: ' + player.speed + '</p><p>Intelligence: ' + player.intelligence + '</p><p>Agility: ' + player.agility + '</p><p>Endurance: ' + player.endurance + '</p></div>';
+        getInterface.innerHTML = '<img src="assets/images/' + classType + '.jpg" class="image-avatar"><div><h4>' + classType + '</h4><p class="health-player">Health: ' + player.health + '</p><p>Strength: ' + player.strength + '</p><p>Speed: ' + player.speed + '</p><p>Intelligence: ' + player.intelligence + '</p><p>Agility: ' + player.agility + '</p><p>Endurance: ' + player.endurance + '</p></div>';
     },
 
     setPreFight: function() {
@@ -37,10 +37,10 @@ let gameManager = {
         let getHeader = document.querySelector(".game-header");
         let getActions = document.querySelector(".actions");
         let getOpponent = document.querySelector(".opponent");
-        let opponent1 = new Opponent("Technical Boy", 6, 8, 6, 9, 6, 10);
-        let opponent2 = new Opponent("Media", 6, 7, 9, 9, 8, 6);
-        let opponent3 = new Opponent("World", 7, 8, 8, 8, 7, 7);
-        let opponent4 = new Opponent("Spooks", 7, 7, 7, 7, 7, 7);
+        let opponent1 = new Opponent("Technical Boy", 30, 40, 30, 45, 36, 50);
+        let opponent2 = new Opponent("Media", 30, 35, 45, 45, 40, 30);
+        let opponent3 = new Opponent("Mister World", 35, 40, 40, 40, 35, 35);
+        let opponent4 = new Opponent("Spooks", 35, 35, 35, 35, 35, 35);
         let chooseOpponent = Math.floor(Math.random() * Math.floor(4) + 1);
         switch (chooseOpponent) {
             case 1: 
@@ -58,6 +58,6 @@ let gameManager = {
         }
         getHeader.innerHTML = '<p>Make your move!</p>';
         getActions.innerHTML = '<a href="#" class="btn-prefight" onclick="PlayerMoves.calcAttack()">Attack!</a>';
-        getOpponent.innerHTML = '<img src="assets/images/' + opponent.opponentType + '.jpg" class="image-avatar"><div><h4>' + opponent.opponentType + '</h4><p>Health: ' + opponent.health + '</p><p>Strength: ' + opponent.strength + '</p><p>Speed: ' + opponent.speed + '</p><p>Intelligence: ' + opponent.intelligence + '</p><p>Agility: ' + opponent.agility + '</p><p>Endurance: ' + opponent.endurance + '</p></div>';
+        getOpponent.innerHTML = '<img src="assets/images/' + opponent.opponentType + '.jpg" class="image-avatar"><div><h4>' + opponent.opponentType + '</h4><p class="health-opponent">Health: ' + opponent.health + '</p><p>Strength: ' + opponent.strength + '</p><p>Speed: ' + opponent.speed + '</p><p>Intelligence: ' + opponent.intelligence + '</p><p>Agility: ' + opponent.agility + '</p><p>Endurance: ' + opponent.endurance + '</p></div>';
     }
 };
