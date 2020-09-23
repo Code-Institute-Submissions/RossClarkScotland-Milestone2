@@ -19,13 +19,13 @@ let PlayerMoves = {
     let playerAttack = function() {
         let damage;
         if (player.strength > 8) {
-            damage = 5;
+            damage = 150;
     } else {
-            damage = 3;
+            damage = 80;
     }
-    let offsetDamage = opponent.agility / 2;
-    let calcFinalDamage = damage + offsetDamage;
-    let numberOfHits = Math.floor(Math.random() * Math.floor(player.agility / 2) +1);
+    let offsetDamage = opponent.agility + opponent.speed + opponent.intelligence + opponent.endurance / 50;
+    let calcFinalDamage = damage - offsetDamage;
+    let numberOfHits = Math.floor(Math.random() * Math.floor(player.agility / 15) +1);
     let attackValues = [calcFinalDamage, numberOfHits];
     return attackValues;
     }
@@ -33,13 +33,13 @@ let PlayerMoves = {
     let opponentAttack = function() {
     let damage;
     if (opponent.strength > 8) {
-        damage = 5;
+        damage = 150;
     } else {
-        damage = 3;
+        damage = 120;
     }
-    let offsetDamage = player.agility / 2;
-    let calcFinalDamage = damage + offsetDamage;
-    let numberOfHits = Math.floor(Math.random() * Math.floor(opponent.agility / 10) +1);
+    let offsetDamage = player.agility + player.speed + player.intelligence + player.endurance / 50;
+    let calcFinalDamage = damage - offsetDamage;
+    let numberOfHits = Math.floor(Math.random() * Math.floor(opponent.agility / 15) +1);
     let attackValues = [calcFinalDamage, numberOfHits];
     return attackValues;
     }
@@ -87,7 +87,7 @@ let PlayerMoves = {
             let totalDamage = playerAttackValues[0] * playerAttackValues[1];
             opponent.health = opponent.health - totalDamage;
             alert("You hit " + playerAttackValues[0] + " damage " + playerAttackValues[1] + " times.");
-            if (enemy.health <= 0) {
+            if (opponent.health <= 0) {
                 alert("You win! Refresh your browser to do battle again.");
             getOpponentHealth.innerHTML = 'Health: 0';
             getPlayerHealth.innerHTML = 'Health: ' + player.health;
