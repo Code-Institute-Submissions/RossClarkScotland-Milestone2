@@ -354,8 +354,9 @@ font-size:1.5rem;
 .infight-god-profile {
     border: 1.5px solid grey;
     padding: 2rem;
-    width: 45%;
+    width: 90%;
     margin: auto auto 2.5rem auto;
+    text-align: center;
 }
 
 .god-name {
@@ -391,23 +392,20 @@ font-size:1.5rem;
 }
 
 .game-headline {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: 'Lato', 'Times', sans-serif;
     text-align: center;
-    margin: 4rem auto 3rem auto;
+    margin: 4rem auto 2rem auto;
 }
 
 .game-instruction {
-    font-size: 4rem;
+    font-size: 1.5rem;
     font-family: 'Lato', 'Times', sans-serif;
     text-transform: Uppercase;
     text-align: center;
-    margin: 4rem auto 4rem auto;
+    margin: 2rem auto 2rem auto;
 }
 
-.btn-prefight {
-
-}
 
 /************************************ Contact page ***********************************/
 
@@ -537,6 +535,20 @@ textarea {
 
     #map {
         margin-bottom: 3.75rem;
+    }
+
+    .infight-god-profile {
+        width: 45%;
+    }
+
+    .game-headline {
+        font-size: 3rem;
+        margin: 4rem auto 3rem auto;
+    }
+
+    .game-instruction {
+        font-size: 4rem;
+        margin: 4rem auto 4rem auto;
     }
 
 }
