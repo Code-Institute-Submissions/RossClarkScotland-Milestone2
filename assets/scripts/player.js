@@ -58,10 +58,10 @@ let PlayerMoves = {
         }
         if (opponent.health <= 0) {
             alert("You won! Refresh your browser to do battle again.");
-            getPlayerHealth.innerHTML = 'Health: ' + player.health;
+            getPlayerHealth.innerHTML = 'Health: ' + Math.floor(player.health);
             getOpponentHealth.innerHTML = 'Health: 0';
         } else {
-            getOpponentHealth.innerHTML = 'Health: ' + opponent.health;
+            getOpponentHealth.innerHTML = 'Health: ' + Math.floor(opponent.health);
             //Opponent attack
             let opponentAttackValues = opponentAttack();
             let totalDamage = opponentAttackValues[0] * opponentAttackValues[1];
