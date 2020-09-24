@@ -21,7 +21,7 @@ let gameManager = {
         }
 
         let getInterface = document.querySelector(".interface");
-        getInterface.innerHTML = '<img src="assets/images/' + classType + '.jpg" class="image-avatar"><div><h4>' + classType + '</h4><p class="health-player">Health: ' + player.health + '</p><p>Strength: ' + player.strength + '</p><p>Speed: ' + player.speed + '</p><p>Intelligence: ' + player.intelligence + '</p><p>Agility: ' + player.agility + '</p><p>Endurance: ' + player.endurance + '</p></div>';
+        getInterface.innerHTML = '<section class ="infight-god-profile"><div class="container"><div class="row"><div class="col-md-5"><h4 "god-name">' + classType + '</h4><p class="health-player">Health: ' + player.health + '</p><p>Strength: ' + player.strength + '</p><p>Speed: ' + player.speed + '</p><p>Intelligence: ' + player.intelligence + '</p><p>Agility: ' + player.agility + '</p><p>Endurance: ' + player.endurance + '</p></div><div class="col-md-7"><img src="assets/images/' + classType + '.jpg" class="image-avatar"></div></section>';
     },
 
     setPreFight: function() {
@@ -30,7 +30,6 @@ let gameManager = {
         let getBattleground = document.querySelector(".battleground");
         getHeader.innerHTML = '<h3 class="game-headline">Step to the line: Find your opponent!</h3>';
         getActions.innerHTML = '<a href="#" class="btn-prefight" onclick="gameManager.setFight()">Search!</a>';
-        getBattleground.style.visibility = visible;
     },
 
     setFight: function() {
@@ -56,8 +55,8 @@ let gameManager = {
                 opponent = opponent4;
                 break;   
         }
-        getHeader.innerHTML = '<h3 class="game-headline">Make your move!</h3>';
+        getHeader.innerHTML = '<h3 class="game-headline">Make your move! <br>If you and your opponent survive a round, attack again.</h3>';
         getActions.innerHTML = '<a href="#" class="btn-prefight" onclick="PlayerMoves.calcAttack()">Attack!</a>';
-        getOpponent.innerHTML = '<img src="assets/images/' + opponent.opponentType + '.jpg" class="image-avatar"><div><h4>' + opponent.opponentType + '</h4><p class="health-opponent">Health: ' + opponent.health + '</p><p>Strength: ' + opponent.strength + '</p><p>Speed: ' + opponent.speed + '</p><p>Intelligence: ' + opponent.intelligence + '</p><p>Agility: ' + opponent.agility + '</p><p>Endurance: ' + opponent.endurance + '</p></div>';
+        getOpponent.innerHTML = '<section class ="infight-god-profile"><div class="container"><div class="row"><div class="col-md-5"><h4 "god-name">' + opponent.opponentType + '</h4><p class="health-opponent">Health: ' + opponent.health + '</p><p>Strength: ' + opponent.strength + '</p><p>Speed: ' + opponent.speed + '</p><p>Intelligence: ' + opponent.intelligence + '</p><p>Agility: ' + opponent.agility + '</p><p>Endurance: ' + opponent.endurance + '</p></div><div class="col-md-7"><img src="assets/images/' + opponent.opponentType + '.jpg" class="image-avatar"></div></section>';
     }
 };
