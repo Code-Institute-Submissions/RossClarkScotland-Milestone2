@@ -28,7 +28,7 @@ let gameManager = {
         let getHeader = document.querySelector(".game-header");
         let getActions = document.querySelector(".actions");
         let getBattleground = document.querySelector(".battleground");
-        getHeader.innerHTML = '<p>Step to the line: Find your opponent!</p>';
+        getHeader.innerHTML = '<h3 class="game-headline">Step to the line: Find your opponent!</h3>';
         getActions.innerHTML = '<a href="#" class="btn-prefight" onclick="gameManager.setFight()">Search!</a>';
         getBattleground.style.visibility = visible;
     },
@@ -56,7 +56,7 @@ let gameManager = {
                 opponent = opponent4;
                 break;   
         }
-        getHeader.innerHTML = '<p>Make your move!</p>';
+        getHeader.innerHTML = '<h3 class="game-headline">Make your move!</h3>';
         getActions.innerHTML = '<a href="#" class="btn-prefight" onclick="PlayerMoves.calcAttack()">Attack!</a>';
         getOpponent.innerHTML = '<img src="assets/images/' + opponent.opponentType + '.jpg" class="image-avatar"><div><h4>' + opponent.opponentType + '</h4><p class="health-opponent">Health: ' + opponent.health + '</p><p>Strength: ' + opponent.strength + '</p><p>Speed: ' + opponent.speed + '</p><p>Intelligence: ' + opponent.intelligence + '</p><p>Agility: ' + opponent.agility + '</p><p>Endurance: ' + opponent.endurance + '</p></div>';
     }

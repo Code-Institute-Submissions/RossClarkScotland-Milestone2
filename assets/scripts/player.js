@@ -39,7 +39,7 @@ let PlayerMoves = {
     }
     let offsetDamage = player.agility + player.speed + player.intelligence + player.endurance / 50;
     let calcFinalDamage = damage - offsetDamage;
-    let numberOfHits = Math.floor(Math.random() * Math.floor(opponent.agility / 15) +1);
+    let numberOfHits = Math.floor(Math.random() * Math.floor(opponent.agility / 15));
     let attackValues = [calcFinalDamage, numberOfHits];
     return attackValues;
     }
@@ -51,7 +51,11 @@ let PlayerMoves = {
         let playerAttackValues = playerAttack();
         let totalDamage = playerAttackValues[0] * playerAttackValues[1];
         opponent.health = opponent.health - totalDamage;
-        alert("You hit " + playerAttackValues[0] + " damage " + playerAttackValues[1] + " times.");
+        if (playerAttackValues[1] === 0) {
+            alert("You missed!");
+        } else {
+            alert("You hit " + playerAttackValues[0] + " damage " + playerAttackValues[1] + " times.");
+        }
         if (opponent.health <= 0) {
             alert("You won! Refresh your browser to do battle again.");
             getPlayerHealth.innerHTML = 'Health: ' + player.health;

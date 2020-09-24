@@ -35,72 +35,99 @@
     </div>
     
     <section class="game-header">
-        <h2>Let's get ready to ruuuuumble!!!!!!</h2>
-        <h3>Choose your god.</h3>
+        <h2 class="game-headline"><span class="intro">The final battle: Rock City, Lookout Mountain.</span></h2>
+        <h3 class="game-instruction">Choose a god to fight as.</h3>
     </section>
 
     <section class="interface">
-        <a href="#" onclick="gameManager.setGameStart('Wednesday')">
-            <img class="game-img" src="assets/images/Wednesday.jpg" alt="Mister Wednesday">
-            <div>
-                <h4>Mister Wednesday</h4>
-                <h5>Ladies and gentlemen, making his way to the ring:
-                 Odin, the All-father, Lord of Valhalla, the Big-I-Am
-                 of all the Norse Gods!</h5>
-                 <p>Wednesday may be the craftiest of all gods,
-                 but he's no spring chicken and his strength and speed have 
-                 seen better days.</p>
-            </div>
-        </a>
-         <a href="#" onclick="gameManager.setGameStart('Bilquis')">
-            <img class="game-img" src="assets/images/Bilquis.jpg" alt="Bilquis">
-            <div>
-                <h4>Bilquis</h4>
-                <h5>Ladies and gentlemen, please welcome to the ring
-                The Queen of Sheba herself: the legendary, lovable,
-                adorable, biblical Bilquis!</h5>
-                <p>The godess Bilquis has guile, agility,
-                and physical strength to burn. But she likes to take her 
-                time and savour every movement, so speed is not among her
-                most worshippable characteristics.</p>
-            </div>
-        </a>
-         <a href="#" onclick="gameManager.setGameStart('Nancy')">
-            <img class="game-img" src="assets/images/Nancy.jpg" alt="Mr Nancy">
-            <div>
-                <h4>Mister Nancy</h4>
-                <h5>Originally hailing from West Africa and now fighting out of
-                West African, African American, and Caribbean folklore, ladies
-                and gentleman, please welcome to the ring, the trickster, the spider,
-                Mis-ter Anansi!</h5>
-                <p>Anansi is cunning, quick, and agile, but may lack in 
-                brute strength.</p>
-            </div>
-        </a>
-         <a href="#" onclick="gameManager.setGameStart('Czernobog')">
-            <img class="game-img" src="assets/images/Czernobog.jpg" alt="Czernobog">
-            <div>
-                <h4>Czernobog</h4>
-                <h5>Fighting out of 12th century Christian chronicles
-                and 13th century Icelandic legend, ladies and gentlemen,
-                I present to you the Beast from the East, the ancient slavic 
-                god himself - Chernobog!</h5>
-                <p>Chernobog's physical strength is of the charts, but he's 
-                not the sharpest tool in the slaughterhouse</p>
-            </div>
-        </a>
+        <section class="god-profile">
+            <a href="#" onclick="gameManager.setGameStart('Wednesday')">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img class="game-img" src="assets/images/Wednesday.jpg" alt="Mister Wednesday">
+                            </div>
+                            <div class="col-md-8">
+                                <h4 class="god-name">Mister Wednesday</h4>
+                                <h5>Ladies and gentlemen, making his way to the ring:
+                                Odin, the All-father, Lord of Valhalla, the Big-I-Am
+                                of all the Norse Gods!</h5>
+                                <p>Wednesday may be the craftiest of all gods,
+                                but he's no spring chicken and his strength and speed have 
+                                seen better days.</p>
+                            </div>
+                        </div>
+                    </div>
+            </a>
+        </section>
+        <section class="god-profile">
+            <a href="#" onclick="gameManager.setGameStart('Bilquis')">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="game-img" src="assets/images/Bilquis.jpg" alt="Bilquis">
+                        </div>
+                        <div class="col-md-8">
+                            <h4 class="god-name">Bilquis</h4>
+                            <h5>Ladies and gentlemen, please welcome to the ring
+                            The Queen of Sheba herself: the legendary, lovable,
+                            adorable, biblical Bilquis!</h5>
+                            <p>The godess Bilquis has guile, agility,
+                            and physical strength to burn. But she likes to take her 
+                            time and savour every movement, so speed is not among her
+                            most worshippable characteristics.</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </section>
+        <section class="god-profile">
+            <a href="#" onclick="gameManager.setGameStart('Nancy')">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="game-img" src="assets/images/Nancy.jpg" alt="Mr Nancy">
+                        </div>
+                        <div class="col-md-8">
+                            <h4 class="god-name">Mister Nancy</h4>
+                            <h5>Originally hailing from West Africa and now fighting out of
+                            West African, African American, and Caribbean folklore, ladies
+                            and gentleman, please welcome to the ring, the trickster, the spider,
+                            Mis-ter Anansi!</h5>
+                            <p>Anansi is cunning, quick, and agile, but may lack in 
+                            brute strength.</p>
+                        </div>
+                </div>
+            </a>
+        </section>
+         <section class="god-profile">
+            <a href="#" onclick="gameManager.setGameStart('Czernobog')">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="game-img" src="assets/images/Czernobog.jpg" alt="Czernobog">
+                        </div>
+                        <div class="col-md-8">
+                            <h4 class="god-name">Czernobog</h4>
+                            <h5>Originally hailing from West Africa and now fighting out of
+                            West African, African American, and Caribbean folklore, ladies
+                            and gentleman, please welcome to the ring, the trickster, the spider,
+                            Mis-ter Anansi!</h5>
+                            <p>Anansi is cunning, quick, and agile, but may lack in 
+                            brute strength.</p>
+                        </div>
+                </div>
+            </a>
+        </section>
+    </section>
+
+
+    <section class="opponent">
+    
     </section>
 
     <section class="actions">
 
-    </section>
-
-    <section class="battleground">
-
-    </section>
-
-    <section class="opponent">
-    
     </section>
 
 
