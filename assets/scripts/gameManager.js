@@ -29,7 +29,7 @@ let gameManager = {
         let getActions = document.querySelector(".actions");
         let getBattleground = document.querySelector(".battleground");
         getHeader.innerHTML = '<h3 class="game-instruction">Step to the line: <br> Find your opponent!</h3>';
-        getActions.innerHTML = '<a href="#" class="btn-prefight" onclick="gameManager.setFight()">Search!</a>';
+        getActions.innerHTML = '<section class="actions container-fluid"><div class="row"><div class="col-sm-12 text-center"><a href="#" class="btn btn-success btn-lg btn-prefight" onclick="gameManager.setFight()">Search!</a></div></div></section>';
     },
 
     setFight: function() {
@@ -56,7 +56,7 @@ let gameManager = {
                 break;   
         }
         getHeader.innerHTML = '<h3 class="game-instruction">Attack! <br>If you both survive a round, attack again.</h3>';
-        getActions.innerHTML = '<a href="#" class="btn-prefight" onclick="PlayerMoves.calcAttack()">Attack!</a>';
+        getActions.innerHTML = '<section class="actions container-fluid"><div class="row"><div class="col-sm-12 text-center"><a href="#" class="btn btn-success btn-lg btn-prefight" onclick="PlayerMoves.calcAttack()">Attack!</a></div></div></section>';
         getOpponent.innerHTML = '<section class ="infight-god-profile"><div class="container"><div class="row"><div class="col-md-5"><h4 "god-name">' + opponent.opponentType + '</h4><p class="health-opponent">Health: ' + opponent.health + '</p><p>Strength: ' + opponent.strength + '</p><p>Speed: ' + opponent.speed + '</p><p>Intelligence: ' + opponent.intelligence + '</p><p>Agility: ' + opponent.agility + '</p><p>Endurance: ' + opponent.endurance + '</p></div><div class="col-md-7"><img src="assets/images/' + opponent.opponentType + '.jpg" class="image-avatar"></div></section>';
     }
 };

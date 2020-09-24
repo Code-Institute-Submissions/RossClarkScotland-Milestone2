@@ -248,7 +248,7 @@ Though the images, linear-gradient values, and button differ from those given on
             transform: translate(-50%, -50%);
 }
 
-/************************************ Map page ***********************************/
+/************************************ Route page ***********************************/
 
 #map {
     height: 60rem;
@@ -256,7 +256,7 @@ Though the images, linear-gradient values, and button differ from those given on
     margin: 2rem auto 3rem auto;
 }
 
-/************************************ Trip page ***********************************/
+/************************************ Places page ***********************************/
 
 .trip-heading {
     margin: auto;
@@ -403,6 +403,10 @@ font-size:1.5rem;
     text-transform: Uppercase;
     text-align: center;
     margin: 4rem auto 4rem auto;
+}
+
+.btn-prefight {
+
 }
 
 /************************************ Contact page ***********************************/
