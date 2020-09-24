@@ -1,4 +1,4 @@
-//I created this game by adapting from the following tutorial (see further details in the Appendix ) to the ReadMe: https://www.youtube.com/watch?v=M6sA8fvMCuA
+//I created this game by adapting from the following tutorial (see further details in the Appendix) to the ReadMe: https://www.youtube.com/watch?v=M6sA8fvMCuA
 
 let player;
 
@@ -81,7 +81,7 @@ let PlayerMoves = {
         let opponentAttackValues = opponentAttack();
         let totalDamage = opponentAttackValues[0] * opponentAttackValues[1];
         player.health = player.health - totalDamage;
-        alert("Your opponent hit " + opponentAttackValues[0] + " damage " + opponentAttackValues[1] + " times.");
+        alert("Your opponent scored " + opponentAttackValues[0] + " damage points " + opponentAttackValues[1] + " times.");
         if (player.health <= 0) {
             alert("You lose! Refresh your browser to resurrect yourself and do battle again.");
             getOpponentHealth.innerHTML = 'Health: ' + opponent.health;
@@ -92,7 +92,7 @@ let PlayerMoves = {
             let playerAttackValues = playerAttack();
             let totalDamage = playerAttackValues[0] * playerAttackValues[1];
             opponent.health = opponent.health - totalDamage;
-            alert("You hit " + playerAttackValues[0] + " damage " + playerAttackValues[1] + " times.");
+            alert("You scored " + playerAttackValues[0] + " damage points " + playerAttackValues[1] + " times.");
             if (opponent.health <= 0) {
                 alert("You win! Refresh your browser to do battle again.");
             getOpponentHealth.innerHTML = 'Health: 0';
