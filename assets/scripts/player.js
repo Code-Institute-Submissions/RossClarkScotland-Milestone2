@@ -27,7 +27,7 @@ let PlayerMoves = {
     }
     let offsetDamage = Math.round(opponent.agility + opponent.speed + opponent.intelligence + opponent.endurance / 50);
     let calcFinalDamage = damage - offsetDamage;
-    let numberOfHits = Math.floor(Math.random() * Math.floor(player.agility / 15) +1);
+    let numberOfHits = Math.floor(Math.random() * Math.floor(player.agility / 15));
     let attackValues = [calcFinalDamage, numberOfHits];
     return attackValues;
     }
