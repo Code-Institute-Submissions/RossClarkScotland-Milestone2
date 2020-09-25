@@ -53,7 +53,11 @@ let PlayerMoves = {
         let playerAttackValues = playerAttack();
         let totalDamage = playerAttackValues[0] * playerAttackValues[1];
         opponent.health = opponent.health - totalDamage;
-        alert("You scored " + playerAttackValues[0] + " damage points " + playerAttackValues[1] + " times.");
+        if (totalDamage > 0) {
+        alert("You scored " + totalDamage + " damage points!");
+        } else {
+            alert("Your opponent evaded your strike!");
+        }
         if (opponent.health <= 0) {
             alert("You won! Refresh your browser to do battle again.");
             getPlayerHealth.innerHTML = 'Health: ' + Math.floor(player.health);
@@ -64,7 +68,11 @@ let PlayerMoves = {
             let opponentAttackValues = opponentAttack();
             let totalDamage = opponentAttackValues[0] * opponentAttackValues[1];
             player.health = player.health - totalDamage;
-            alert("Your opponent scored " + opponentAttackValues[0] + " damage points " + opponentAttackValues[1] + " times.");
+            if (totalDamage > 0) {
+                alert("Your opponent scored " + totalDamage + " damage points!");
+            } else {
+                alert("You evaded your opponent's strike!");
+            }
             if (player.health <= 0) {
                 alert("You lost! Refresh your browser resurrect yourself and do battle again.");
             getPlayerHealth.innerHTML = 'Health: 0';
@@ -77,7 +85,11 @@ let PlayerMoves = {
         let opponentAttackValues = opponentAttack();
         let totalDamage = opponentAttackValues[0] * opponentAttackValues[1];
         player.health = player.health - totalDamage;
-        alert("Your opponent scored " + opponentAttackValues[0] + " damage points " + opponentAttackValues[1] + " times.");
+        if (totalDamage > 0) {
+            alert("Your opponent scored " + totalDamage + " damage points!");
+        } else {
+            alert("You evaded your opponent's strike!");
+        }
         if (player.health <= 0) {
             alert("You lose! Refresh your browser to resurrect yourself and do battle again.");
             getOpponentHealth.innerHTML = 'Health: ' + opponent.health;
@@ -88,7 +100,11 @@ let PlayerMoves = {
             let playerAttackValues = playerAttack();
             let totalDamage = playerAttackValues[0] * playerAttackValues[1];
             opponent.health = opponent.health - totalDamage;
-            alert("You scored " + playerAttackValues[0] + " damage points " + playerAttackValues[1] + " times.");
+            if (totalDamage > 0) {
+                alert("You scored " + totalDamage + " damage points!");
+            } else {
+                alert("Your opponent evaded your strike!")
+            }
             if (opponent.health <= 0) {
                 alert("You win! Refresh your browser to do battle again.");
             getOpponentHealth.innerHTML = 'Health: 0';
