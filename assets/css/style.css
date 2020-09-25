@@ -328,7 +328,7 @@ font-size:1.5rem;
 
 #jukebox {
     display: block;
-    width: 45%;
+    width: 80%;
     height: 35rem;
     margin: auto;
     border: 1rem solid black;
@@ -536,6 +536,10 @@ textarea {
 
     #map {
         margin-bottom: 3.75rem;
+    }
+
+    #jukebox {
+        width: 45%;
     }
 
     .infight-god-profile {
