@@ -53,11 +53,7 @@ let PlayerMoves = {
         let playerAttackValues = playerAttack();
         let totalDamage = Math.round(playerAttackValues[0]) * playerAttackValues[1];
         opponent.health = opponent.health - totalDamage;
-        if (playerAttackValues[1] === 0) {
-            alert("You missed!");
-        } else {
-            alert("You scored " + Math.round(playerAttackValues[0]) + " damage points " + playerAttackValues[1] + " times.");
-        }
+        alert("You scored " + Math.round(playerAttackValues[0]) + " damage points " + playerAttackValues[1] + " times.");
         if (opponent.health <= 0) {
             alert("You won! Refresh your browser to do battle again.");
             getPlayerHealth.innerHTML = 'Health: ' + Math.floor(player.health);

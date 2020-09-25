@@ -7,16 +7,16 @@ let gameManager = {
     setPlayer: function(classType) {
         switch (classType) {
             case "Wednesday" :
-                player = new Player(classType, 100, 30, 30, 50, 30, 50);
+                player = new Player(classType, 200, 30, 30, 50, 30, 50);
                 break;
             case "Bilquis" :
-                player = new Player(classType, 100, 35, 30, 40, 50, 45);
+                player = new Player(classType, 200, 35, 30, 40, 50, 45);
                 break;
             case "Nancy" :
-                player = new Player(classType, 100, 35, 35, 45, 40, 35);
+                player = new Player(classType, 200, 35, 35, 45, 40, 35);
                 break;
             case "Czernobog" :
-                player = new Player(classType, 100, 50, 30, 35, 30, 40);
+                player = new Player(classType, 200, 50, 30, 35, 30, 40);
                 break;
         }
 
@@ -36,10 +36,10 @@ let gameManager = {
         let getHeader = document.querySelector(".game-header");
         let getActions = document.querySelector(".actions");
         let getOpponent = document.querySelector(".opponent");
-        let opponent1 = new Opponent("Technical Boy", 100, 40, 30, 45, 36, 50);
-        let opponent2 = new Opponent("Media", 100, 35, 45, 45, 40, 30);
-        let opponent3 = new Opponent("Mister World", 100, 40, 40, 40, 35, 35);
-        let opponent4 = new Opponent("Spooks", 100, 35, 35, 35, 35, 35);
+        let opponent1 = new Opponent("Technical Boy", 200, 40, 30, 45, 36, 50);
+        let opponent2 = new Opponent("Media", 200, 35, 45, 45, 40, 30);
+        let opponent3 = new Opponent("Mister World", 200, 40, 40, 40, 35, 35);
+        let opponent4 = new Opponent("Spooks", 200, 35, 35, 35, 35, 35);
         let chooseOpponent = Math.floor(Math.random() * Math.floor(4) + 1);
         switch (chooseOpponent) {
             case 1: 
