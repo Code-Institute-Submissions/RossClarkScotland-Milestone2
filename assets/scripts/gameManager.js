@@ -12,7 +12,7 @@ let gameManager = {
             case "Bilquis" :
                 player = new Player(classType, 100, 35, 30, 40, 50, 45);
                 break;
-            case "Nancy" :
+            case "Anansi" :
                 player = new Player(classType, 100, 35, 35, 45, 40, 35);
                 break;
             case "Czernobog" :
