@@ -25,7 +25,7 @@ let PlayerMoves = {
     } else {
             damage = 80;
     }
-    let offsetDamage = opponent.agility + opponent.speed + opponent.intelligence + opponent.endurance / 50;
+    let offsetDamage = Math.round(opponent.agility + opponent.speed + opponent.intelligence + opponent.endurance / 50);
     let calcFinalDamage = damage - offsetDamage;
     let numberOfHits = Math.floor(Math.random() * Math.floor(player.agility / 15) +1);
     let attackValues = [calcFinalDamage, numberOfHits];
@@ -39,7 +39,7 @@ let PlayerMoves = {
     } else {
         damage = 120;
     }
-    let offsetDamage = player.agility + player.speed + player.intelligence + player.endurance / 50;
+    let offsetDamage = Math.round(player.agility + player.speed + player.intelligence + player.endurance / 50);
     let calcFinalDamage = damage - offsetDamage;
     let numberOfHits = Math.floor(Math.random() * Math.floor(opponent.agility / 15));
     let attackValues = [calcFinalDamage, numberOfHits];
@@ -51,9 +51,9 @@ let PlayerMoves = {
     // Who attacks first?
     if (getPlayerSpeed >= getOpponentSpeed) {
         let playerAttackValues = playerAttack();
-        let totalDamage = Math.round(playerAttackValues[0]) * playerAttackValues[1];
+        let totalDamage = playerAttackValues[0] * playerAttackValues[1];
         opponent.health = opponent.health - totalDamage;
-        alert("You scored " + Math.round(playerAttackValues[0]) + " damage points " + playerAttackValues[1] + " times.");
+        alert("You scored " + playerAttackValues[0] + " damage points " + playerAttackValues[1] + " times.");
         if (opponent.health <= 0) {
             alert("You won! Refresh your browser to do battle again.");
             getPlayerHealth.innerHTML = 'Health: ' + Math.floor(player.health);
@@ -62,9 +62,9 @@ let PlayerMoves = {
             getOpponentHealth.innerHTML = 'Health: ' + Math.floor(opponent.health);
             //Opponent attack
             let opponentAttackValues = opponentAttack();
-            let totalDamage = Math.round(opponentAttackValues[0]) * opponentAttackValues[1];
+            let totalDamage = opponentAttackValues[0] * opponentAttackValues[1];
             player.health = player.health - totalDamage;
-            alert("Your opponent scored " + Math.round(opponentAttackValues[0]) + " damage points " + opponentAttackValues[1] + " times.");
+            alert("Your opponent scored " + opponentAttackValues[0] + " damage points " + opponentAttackValues[1] + " times.");
             if (player.health <= 0) {
                 alert("You lost! Refresh your browser resurrect yourself and do battle again.");
             getPlayerHealth.innerHTML = 'Health: 0';
