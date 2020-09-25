@@ -55,6 +55,8 @@ let PlayerMoves = {
         opponent.health = opponent.health - totalDamage;
         if (totalDamage > 0) {
         alert("You scored " + totalDamage + " damage points!");
+        } else if (totalDamage == 0 && playerAttackValues[0] < 40) {
+            alert("Your opponent blocked your strike!");
         } else {
             alert("Your opponent evaded your strike!");
         }
@@ -70,6 +72,8 @@ let PlayerMoves = {
             player.health = player.health - totalDamage;
             if (totalDamage > 0) {
                 alert("Your opponent scored " + totalDamage + " damage points!");
+            } else if (totalDamage == 0 && opponentAttackValues[0] < 40) {
+                alert("You blocked your opponent's strike!");
             } else {
                 alert("You evaded your opponent's strike!");
             }
@@ -87,6 +91,8 @@ let PlayerMoves = {
         player.health = player.health - totalDamage;
         if (totalDamage > 0) {
             alert("Your opponent scored " + totalDamage + " damage points!");
+        } else if (totalDamage == 0 && opponentAttackValues[0] < 40) {
+            alert("You blocked your opponent's strike!");
         } else {
             alert("You evaded your opponent's strike!");
         }
@@ -102,8 +108,10 @@ let PlayerMoves = {
             opponent.health = opponent.health - totalDamage;
             if (totalDamage > 0) {
                 alert("You scored " + totalDamage + " damage points!");
+            } else if (totalDamage == 0 && playerAttackValues[0] < 40) {
+                alert("Your opponent blocked your strike!")
             } else {
-                alert("Your opponent evaded your strike!")
+                alert("Your opponent evaded your strike!");
             }
             if (opponent.health <= 0) {
                 alert("You win! Refresh your browser to do battle again.");
