@@ -56,7 +56,7 @@ let gameManager = {
                 break;   
         }
         getHeader.innerHTML = '<h3 class="game-instruction">Attack by hitting the button below! <br>If you both survive a round, attack again.</h3>';
-        getActions.innerHTML = '<section class="actions container-fluid"><div class="row"><div class="col-sm-12 text-center"><a href="#" class="btn btn-success btn-lg" onclick="PlayerMoves.calcAttack()">Attack!</a></div></div></section>';
+        getActions.innerHTML = '<section class="actions container-fluid"><div class="row"><div class="col-sm-12 text-center"><a href="#" class="btn btn-success btn-lg fight-btn" onclick="PlayerMoves.calcAttack()">Attack!</a></div></div></section><section class="actions container-fluid"><div class="row"><div class="col-sm-12 text-center"><a href="#" class="btn btn-secondary btn-lg fight-btn" onclick="retreat()">Retreat!</a></div></div></section><section class="actions container-fluid"><div class="row"><div class="col-sm-12 text-center"><a href="#" class="btn btn-danger btn-lg fight-btn" onclick="nuclearOption()">Go nuclear!</a></div></div></section>';
         getOpponent.innerHTML = '<section class ="infight-god-profile"><div class="container"><div class="row"><div class="col-md-5"><h4 "god-name">' + opponent.opponentType + '</h4><p class="health-opponent">Health: ' + opponent.health + '</p><p>Strength: ' + opponent.strength + '</p><p>Speed: ' + opponent.speed + '</p><p>Intelligence: ' + opponent.intelligence + '</p><p>Agility: ' + opponent.agility + '</p><p>Endurance: ' + opponent.endurance + '</p></div><div class="col-md-7"><img src="assets/images/' + opponent.opponentType + '.jpg" class="image-avatar"></div></section>';
     }
 };

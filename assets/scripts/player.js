@@ -12,6 +12,8 @@ function Player(classType, health, strength, speed, intelligence, agility, endur
     this.endurance = endurance;
 }
 
+
+
 let PlayerMoves = {
     calcAttack: function() {
         // Determines who attacks first
@@ -30,7 +32,7 @@ let PlayerMoves = {
     let numberOfHits = Math.floor(Math.random() * Math.floor(player.agility / 15));
     let attackValues = [calcFinalDamage, numberOfHits];
     return attackValues;
-    }
+    };
 
     let opponentAttack = function() {
     let damage;
@@ -44,7 +46,7 @@ let PlayerMoves = {
     let numberOfHits = Math.floor(Math.random() * Math.floor(opponent.agility / 15));
     let attackValues = [calcFinalDamage, numberOfHits];
     return attackValues;
-    }
+    };
     //Calculate player and opponent health scores after attacks
     let getPlayerHealth = document.querySelector(".health-player");
     let getOpponentHealth = document.querySelector(".health-opponent");
@@ -109,7 +111,7 @@ let PlayerMoves = {
             if (totalDamage > 0) {
                 alert("You scored " + totalDamage + " damage points!");
             } else if (totalDamage == 0 && playerAttackValues[0] % 2 == 0) {
-                alert("Your opponent blocked your strike!")
+                alert("Your opponent blocked your strike!");
             } else {
                 alert("Your opponent evaded your strike!");
             }
@@ -124,4 +126,63 @@ let PlayerMoves = {
     }
     }
 
+};
+
+function retreat() {
+    let retreatScore = Math.floor(Math.random() * 3 + 1);
+    let getPlayerHealth = document.querySelector(".health-player");
+    let getOpponentHealth = document.querySelector(".health-opponent");
+    if (retreatScore == 1) {
+        player.health = player.health - 20;
+        alert("You stumbled and fell! Your opponent hit you for 20 damage points!");
+        getPlayerHealth.innerHTML = 'Health: ' + player.health;
+    } else if (retreatScore == 2) {
+        player.health = player.health + 20;
+        alert("You stepped out of your opponent's range and caught your breath for 20 health points!");
+        getPlayerHealth.innerHTML = 'Health: ' + player.health;
+    } else {
+        player.health = player.health + 30;
+        alert("You retreated to higher ground and rested for 30 health points!");
+        getPlayerHealth.innerHTML = 'Health: ' + player.health;
+    }
+    if (player.health <= 0) {
+            alert("You lose! Refresh your browser to resurrect yourself and do battle again.");
+    }
+}
+
+function nuclearOption() {
+    let nuclear = Math.floor(Math.random() * 6 + 1);
+    let getPlayerHealth = document.querySelector(".health-player");
+    let getOpponentHealth = document.querySelector(".health-opponent");
+    if (nuclear == 1) {
+        player.health = 0;
+        alert("You blew yourself up!");
+        getPlayerHealth.innerHTML = 'Health: ' + player.health;
+    } else if (nuclear == 2) {
+        opponent.health = opponent.health * 1.5;
+        alert("You added 50 % to your opponent's health!");
+        getOpponentHealth.innerHTML = 'Health: ' + opponent.health;
+    } else if (nuclear == 3) {
+        opponent.health = opponent.health * 2;
+        alert("You doubled your opponent's health!");
+        getOpponentHealth.innerHTML = 'Health: ' + opponent.health;
+    } else if (nuclear == 4) {
+        opponent.health = opponent.health * 1.5;
+        alert("You added 50% to your health!");
+        getPlayerHealth.innerHTML = 'Health: ' + player.health;
+    } else if (nuclear == 5) {
+        player.health = player.health * 2;
+        alert("You doubled your health!");
+        getPlayerHealth.innerHTML = 'Health: ' + player.health;
+    } else {
+        opponent.health = 0;
+        alert("You went nuclear on your opponent and ended them!");
+        getOpponentHealth.innerHTML = 'Health: ' + opponent.health;
+    }
+    if (player.health <= 0) {
+            alert("You lose! Refresh your browser to resurrect yourself and do battle again.");
+    }
+    if (opponent.health <= 0) {
+            alert("You win! Refresh your browser to do battle again.");
+    }
 }
