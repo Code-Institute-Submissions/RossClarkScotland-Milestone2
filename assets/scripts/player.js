@@ -129,7 +129,7 @@ let PlayerMoves = {
 };
 
 function retreat() {
-    let retreatScore = Math.floor(Math.random() * 3 + 1);
+    let retreatScore = Math.floor(Math.random() * 4 + 1);
     let getPlayerHealth = document.querySelector(".health-player");
     let getOpponentHealth = document.querySelector(".health-opponent");
     if (retreatScore == 1) {
@@ -137,6 +137,10 @@ function retreat() {
         alert("You stumbled and fell! Your opponent hit you for 20 damage points!");
         getPlayerHealth.innerHTML = 'Health: ' + player.health;
     } else if (retreatScore == 2) {
+        player.health = player.health - 30;
+        alert("You tripped and and fell badly! Your opponent hit you for 30 damage points!!");
+        getPlayerHealth.innerHTML = 'Health: ' + player.health;
+    } else if (retreatScore == 3) {
         player.health = player.health + 20;
         alert("You stepped out of your opponent's range and caught your breath for 20 health points!");
         getPlayerHealth.innerHTML = 'Health: ' + player.health;
@@ -151,28 +155,12 @@ function retreat() {
 }
 
 function nuclearOption() {
-    let nuclear = Math.floor(Math.random() * 6 + 1);
+    let nuclear = Math.floor(Math.random() * 2 + 1);
     let getPlayerHealth = document.querySelector(".health-player");
     let getOpponentHealth = document.querySelector(".health-opponent");
     if (nuclear == 1) {
         player.health = 0;
         alert("You blew yourself up!");
-        getPlayerHealth.innerHTML = 'Health: ' + player.health;
-    } else if (nuclear == 2) {
-        opponent.health = opponent.health * 1.5;
-        alert("You added 50 % to your opponent's health!");
-        getOpponentHealth.innerHTML = 'Health: ' + opponent.health;
-    } else if (nuclear == 3) {
-        opponent.health = opponent.health * 2;
-        alert("You doubled your opponent's health!");
-        getOpponentHealth.innerHTML = 'Health: ' + opponent.health;
-    } else if (nuclear == 4) {
-        opponent.health = opponent.health * 1.5;
-        alert("You added 50% to your health!");
-        getPlayerHealth.innerHTML = 'Health: ' + player.health;
-    } else if (nuclear == 5) {
-        player.health = player.health * 2;
-        alert("You doubled your health!");
         getPlayerHealth.innerHTML = 'Health: ' + player.health;
     } else {
         opponent.health = 0;
