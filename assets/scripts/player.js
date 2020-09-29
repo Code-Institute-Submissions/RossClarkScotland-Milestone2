@@ -182,19 +182,23 @@ function nuclearOption() {
         alert("You blew yourself up!");
         document.querySelector("#scoreboard1").innerHTML = "- YOU BLEW YOURSELF UP!";
         document.querySelector("#scoreboard2").innerHTML = "";
+        document.querySelector("#scoreboard3").innerHTML = "- YOUR HEALTH: " + player.health;
+        document.querySelector("#scoreboard4").innerHTML = "- OPPONENT HEALTH: " + opponent.health;
         getPlayerHealth.innerHTML = 'Health: ' + player.health;
     } else {
         opponent.health = 0;
         alert("You went nuclear on your opponent and ended them!");
         document.querySelector("#scoreboard1").innerHTML = "- YOU WENT NUCLEAR ON YOUR OPPONENT AND ENDED THEM!";
         document.querySelector("#scoreboard2").innerHTML = "";
+        document.querySelector("#scoreboard3").innerHTML = "- YOUR HEALTH: " + player.health;
+        document.querySelector("#scoreboard4").innerHTML = "- OPPONENT HEALTH: " + opponent.health;
         getOpponentHealth.innerHTML = 'Health: ' + opponent.health;
     }
     if (player.health <= 0) {
         alert("You lose! Refresh your browser to resurrect yourself and do battle again.");
     }
     if (opponent.health <= 0) {
-            alert("You win! Refresh your browser to do battle again.");
+        alert("You win! Refresh your browser to do battle again.");
     }
 }
 
