@@ -57,10 +57,13 @@ let PlayerMoves = {
         opponent.health = opponent.health - totalDamage;
         if (totalDamage > 0) {
         alert("You scored " + totalDamage + " damage points!");
+        document.querySelector("#scoreboard1").innerHTML = "- You scored " + totalDamage + " damage points!";
         } else if (totalDamage == 0 && playerAttackValues[0] % 2 == 0) {
             alert("Your opponent blocked your strike!");
+            document.querySelector("#scoreboard1").innerHTML = "- Your opponent blocked your strike!";
         } else {
             alert("Your opponent evaded your strike!");
+            document.querySelector("#scoreboard1").innerHTML = "- Your opponent evaded your strike!";
         }
         if (opponent.health <= 0) {
             alert("You won! Refresh your browser to do battle again.");
@@ -74,58 +77,66 @@ let PlayerMoves = {
             player.health = player.health - totalDamage;
             if (totalDamage > 0) {
                 alert("Your opponent scored " + totalDamage + " damage points!");
+                document.querySelector("#scoreboard2").innerHTML = "- Your opponent scored " + totalDamage + " damage points!";
             } else if (totalDamage == 0 && opponentAttackValues[0] % 2 == 0) {
                 alert("You blocked your opponent's strike!");
+                document.querySelector("#scoreboard2").innerHTML = "- You blocked your opponent's strike!";
             } else {
                 alert("You evaded your opponent's strike!");
+                document.querySelector("#scoreboard2").innerHTML = "- You evaded your opponent's strike!";
             }
             if (player.health <= 0) {
                 alert("You lost! Refresh your browser resurrect yourself and do battle again.");
-            getPlayerHealth.innerHTML = 'Health: 0';
-            getOpponentHealth.innerHTML = 'Health: ' + opponent.health;
-        } else {
-            getPlayerHealth.innerHTML = 'Health: ' + player.health;
+                getPlayerHealth.innerHTML = 'Health: 0';
+                getOpponentHealth.innerHTML = 'Health: ' + opponent.health;
+            } else {
+                getPlayerHealth.innerHTML = 'Health: ' + player.health;
+                }
             }
-        }
-    } else if (getOpponentSpeed >= getPlayerSpeed) {
-        let opponentAttackValues = opponentAttack();
-        let totalDamage = opponentAttackValues[0] * opponentAttackValues[1];
-        player.health = player.health - totalDamage;
-        if (totalDamage > 0) {
-            alert("Your opponent scored " + totalDamage + " damage points!");
-        } else if (totalDamage == 0 && opponentAttackValues[0] % 2 == 0) {
-            alert("You blocked your opponent's strike!");
-        } else {
-            alert("You evaded your opponent's strike!");
-        }
-        if (player.health <= 0) {
-            alert("You lose! Refresh your browser to resurrect yourself and do battle again.");
-            getOpponentHealth.innerHTML = 'Health: ' + opponent.health;
-            getPlayerHealth.innerHTML = 'Health: 0';
-        } else {
-            getPlayerHealth.innerHTML = 'Health: ' + player.health;
-            //Player attack
-            let playerAttackValues = playerAttack();
-            let totalDamage = playerAttackValues[0] * playerAttackValues[1];
-            opponent.health = opponent.health - totalDamage;
+            } else if (getOpponentSpeed >= getPlayerSpeed) {
+                let opponentAttackValues = opponentAttack();
+                let totalDamage = opponentAttackValues[0] * opponentAttackValues[1];
+                player.health = player.health - totalDamage;
             if (totalDamage > 0) {
+                alert("Your opponent scored " + totalDamage + " damage points!");
+                document.querySelector("#scoreboard2").innerHTML = "- Your opponent scored " + totalDamage + " damage points!";
+            } else if (totalDamage == 0 && opponentAttackValues[0] % 2 == 0) {
+                alert("You blocked your opponent's strike!");
+                document.querySelector("#scoreboard2").innerHTML = "- You blocked your opponent's strike!";
+            } else {
+                alert("You evaded your opponent's strike!");
+                document.querySelector("#scoreboard2").innerHTML = "- You evaded your opponent's strike!";
+            }
+            if (player.health <= 0) {
+                alert("You lose! Refresh your browser to resurrect yourself and do battle again.");
+                getOpponentHealth.innerHTML = 'Health: ' + opponent.health;
+                getPlayerHealth.innerHTML = 'Health: 0';
+            } else {
+                getPlayerHealth.innerHTML = 'Health: ' + player.health;
+                //Player attack
+                let playerAttackValues = playerAttack();
+                let totalDamage = playerAttackValues[0] * playerAttackValues[1];
+                opponent.health = opponent.health - totalDamage;
+                if (totalDamage > 0) {
                 alert("You scored " + totalDamage + " damage points!");
+                document.querySelector("#scoreboard1").innerHTML = "- You scored " + totalDamage + " damage points!";
             } else if (totalDamage == 0 && playerAttackValues[0] % 2 == 0) {
                 alert("Your opponent blocked your strike!");
+                document.querySelector("#scoreboard1").innerHTML = "- Your opponent blocked your strike!";
             } else {
                 alert("Your opponent evaded your strike!");
+                document.querySelector("#scoreboard1").innerHTML = "- Your opponent evaded your strike!";
             }
             if (opponent.health <= 0) {
                 alert("You win! Refresh your browser to do battle again.");
-            getOpponentHealth.innerHTML = 'Health: 0';
-            getPlayerHealth.innerHTML = 'Health: ' + player.health;
-        } else {
-            getOpponentHealth.innerHTML = 'Health: ' + opponent.health;
+                getOpponentHealth.innerHTML = 'Health: 0';
+                getPlayerHealth.innerHTML = 'Health: ' + player.health;
+            } else {
+                getOpponentHealth.innerHTML = 'Health: ' + opponent.health;
+                }
             }
         }
     }
-    }
-
 };
 
 function retreat() {
@@ -135,22 +146,30 @@ function retreat() {
     if (retreatScore == 1) {
         player.health = player.health - 20;
         alert("You stumbled and fell! Your opponent hit you for 20 damage points!");
+        document.querySelector("#scoreboard1").innerHTML = "- You stumbled and fell! Your opponent hit you for 20 damage points!";
+        document.querySelector("#scoreboard2").innerHTML = "";
         getPlayerHealth.innerHTML = 'Health: ' + player.health;
     } else if (retreatScore == 2) {
         player.health = player.health - 30;
-        alert("You tripped and and fell badly! Your opponent hit you for 30 damage points!!");
+        alert("You tripped and and fell badly! Your opponent hit you for 30 damage points!");
+        document.querySelector("#scoreboard1").innerHTML = "- You tripped and and fell badly! Your opponent hit you for 30 damage points!";
+        document.querySelector("#scoreboard2").innerHTML = "";
         getPlayerHealth.innerHTML = 'Health: ' + player.health;
     } else if (retreatScore == 3) {
         player.health = player.health + 20;
         alert("You stepped out of your opponent's range and caught your breath for 20 health points!");
+        document.querySelector("#scoreboard1").innerHTML = "- You stepped out of your opponent's range and caught your breath for 20 health points!";
+        document.querySelector("#scoreboard2").innerHTML = "";
         getPlayerHealth.innerHTML = 'Health: ' + player.health;
     } else {
         player.health = player.health + 30;
         alert("You retreated to higher ground and rested for 30 health points!");
+        document.querySelector("#scoreboard1").innerHTML = "- You retreated to higher ground and rested for 30 health points!";
+        document.querySelector("#scoreboard2").innerHTML = "";
         getPlayerHealth.innerHTML = 'Health: ' + player.health;
     }
     if (player.health <= 0) {
-            alert("You lose! Refresh your browser to resurrect yourself and do battle again.");
+        alert("You lose! Refresh your browser to resurrect yourself and do battle again.");
     }
 }
 
@@ -161,16 +180,40 @@ function nuclearOption() {
     if (nuclear == 1) {
         player.health = 0;
         alert("You blew yourself up!");
+        document.querySelector("#scoreboard1").innerHTML = "- YOU BLEW YOURSELF UP!";
+        document.querySelector("#scoreboard2").innerHTML = "";
         getPlayerHealth.innerHTML = 'Health: ' + player.health;
     } else {
         opponent.health = 0;
         alert("You went nuclear on your opponent and ended them!");
+        document.querySelector("#scoreboard1").innerHTML = "- YOU WENT NUCLEAR ON YOUR OPPONENT AND ENDED THEM!";
+        document.querySelector("#scoreboard2").innerHTML = "";
         getOpponentHealth.innerHTML = 'Health: ' + opponent.health;
     }
     if (player.health <= 0) {
-            alert("You lose! Refresh your browser to resurrect yourself and do battle again.");
+        alert("You lose! Refresh your browser to resurrect yourself and do battle again.");
     }
     if (opponent.health <= 0) {
             alert("You win! Refresh your browser to do battle again.");
     }
+}
+
+function scoreboard() {
+    let getScoreboard = document.querySelector("#scoreboard");
+    let getScoreboard3 = document.querySelector("#scoreboard3");
+    let getScoreboard4 = document.querySelector("#scoreboard4");
+    if (player.health <= 0) {
+        getScoreboard.innerHTML = "You lose! Refresh your browser to resurrect yourself and do battle again.";
+        document.querySelector("#scoreboard3").innerHTML = "- YOUR HEALTH: 0";
+        document.querySelector("#scoreboard5").innerHTML = "";
+    } else if (opponent.health <= 0) {
+        getScoreboard.innerHTML ="You win! Refresh your browser to do battle again.";
+        document.querySelector("#scoreboard4").innerHTML = "- OPPONENT HEALTH: 0";
+        document.querySelector("#scoreboard5").innerHTML = "";
+    } else {
+        getScoreboard.innerHTML ="Scoreboard";
+        getScoreboard3.innerHTML = '- YOUR HEALTH: ' + player.health;
+        getScoreboard4.innerHTML = '- OPPONENT HEALTH: ' + opponent.health;
+        document.querySelector("#scoreboard5").innerHTML = "";
+    }  
 }
