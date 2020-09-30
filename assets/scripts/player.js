@@ -170,6 +170,7 @@ function retreat() {
     }
     if (player.health <= 0) {
         alert("You lose! Refresh your browser to resurrect yourself and do battle again.");
+        getPlayerHealth.innerHTML = "Health: 0";
     }
 }
 
@@ -203,21 +204,19 @@ function nuclearOption() {
 }
 
 function scoreboard() {
-    let getScoreboard = document.querySelector("#scoreboard");
-    let getScoreboard3 = document.querySelector("#scoreboard3");
-    let getScoreboard4 = document.querySelector("#scoreboard4");
     if (player.health <= 0) {
-        getScoreboard.innerHTML = "You lose! Refresh your browser to resurrect yourself and do battle again.";
+        document.querySelector("#scoreboard").innerHTML = "You lose! Refresh your browser to resurrect yourself and do battle again.";
         document.querySelector("#scoreboard3").innerHTML = "- YOUR HEALTH: 0";
         document.querySelector("#scoreboard5").innerHTML = "";
     } else if (opponent.health <= 0) {
-        getScoreboard.innerHTML ="You win! Refresh your browser to do battle again.";
+        document.querySelector("#scoreboard").innerHTML ="You win! Refresh your browser to do battle again.";
+        document.querySelector("#scoreboard3").innerHTML  = '- YOUR HEALTH: ' + player.health;
         document.querySelector("#scoreboard4").innerHTML = "- OPPONENT HEALTH: 0";
         document.querySelector("#scoreboard5").innerHTML = "";
     } else {
-        getScoreboard.innerHTML ="Scoreboard";
-        getScoreboard3.innerHTML = '- YOUR HEALTH: ' + player.health;
-        getScoreboard4.innerHTML = '- OPPONENT HEALTH: ' + opponent.health;
+        document.querySelector("#scoreboard").innerHTML = "Scoreboard";
+        document.querySelector("#scoreboard3").innerHTML  = '- YOUR HEALTH: ' + player.health;
+        document.querySelector("#scoreboard4").innerHTML = '- OPPONENT HEALTH: ' + opponent.health;
         document.querySelector("#scoreboard5").innerHTML = "";
     }  
 }
