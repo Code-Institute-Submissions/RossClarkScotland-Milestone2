@@ -70,7 +70,7 @@ rockSee.addEventListener("click", function() {
 
 const rockHotels = document.getElementById("rockHotels");
 rockHotels.addEventListener("click", function() {
-    document.getElementById("rock").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+near+The+House+on+the+Rock+WI");
+    document.getElementById("rock").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+near+The+House+on+the+Rock+Wisconsin+USA");
         });
 
 const PeruDine = document.getElementById("PeruDine");
@@ -314,19 +314,19 @@ BVAHotels.addEventListener("click", function() {
     document.getElementById("BVA").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Blacksburg+VA");
         });
 
-const RCVADine = document.getElementById("RCVADine");
-RCVADine.addEventListener("click", function() {
-    document.getElementById("RCVA").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Chatanooga+VA");
+const RCGADine = document.getElementById("RCGADine");
+RCGADine.addEventListener("click", function() {
+    document.getElementById("RCGA").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+near+Rock+City+Georgia+USA");
         });
            
-const RCVAsee = document.getElementById("RCVASee");
-RCVASee.addEventListener("click", function() {
-    document.getElementById("RCVA").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+near+Rock+City+VA");
+const RCGAsee = document.getElementById("RCGASee");
+RCGASee.addEventListener("click", function() {
+    document.getElementById("RCGA").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+near+Rock+City+GA");
         });
 
-const RCGAHotels = document.getElementById("RCVAHotels");
-RCVAHotels.addEventListener("click", function() {
-    document.getElementById("RCVA").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+near+Rock+City+VA");
+const RCGAHotels = document.getElementById("RCGAHotels");
+RCGAHotels.addEventListener("click", function() {
+    document.getElementById("RCGA").setAttribute("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+near+Rock+City+GA");
         });
 
 const FPDine = document.getElementById("FPDine");
