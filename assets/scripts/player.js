@@ -1,4 +1,4 @@
-//I created this game by adapting from the following tutorial (see further details in the Appendix) to the ReadMe: https://www.youtube.com/watch?v=M6sA8fvMCuA
+//I created this game by adapting from the following tutorial (see further details in the 'Game PDF'): https://www.youtube.com/watch?v=M6sA8fvMCuA
 
 let player;
 
@@ -58,7 +58,7 @@ let PlayerMoves = {
         if (totalDamage > 0) {
         alert("You scored " + totalDamage + " damage points!");
         document.querySelector("#scoreboard1").innerHTML = "- You scored " + totalDamage + " damage points!";
-        } else if (totalDamage == 0 && playerAttackValues[0] % 2 == 0) {
+        } else if (totalDamage === 0 && playerAttackValues[0] % 2 === 0) {
             alert("Your opponent blocked your strike!");
             document.querySelector("#scoreboard1").innerHTML = "- Your opponent blocked your strike!";
         } else {
@@ -78,7 +78,7 @@ let PlayerMoves = {
             if (totalDamage > 0) {
                 alert("Your opponent scored " + totalDamage + " damage points!");
                 document.querySelector("#scoreboard2").innerHTML = "- Your opponent scored " + totalDamage + " damage points!";
-            } else if (totalDamage == 0 && opponentAttackValues[0] % 2 == 0) {
+            } else if (totalDamage === 0 && opponentAttackValues[0] % 2 === 0) {
                 alert("You blocked your opponent's strike!");
                 document.querySelector("#scoreboard2").innerHTML = "- You blocked your opponent's strike!";
             } else {
@@ -100,7 +100,7 @@ let PlayerMoves = {
             if (totalDamage > 0) {
                 alert("Your opponent scored " + totalDamage + " damage points!");
                 document.querySelector("#scoreboard2").innerHTML = "- Your opponent scored " + totalDamage + " damage points!";
-            } else if (totalDamage == 0 && opponentAttackValues[0] % 2 == 0) {
+            } else if (totalDamage === 0 && opponentAttackValues[0] % 2 === 0) {
                 alert("You blocked your opponent's strike!");
                 document.querySelector("#scoreboard2").innerHTML = "- You blocked your opponent's strike!";
             } else {
@@ -120,7 +120,7 @@ let PlayerMoves = {
                 if (totalDamage > 0) {
                 alert("You scored " + totalDamage + " damage points!");
                 document.querySelector("#scoreboard1").innerHTML = "- You scored " + totalDamage + " damage points!";
-            } else if (totalDamage == 0 && playerAttackValues[0] % 2 == 0) {
+            } else if (totalDamage === 0 && playerAttackValues[0] % 2 === 0) {
                 alert("Your opponent blocked your strike!");
                 document.querySelector("#scoreboard1").innerHTML = "- Your opponent blocked your strike!";
             } else {
@@ -143,19 +143,19 @@ function retreat() {
     let retreatScore = Math.floor(Math.random() * 4 + 1);
     let getPlayerHealth = document.querySelector(".health-player");
     let getOpponentHealth = document.querySelector(".health-opponent");
-    if (retreatScore == 1) {
+    if (retreatScore === 1) {
         player.health = player.health - 20;
         alert("You stumbled and fell! Your opponent hit you for 20 damage points!");
         document.querySelector("#scoreboard1").innerHTML = "- You stumbled and fell! Your opponent hit you for 20 damage points!";
         document.querySelector("#scoreboard2").innerHTML = "";
         getPlayerHealth.innerHTML = 'Health: ' + player.health;
-    } else if (retreatScore == 2) {
+    } else if (retreatScore === 2) {
         player.health = player.health - 30;
         alert("You tripped and and fell badly! Your opponent hit you for 30 damage points!");
         document.querySelector("#scoreboard1").innerHTML = "- You tripped and and fell badly! Your opponent hit you for 30 damage points!";
         document.querySelector("#scoreboard2").innerHTML = "";
         getPlayerHealth.innerHTML = 'Health: ' + player.health;
-    } else if (retreatScore == 3) {
+    } else if (retreatScore === 3) {
         player.health = player.health + 20;
         alert("You stepped out of your opponent's range and caught your breath for 20 health points!");
         document.querySelector("#scoreboard1").innerHTML = "- You stepped out of your opponent's range and caught your breath for 20 health points!";
@@ -178,7 +178,7 @@ function nuclearOption() {
     let nuclear = Math.floor(Math.random() * 2 + 1);
     let getPlayerHealth = document.querySelector(".health-player");
     let getOpponentHealth = document.querySelector(".health-opponent");
-    if (nuclear == 1) {
+    if (nuclear === 1) {
         player.health = 0;
         alert("You blew yourself up!");
         document.querySelector("#scoreboard1").innerHTML = "- YOU BLEW YOURSELF UP!";
