@@ -1,3 +1,5 @@
+//I created this game by adapting from the following tutorial (see further details in the 'Game' PDF): https://www.youtube.com/watch?v=M6sA8fvMCuA
+
 let gameManager = {
     setGameStart: function(classType) {
         this.setPlayer(classType);
