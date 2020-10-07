@@ -19,19 +19,19 @@ SLHotels.addEventListener("click", function() {
 const EPDine = document.getElementById("EPDine");
 EPDine.addEventListener("click", function() {
     document.getElementById("EaglePoint").setAttribute("src", 
-    "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Eagle+Point+IN");
+    "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Eagle+Point+Elkhart+Indiana");
         });
            
 const EPSee = document.getElementById("EPSee");
 EPSee.addEventListener("click", function() {
     document.getElementById("EaglePoint").setAttribute("src", 
-    "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+Eagle+Point+IN");
+    "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+Eagle+Point+Elkhart+Indiana");
         });
 
 const EPHotels = document.getElementById("EPHotels");
 EPHotels.addEventListener("click", function() {
     document.getElementById("EaglePoint").setAttribute("src", 
-    "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Eagle+Point+IN");
+    "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Elkhart+Indiana");
         });
 
 const ChiDine = document.getElementById("ChiDine");

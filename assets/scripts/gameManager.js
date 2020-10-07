@@ -25,7 +25,7 @@ let gameManager = {
         let getInterface = document.querySelector(".interface");
         getInterface.innerHTML = '<section class ="infight-god-profile"><div class="container"><div class="row"><div class="col-md-5"><h4 "god-name">' + classType + '</h4><p class="health-player">Health: ' + player.health + '</p><p>Strength: ' + player.strength + '</p><p>Speed: ' + player.speed + '</p><p>Intelligence: ' + player.intelligence + '</p><p>Agility: ' + player.agility + '</p><p>Endurance: ' + player.endurance + '</p></div><div class="col-md-7"><img src="assets/images/' + classType + '.jpg" class="image-avatar"></div></section>';
     },
-
+    
     setPreFight: function() {
         let getHeader = document.querySelector(".game-header");
         let getActions = document.querySelector(".actions");

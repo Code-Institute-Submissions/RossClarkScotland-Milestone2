@@ -106,7 +106,7 @@ Though the images, linear-gradient values, and button differ from those given on
 
 #home-nav a {
     color: #fafafa;
-    font-size: 1.5rem;
+    font-size: 3rem;
 }
 
 #home-nav a:hover {
@@ -479,7 +479,8 @@ textarea {
     }
 
     #home-nav a {
-        font-size: 2.75rem;
+        font-size: 4.5rem;
+        margin-right: 1 rem;
     }
 
     .navbar {
@@ -604,7 +605,7 @@ textarea {
 
 }
 
-@media only screen and (min-width:768px) {
+@media only screen and (min-width:767px) {
     .navbar {
         margin-top: 3rem;
     }
@@ -620,6 +621,9 @@ textarea {
     }
     .banner-image nav a {
     font-size: 3rem;
+    }
+    #home-nav a {
+    font-size: 4rem;
     }
 }
 
