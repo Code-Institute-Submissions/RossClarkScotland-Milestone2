@@ -264,6 +264,23 @@ Though the images, linear-gradient values, and button differ from those given on
     margin: 1rem auto 1rem auto;
 }
 
+#routes-list {
+    width: 90%;
+    margin: 3rem auto 3rem auto; 
+   
+}
+
+#routes-list li {
+  list-style: none;
+}
+
+#routes-list a {
+  font-size:1.5rem;
+  letter-spacing: 0.07rem;
+  font-family: 'Lato', 'Times', sans-serif;
+  color: black; 
+}
+
 /************************************ Places page ***********************************/
 
 .trip-heading {
