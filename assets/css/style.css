@@ -257,8 +257,8 @@ Though the images, linear-gradient values, and button differ from those given on
 }
 
 .route-map {
-    width: 75%;
-    height: 50rem; 
+    width: 87.5%;
+    height: 40rem; 
     border: 0;
     display: block;
     margin: 2rem auto 1rem auto;
@@ -549,6 +549,14 @@ textarea {
 
     #map {
         margin-bottom: 3.75rem;
+    }
+
+    .route-map {
+        width: 75%;
+        height: 50rem; 
+        border: 0;
+        display: block;
+        margin: 2rem auto 1rem auto;
     }
 
     #jukebox {
