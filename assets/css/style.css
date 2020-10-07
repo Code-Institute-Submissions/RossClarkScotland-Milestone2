@@ -478,11 +478,6 @@ textarea {
         left: 55%;
     }
 
-    #home-nav a {
-        font-size: 4.5rem;
-        margin-right: 1 rem;
-    }
-
     .navbar {
         margin-top: 0;
     }
@@ -572,7 +567,6 @@ textarea {
 
 }
 
-
 @media only screen and (min-width:90rem) {
     .hero-text-box {
         top: 15%;
@@ -595,6 +589,16 @@ textarea {
 
     .banner-image {
         height: 33vh;
+    }
+
+    #landing-head {
+        font-size: 5rem;
+    }
+}
+
+@media only screen and (min-width:360px) {
+    #landing-head {
+        font-size: 6rem;
     }
 }
 
@@ -623,8 +627,14 @@ textarea {
     font-size: 3rem;
     }
     #home-nav a {
-    font-size: 4rem;
+        font-size: 2.8rem;
     }
+    #landing-head {
+        font-size: 7rem;
+    }
+    #landing-sub {
+        font-size: 4rem;
+}
 }
 
 @media only screen and (min-width:1280px) {
