@@ -253,7 +253,7 @@ Though the images, linear-gradient values, and button differ from those given on
 #map {
     height: 60rem;
     width: 90%;
-    margin: 2rem auto 3rem auto;
+    margin: 0 auto 3rem auto;
 }
 
 .route-map {
@@ -266,8 +266,7 @@ Though the images, linear-gradient values, and button differ from those given on
 
 #routes-list {
     width: 90%;
-    margin: 3rem auto 7rem auto; 
-   
+    margin: 3rem auto 7rem auto;   
 }
 
 #routes-list li {
@@ -281,6 +280,27 @@ Though the images, linear-gradient values, and button differ from those given on
   color: black; 
 }
 
+#map-key {
+    width: 80%;
+    margin: 3rem auto 7rem auto;   
+}
+
+#map-key li {
+  list-style: none;
+  text-transform: uppercase;
+  color: rgb(32, 32, 32);
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+destinations-key {
+    text-align: center;
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+
 /************************************ Places page ***********************************/
 
 .trip-heading {
@@ -292,7 +312,6 @@ Though the images, linear-gradient values, and button differ from those given on
 #destinations-list {
     width: 90%;
     margin: 3rem auto 3rem auto; 
-   
 }
 
 #destinations-list li {
@@ -566,6 +585,7 @@ textarea {
 
     #map {
         margin-bottom: 3.75rem;
+        width: 70%;
     }
 
     .route-map {

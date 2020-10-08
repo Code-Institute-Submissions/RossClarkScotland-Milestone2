@@ -11,7 +11,7 @@ function initMap() {
 
     const locations = [
         { lat: 38.6270, lng: -90.1994 }, 
-        { lat: 41.3275, lng: -85.6778 },  
+        { lat: 41.6820, lng: -85.9767 },  
         { lat: 41.8781, lng: -87.6298 },  
         { lat: 43.0186, lng: -89.5498 },  
         { lat: 43.0994, lng: -90.1353 },  
