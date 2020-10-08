@@ -682,10 +682,13 @@ textarea {
     }
 }
 
-@media only screen and (min-width:280px) {
+/* Only for Galaxy Fold */
+@media only screen and (max-width:280px) {
     #landing-head {
         font-size: 5rem;
-}
+    }
+    .banner-image {
+        height: 30vh;
     }
 }
 
