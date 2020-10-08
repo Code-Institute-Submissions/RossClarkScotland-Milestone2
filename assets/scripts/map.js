@@ -1,4 +1,4 @@
-function initMap() {
+/*function initMap() {
     const map = new google.maps.Map(document.getElementById("map"), {
         zoom: 3.8,
         center: {
@@ -43,7 +43,27 @@ function initMap() {
         });
     });
 
-    const markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
-        
+    const markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });      
 }
 
+*/
+
+/*Adapted from https://developers.google.com/maps/documentation/javascript/examples/event-arguments*/
+
+function initMap() {
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 4.2,
+    center: { lat: 36.6437, lng: -93.2185 },
+  });
+  map.addListener("click", (e) => {
+    placeMarkerAndPanTo(e.latLng, map);
+  });
+}
+
+function placeMarkerAndPanTo(latLng, map) {
+  new google.maps.Marker({
+    position: latLng,
+    map: map,
+  });
+  map.panTo(latLng);
+}
