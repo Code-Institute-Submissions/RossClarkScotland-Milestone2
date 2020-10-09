@@ -1,10 +1,14 @@
-**American Gods: The Road Trip**
+# American Gods: The Road Trip
 
-_American Gods: The Road Trip_ is the minimum viable project for a mobile-first web application of what is essentially a fan site, with a twist, for the bestselling Neil Gaiman novel _American Gods_. The novel is an urban fantasy in which the protagonist, Shadow, drives from one US town to the next in order to aid his boss, Wednesday / Odin, in rallying the gods of old, pagan, religions for a war against the gods of the new world, the latter being personifications of media, technology, etc. Since the novel&#39;s publication, an increasing number of its fans have attempted to recreate Shadow&#39;s journey by making similar road trips in the US. Additionally, more fans have discovered _American Gods_ and become interested in recreating the road trip since the novel was adapted into an internationally successful television show and a bestselling graphic novel series.
+_American Gods: The Road Trip_ is the minimum viable project for a mobile-first web application of what is essentially a fan site, with a twist, for the bestselling Neil Gaiman novel _American Gods_. 
+The novel is an urban fantasy in which the protagonist, Shadow, drives from one US town to the next in order to aid his boss, Wednesday / Odin, in rallying the gods of old, pagan, religions for a war 
+against the gods of the new world, the latter being personifications of media, technology, etc. Since the publication of the novel, an increasing number of its fans have attempted to recreate  journey
+that Shadow makes by going on similar road trips in the US. Additionally, more fans have discovered _American Gods_ and become interested in recreating the road trip since the novel was adapted into an
+internationally successful television show and a bestselling graphic novel series.
 
 _American Gods: The Road Trip_ will be a must-visit website for any fan of the novel or TV show and anyone either considering or currently undertaking a road trip based on either.
 
-**UX**
+## UX
 
 NOTE: A full user experience design document, detailing the five planes of design for _American Gods: The Road Trip_ appears as a separate document. The UX section in this document provides an overview.
 
@@ -86,7 +90,7 @@ User story 4:
 - This page allows users to contact the site by filling out a contact form, the content of which will link directly to a valid email address used by the site administrator.
 - A clearly marked call to action button enables users to send their messages.
 
-**Features: Features left to implement**
+## Features: Features left to implement
 
 - An image gallery of photographs taken by site users on their road trips.
 - A discussion forum for users to exchange information and advice on travel logistics, where to see, what to do, etc.
@@ -95,7 +99,7 @@ User story 4:
 - Develop a social media presence.
 - Build a YouTube playlist of all the songs in _American Gods_ and link to it / embed it.
 
-**Technologies used**
+## Technologies used
 
 - GitHub: [https://github.com/](https://github.com/)
   - GitHub was used to host the application&#39;s repositories.
@@ -125,8 +129,10 @@ User story 4:
   - The site uses Font Awesome to integrate social media icons into the footer.
 - Autoprefixer CSS online: [https://autoprefixer.github.io/](https://autoprefixer.github.io/)
   - Autoprefixer was used to automatically add vendor prefixes to style.css in order to aid cross-browser compatability.
+  - word2md.com: https://word2md.com/
+   - The markdown for this Read Me file was checked with word2md.com
 
-**Testing**
+## Testing
 
 To ensure that the site contains valid HTML, the HTML code was checked by direct input using the W3C Markup Validation Service: [https://validator.w3.org/](https://validator.w3.org/)
 
@@ -159,7 +165,7 @@ In addition to checking the application&#39;s functionality using browser develo
   - iPhone SE (checked by my friend Ruth)
   - Samsung S7 (checked by my friend Mike)
 
-**How the site meets user needs**
+## How the site meets user needs
 
 User story 1:
 
@@ -193,11 +199,11 @@ How the site meets this need:
 
 - The music.html page contains a &#39;jukebox&#39; which allows users to randomly select a YouTube video from a list of all the songs referenced in _American Gods_. The page also contains a link to an article which lists all of the songs individually.
 
-**Requirements: Content**
+## Requirements: Content
 
 To meet the needs required above, the website requires mixed multimedia content including: text, photographs, interactive maps, hyperlinks, embedded YouTube videos, site-wide navigation buttons, internal page navigation buttons, and &#39;return to top of page&#39; navigation links.
 
-**Deployment**
+## Deployment
 
 I deployed _American Gods: The Road Trip_ to GitHub Pages. To do so, I opened the project repository on GitHub, opened the Settings, and scrolled down to the GitHub Pages section. To build the site, I selected the Master Branch option from the drop down menu of sources. GitHub then published _American Gods: The Road Trip_ to GitHub Pages.
 
@@ -219,7 +225,7 @@ $ git clone [https://github.com/RossClarkScotland/Milestone2](https://github.com
 
 Further details are available via: [https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
-**Credits**
+## Credits
 
 **Content:**
 
@@ -237,7 +243,7 @@ Further details are available via: [https://docs.github.com/en/github/creating-c
 - I collated the songs for the jukebox in music.html using the following article: [https://www.tor.com/2017/04/27/every-song-mentioned-in-neil-gaimans-american-gods-plus-a-few-bonus-tracks/](https://www.tor.com/2017/04/27/every-song-mentioned-in-neil-gaimans-american-gods-plus-a-few-bonus-tracks/)
 - All images in game.html were taken from [https://americangods.fandom.com/wiki/American\_Gods\_Wiki](https://americangods.fandom.com/wiki/American_Gods_Wiki). N.B. these images, and this website as a whole, are used only for educational purposes and no copyright infringement is intended.
 
-**Acknowledgements:**
+## Acknowledgements:
 
 I would like to thank my wife, Anita, for not complaining when I bored her to tears talking about this project, for proof-reading site content, for double-checking functionality across various devices, and, most of all, for inexplicably agreeing to remain in my general vicinity.
 
