@@ -1,4 +1,4 @@
-/*Adapted from https://developers.google.com/maps/documentation/javascript/examples/event-arguments*/
+/*Adapted from instructions given in documentation for Google Maps JavaScript API https://developers.google.com/maps/documentation/javascript/examples/event-arguments*/
 
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
