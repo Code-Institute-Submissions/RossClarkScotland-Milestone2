@@ -1,4 +1,5 @@
-//I created this game by adapting from the following tutorial (see further details in the 'Game PDF'): https://www.youtube.com/watch?v=M6sA8fvMCuA
+//I created this game by adapting from and adding to the following tutorial (see further details in the 'Game' PDF): https://www.youtube.com/watch?v=M6sA8fvMCuA 
+// See the Game.pdf document for details on how the version here differs from that in the tutorial
 
 let player;
 
