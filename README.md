@@ -38,13 +38,16 @@ User story 4:
 
 **All pages**
 
-- The navigation bar allows users to easily navigate the pages of the site by giving them a simple site overview. It also contains a hover effect, creating a border around the navigation bar the user is currently hovering over, for further clarity.
+- The navigation bar allows users to easily navigate the pages of the site by giving them a simple site overview. It also contains a hover effect, creating a border around the 
+navigation bar the user is currently hovering over, for further clarity.
 
-- The minimalist footer will allow users to easily access related social media pages without encroaching on other site content. The social media icons in the footer turn to a green, matching the green of the aurora borealis on the hero image, whenever a user hovers over them.
+- The minimalist footer will allow users to easily access related social media pages without encroaching on other site content. The social media icons in the footer turn to a green,
+ matching the green of the aurora borealis on the hero image, whenever a user hovers over them.
 
 **Index.html**
 
-- In addition to the navigation bar and social media footer discussed above, index.html contains an atmospheric background road trip image from Pixabay that evokes the journey and supernatural elements of the novel.
+- In addition to the navigation bar and social media footer discussed above, index.html contains an atmospheric background road trip image from Pixabay that evokes the journey and
+ supernatural elements of the novel.
 - Via media queries, the background image, navigation bar, and page title will change orientation, from portrait to landscape, depending on the size of the screen.
 
 **about.html**
@@ -54,36 +57,45 @@ User story 4:
 
 **quotes.html**
 
-- A JavaScript function enables users to generate a quote from _American Gods_ at random, something which is bound to appeal to book lovers, especially fans who are invested in this particular novel enough to visit the site.
+- A JavaScript function enables users to generate a quote from _American Gods_ at random, something which is bound to appeal to book lovers, especially fans who are invested in this
+ particular novel enough to visit the site.
 
 **route.html**
 
 - Embedded maps, via Google Maps Route Planner, which show users how to get from one road trip location to the next based on the order they appear in the _American Gods_ novel.
 - An internal navigation menu that allows users to easily navigate to each route map.
 - A &#39;Geography Challenge&#39;, powered by the Google Maps JavaScript API, which allows users to place nodes on a map of the US in an attempt to correctly identify the locations in the novel.
-- Users may manipulate any of the embedded maps the map, e.g. zooming in and out of particular locations. Users are given brief instructions above each map to tell them how to interact with it.
+- Users may manipulate any of the embedded maps, e.g. zooming in and out of particular locations. Users are given brief instructions above each map to tell them how to interact with it.
 - &#39;Return to top&#39; links to return users back to the internal page navigation bar without having to scroll for longer periods.
 
 **places.html**
 
 - This page contains easy-to-access maps and information on accommodation, eateries, and tourist sights for every suggested location on the _American Gods_ road trip.
 - The internal page navigation bar, coded as an unordered list, allows users to quickly jump to any of the 24 locations covered on the page by providing an inner-page hyperlink to each.
-- Each section contains the relevant location, background information on the role this location plays in _American Gods_, maps, and information on accommodation, eateries, and tourist sights in the area. Sections begin with a default map showing accommodation in the area, but users may change the content of each map, to show either eateries or tourist sights, by clicking one of 3 call to action buttons below each map.
+- Each section contains the relevant location, background information on the role this location plays in _American Gods_, maps, and information on accommodation, eateries, and tourist 
+sights in the area. Sections begin with a default map showing accommodation in the area, but users may change the content of each map, to show either eateries or tourist sights, by clicking 
+one of 3 call to action buttons below each map.
 - Users may click the nodes on each map to access information / ratings on each hotel, restaurant, or tourist site by clicking the nodes.
 - The &#39;RETURN TO TOP&#39; links after each location allows users to navigate easily back to the inner-page navigation bar without having to scroll for long periods.
-- Instructions above each section inform users on how to interact with the maps. These instructions are repeated in each section, i.e. rather than simply being stated once at the beginning, to ensure than users receive this information even if they navigate straight to a location without reading the introductory page information.
+- Instructions above each section inform users on how to interact with the maps. These instructions are repeated in each section, i.e. rather than simply being stated once at the beginning, 
+to ensure than users receive this information even if they navigate straight to a location without reading the introductory page information.
 
 **music.html**
 
-- This page affords users an opportunity to easily access all of the songs referenced in _American Gods_ via both a link to an external article which lists all of the songs in the novel and a &#39;jukebox&#39; on the page which, with the click of a call to action button, will select a song from the book at random. An element of gamification will be added by framing this within the narrative that the gods from the novel have chosen the song for the user.
+- This page affords users an opportunity to easily access all of the songs referenced in _American Gods_ via both a link to an external article which lists all of the songs in the novel and
+ a &#39;jukebox&#39; on the page which, with the click of a call to action button, will select a song from the book at random. An element of gamification is added by framing this within the
+  narrative that the gods from the novel have chosen the song for the user.
 
 **game.html**
 
-- This page allows users to play an old-school card battle-type game on the page, whether to kill time on the road trip or just to enhance reader&#39;s enjoyment of the novel by allowing them to play as and against characters in the book.
+- This page allows users to play an old-school card battle-type game on the page, whether to kill time on the road trip or just to enhance reader&#39;s enjoyment of the novel by allowing them
+ to play as and against characters in the book.
 - The game page enables users to play as one of 4 characters by clicking on a character profile.
 - Once users choose a character, they find one of 4 opponents by clicking a button at the bottom of the page.
 - During the game, users play by pressing one of 3 call to action buttons: &#39;Attack!&#39;, &#39;Retreat!&#39;, or &#39;Go nuclear!&#39;.
-- The narrative and events of the game will be communicated to users via window alerts or, for those whose devices block window alerts a &#39;Scoreboard&#39; at the top of the page, for which the inner HTML changes to to contain the relevant information after each move. In cases where user devices do allow window alerts, the inner HTML at the top of the page simply acts as a scoreboard and summary of each round of play.
+- The narrative and events of the game are communicated to users via window alerts or, for those whose devices block window alerts a &#39;Scoreboard&#39; at the top of the page, for which the
+ inner HTML changes to to contain the relevant information after each move. In cases where user devices do allow window alerts, the inner HTML at the top of the page simply acts as a scoreboard
+  and summary of each round of play.
 
 **contact.html**
 
@@ -115,7 +127,8 @@ User story 4:
   - The site uses JavaScript to enable interactive user events and to incorporate features from the following APIs: Google Maps JavaScript API, Google Maps Embed API, Formspark.
 - Google Maps JavaScript API: [https://developers.google.com/maps/documentation/javascript/overview](https://developers.google.com/maps/documentation/javascript/overview)
 
-- The route.html page uses the Google Maps JavaScript API to power a &#39;Geography Challenge&#39;, which allows users to place nodes on a map of the US in an attempt to correctly identify the locations in the novel.
+- The route.html page uses the Google Maps JavaScript API to power a &#39;Geography Challenge&#39;, which allows users to place nodes on a map of the US in an attempt to correctly identify 
+the locations in the novel.
 
 - Google Maps Route Planner: [https://www.google.de/maps?ie=UTF8&amp;hl=de&amp;daddr=Wegelerstrasse+6,+Bonn&amp;f=d&amp;om=1](https://www.google.de/maps?ie=UTF8&amp;hl=de&amp;daddr=Wegelerstrasse+6,+Bonn&amp;f=d&amp;om=1)
   - The route.html page contains embedded maps showing possible routes from one road trip destination to the next:
@@ -129,7 +142,7 @@ User story 4:
   - The site uses Font Awesome to integrate social media icons into the footer.
 - Autoprefixer CSS online: [https://autoprefixer.github.io/](https://autoprefixer.github.io/)
   - Autoprefixer was used to automatically add vendor prefixes to style.css in order to aid cross-browser compatability.
-  - word2md.com: https://word2md.com/
+- word2md.com: https://word2md.com/
    - The markdown for this Read Me file was checked with word2md.com
 
 ## Testing
@@ -145,9 +158,9 @@ To ensure the site&#39;s functionality across various devices, I used the web de
 - Google Chrome
 - Mozilla Firefox
 - Microsoft Opera
-- Microsoft Edge
 
-I manually checked all the pages and features of the website (i.e. navigation, links external and internal, buttons, hover effects, embedded video, maps, game, contact form) across all device simulations that each browser offers.
+I manually checked all the pages and features of the website (i.e. navigation, links external and internal, buttons, hover effects, embedded video, maps, game, contact form) across all device
+simulations that each browser offers.
 
 In addition to checking the application&#39;s functionality using browser developer tools, the site has been manually checked and found to function as desired on the following devices:
 
@@ -189,7 +202,8 @@ User story 3:
 
 How the site meets this need:
 
-- The places.html page contains maps from the Google Maps Embed API and allows users to easily navigate to find accommodation, activities, and places to eat in each location from the novel&#39;s road trip.
+- The places.html page contains maps from the Google Maps Embed API and allows users to easily navigate to find accommodation, activities, and places to eat in each location from the novel&#39;s 
+road trip.
 
 User story 4:
 
@@ -197,15 +211,18 @@ User story 4:
 
 How the site meets this need:
 
-- The music.html page contains a &#39;jukebox&#39; which allows users to randomly select a YouTube video from a list of all the songs referenced in _American Gods_. The page also contains a link to an article which lists all of the songs individually.
+- The music.html page contains a &#39;jukebox&#39; which allows users to randomly select a YouTube video from a list of all the songs referenced in _American Gods_. The page also contains a link 
+to an article which lists all of the songs individually.
 
 ## Requirements: Content
 
-To meet the needs required above, the website requires mixed multimedia content including: text, photographs, interactive maps, hyperlinks, embedded YouTube videos, site-wide navigation buttons, internal page navigation buttons, and &#39;return to top of page&#39; navigation links.
+To meet the needs required above, the website requires mixed multimedia content including: text, photographs, interactive maps, hyperlinks, embedded YouTube videos, site-wide navigation buttons, 
+internal page navigation buttons, and &#39;return to top of page&#39; navigation links.
 
 ## Deployment
 
-I deployed _American Gods: The Road Trip_ to GitHub Pages. To do so, I opened the project repository on GitHub, opened the Settings, and scrolled down to the GitHub Pages section. To build the site, I selected the Master Branch option from the drop down menu of sources. GitHub then published _American Gods: The Road Trip_ to GitHub Pages.
+I deployed _American Gods: The Road Trip_ to GitHub Pages. To do so, I opened the project repository on GitHub, opened the Settings, and scrolled down to the GitHub Pages section. To build the site,
+I selected the Master Branch option from the drop down menu of sources. GitHub then published _American Gods: The Road Trip_ to GitHub Pages.
 
 To run the code for _American Gods: The Road Trip_ locally, one may:
 
@@ -229,7 +246,8 @@ Further details are available via: [https://docs.github.com/en/github/creating-c
 
 **Content:**
 
-- The linear-gradient method used on the landing page image was based on the design and code used for the CSS project on the following Udemy course (though the image and linear gradient values themselves differ from those on that course): [https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/)
+- The linear-gradient method used on the landing page image was based on the design and code used for the CSS project on the following Udemy course 
+(though the image and linear gradient values themselves differ from those on that course): [https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/)
 - The social media link icons code in the footer was adapted from that in the Bootstrap mini project of the User Centric Frontend Development module.
 - The code for the &quot;Return to the top of the page&quot; buttons was taken, and slightly adapted, from that given on the following web page: [https://www.computerhope.com/issues/ch001475.htm#:~:text=In%20your%20HTML%20code%2C%20find%20the%20opening%20%3Cbody%3E,you%20back%20to%20the%20top%20of%20the%20page](https://www.computerhope.com/issues/ch001475.htm#:~:text=In%20your%20HTML%20code%2C%20find%20the%20opening%20%3Cbody%3E,you%20back%20to%20the%20top%20of%20the%20page)
 - I created the game by adapting from and adding to a game built in the following tutorial: [https://www.youtube.com/watch?v=M6sA8fvMCuA&amp;t=1s](https://www.youtube.com/watch?v=M6sA8fvMCuA&amp;t=1s)
@@ -245,7 +263,8 @@ Further details are available via: [https://docs.github.com/en/github/creating-c
 
 ## Acknowledgements:
 
-I would like to thank my wife, Anita, for not complaining when I bored her to tears talking about this project, for proof-reading site content, for double-checking functionality across various devices, and, most of all, for inexplicably agreeing to remain in my general vicinity.
+I would like to thank my wife, Anita, for not complaining when I bored her to tears talking about this project, for proof-reading site content, for double-checking functionality across 
+various devices, and, most of all, for inexplicably agreeing to remain in my general vicinity.
 
 I also owe a debt to my brother, Greg, for repeatedly agreeing to test and give feedback on site functionality, particularly as regards the various iterations of the game.
 
@@ -253,4 +272,5 @@ I am indebted, too, to my friends Ruth, Yan, and Mike, and to my father, George,
 
 I would also like to thank my friend Milana for offering her expert feedback on all things cartographic and design, and for being a reliable font of telling me when my UX sucks.
 
-Finally, I would like to express my gratitude to my course mentor, Spencer Barribal, for offering encouragement and useful ideas, and to the Code Institute tutors and Slack community for providing advice and for humouring me when I asked stupid questions.
+Finally, I would like to express my gratitude to my course mentor, Spencer Barribal, for offering encouragement and useful ideas, and to the Code Institute tutors and Slack community for 
+providing advice and for humouring me when I asked stupid questions.
