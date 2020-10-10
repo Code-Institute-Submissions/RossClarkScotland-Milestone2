@@ -167,6 +167,9 @@ Though the images, linear-gradient values, and button differ from those given on
     margin-top: 2.5rem;
 }
 
+.navbar-toggler-icon {
+    color: white;
+}
 
 
 /*****************Footer*********************/
