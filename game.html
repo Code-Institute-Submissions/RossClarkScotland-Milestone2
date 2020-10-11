@@ -9,10 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <!--Scripts are at the top of the page to load the game data first-->
-    <script src="assets/scripts/gameManager.js"></script>
-    <script src="assets/scripts/player.js"></script>
-    <script src="assets/scripts/opponent.js"></script>
+
     <title>Game</title>
 </head>
 
@@ -44,7 +41,7 @@ For a breakdown of how the game content and code differs from that in the tutori
 
     <section class="interface">
         <section class="god-profile">
-            <a href="#" id="Wednesday" onclick="gameManager.setGameStart('Wednesday')">
+            <a href="#" id="Wednesday">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-4">
@@ -64,7 +61,7 @@ For a breakdown of how the game content and code differs from that in the tutori
             </a>
         </section>
         <section class="god-profile">
-            <a href="#" id="Bilquis" onclick="gameManager.setGameStart('Bilquis')">
+            <a href="#" id="Bilquis">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4">
@@ -177,5 +174,8 @@ For a breakdown of how the game content and code differs from that in the tutori
             </div>
         </div>
     </footer>
+    <script src="assets/scripts/gameManager.js"></script>
+    <script src="assets/scripts/player.js"></script>
+    <script src="assets/scripts/opponent.js"></script>
 </body>
 </html>

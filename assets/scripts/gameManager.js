@@ -1,4 +1,5 @@
-//I created this game by adapting from the following tutorial (see further details in the 'Game' PDF): https://www.youtube.com/watch?v=M6sA8fvMCuA
+// I created this game by adapting from and adding to the following tutorial: https://www.youtube.com/watch?v=M6sA8fvMCuA
+// For a breakdown of how the game content and code differs from that in the tutorial, see Game.PDF in the extra documentation. 
 
 let gameManager = {
     setGameStart: function(classType) {
@@ -62,3 +63,25 @@ let gameManager = {
         getOpponent.innerHTML = '<section class ="infight-god-profile"><div class="container"><div class="row"><div class="col-md-5"><h4 "god-name">' + opponent.opponentType + '</h4><p class="health-opponent">Health: ' + opponent.health + '</p><p>Strength: ' + opponent.strength + '</p><p>Speed: ' + opponent.speed + '</p><p>Intelligence: ' + opponent.intelligence + '</p><p>Agility: ' + opponent.agility + '</p><p>Endurance: ' + opponent.endurance + '</p></div><div class="col-md-7"><img src="assets/images/' + opponent.opponentType + '.jpg" class="image-avatar"></div></section>';
     }
 };
+
+
+let character1 = document.querySelector("#Wednesday");
+character1.addEventListener("click", function() {
+    gameManager.setGameStart('Wednesday');
+});
+
+let character2 = document.querySelector("#Bilquis");
+character2.addEventListener("click", function() {
+    gameManager.setGameStart('Bilquis');
+});
+
+let character3 = document.querySelector("#Nancy");
+character3.addEventListener("click", function() {
+    gameManager.setGameStart('Bilquis');
+});
+
+let character4 = document.querySelector("#Czernobog");
+character4.addEventListener("click", function() {
+    gameManager.setGameStart('Bilquis');
+});
+ 
