@@ -1,5 +1,5 @@
-//I created this game by adapting from and adding to the following tutorial (see further details in the 'Game' PDF): https://www.youtube.com/watch?v=M6sA8fvMCuA 
-// See the Game.pdf document for details on how the version here differs from that in the tutorial
+// I created this game by adapting from and adding to the following tutorial: https://www.youtube.com/watch?v=M6sA8fvMCuA
+// For a breakdown of how the game content and code differs from that in the tutorial, see Game.PDF in the extra documentation. 
 
 let player;
 
