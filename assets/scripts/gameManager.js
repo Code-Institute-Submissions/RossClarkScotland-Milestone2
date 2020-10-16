@@ -84,4 +84,3 @@ let character4 = document.querySelector("#Czernobog");
 character4.addEventListener("click", function() {
     gameManager.setGameStart('Bilquis');
 });
- 

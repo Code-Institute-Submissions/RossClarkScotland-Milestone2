@@ -55,6 +55,10 @@ p em {
     font-family: 'Amatic SC', cursive;
 }
 
+.about-text {
+    margin: 3rem 5rem 3rem 5rem;
+}
+
 .btn {
     font-size:2.5rem;
     text-align: center;
@@ -167,9 +171,7 @@ Though the images, linear-gradient values, and button differ from those given on
     margin-top: 2.5rem;
 }
 
-.navbar-toggler-icon {
-    color: white;
-}
+
 
 
 /*****************Footer*********************/
@@ -212,10 +214,6 @@ Though the images, linear-gradient values, and button differ from those given on
 
 
 /************************************ About page ***********************************/
-
-.about-text {
-    margin: 3rem 5rem 3rem 5rem;
-}
 
 .embed-responsive {
   width: 70%;

@@ -17,10 +17,10 @@ function Player(classType, health, strength, speed, intelligence, agility, endur
 
 let PlayerMoves = {
     calcAttack: function() {
-        // Determines who attacks first
+        //  Determines whether player or opponent attacks first
         let getPlayerSpeed = player.speed;
         let getOpponentSpeed = opponent.speed;
-            //Player attacks
+        //Player attacks
     let playerAttack = function() {
         let damage;
         if (player.strength > 8) {
@@ -221,3 +221,4 @@ function scoreboard() {
         document.querySelector("#scoreboard5").innerHTML = "";
     }  
 }
+
