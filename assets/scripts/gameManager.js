@@ -77,10 +77,10 @@ character2.addEventListener("click", function() {
 
 let character3 = document.querySelector("#Nancy");
 character3.addEventListener("click", function() {
-    gameManager.setGameStart('Bilquis');
+    gameManager.setGameStart('Nancy');
 });
 
 let character4 = document.querySelector("#Czernobog");
 character4.addEventListener("click", function() {
-    gameManager.setGameStart('Bilquis');
+    gameManager.setGameStart('Czernobog');
 });
