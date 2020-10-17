@@ -154,15 +154,13 @@ location-based Augmented Reality via Mapbox to enable users to take, albeit limi
 - JavaScript: [https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
   - The site uses JavaScript to enable interactive user events and to incorporate features from the following APIs: Google Maps JavaScript API, Google Maps Embed API, Formspark.
 - Google Maps JavaScript API: [https://developers.google.com/maps/documentation/javascript/overview](https://developers.google.com/maps/documentation/javascript/overview)
-
-- The route.html page uses the Google Maps JavaScript API to power a &#39;Geography Challenge&#39;, which allows users to place 
+    - The route.html page uses the Google Maps JavaScript API to power a &#39;Geography Challenge&#39;, which allows users to place 
 nodes on a map of the US in an attempt to correctly identify the locations in the novel.
-
 - Google Maps Route Planner: [https://www.google.de/maps?ie=UTF8&amp;hl=de&amp;daddr=Wegelerstrasse+6,+Bonn&amp;f=d&amp;om=1](https://www.google.de/maps?ie=UTF8&amp;hl=de&amp;daddr=Wegelerstrasse+6,+Bonn&amp;f=d&amp;om=1)
   - The route.html page contains embedded maps showing possible routes from one road trip destination to the next:
 - Google Maps Embed API: [https://developers.google.com/maps/documentation/embed/get-started](https://developers.google.com/maps/documentation/embed/get-started)
   - The places.html page uses the Google Maps JavaScript API to provide users with maps and further information on accommodation, eateries, and tourist sights in each 
-  of the towns on the _American Gods_ road trip.
+  of the towns on the *American Gods* road trip.
 - Formspark: [https://formspark.io/](https://formspark.io/)
   - Formspark was use to link the contact form on contact.html to a functioning email account.
 - Google Fonts: [https://fonts.google.com/](https://fonts.google.com/)
@@ -172,7 +170,10 @@ nodes on a map of the US in an attempt to correctly identify the locations in th
 - Autoprefixer CSS online: [https://autoprefixer.github.io/](https://autoprefixer.github.io/)
   - Autoprefixer was used to automatically add vendor prefixes to style.css in order to aid cross-browser compatability.
 - word2md.com: https://word2md.com/
-   - The markdown for this Read Me file was checked with word2md.com
+   - To ensure correct markdown in the first draft of this Read Me file a Microsoft Word document of the text was run through word2md.com.
+   The resulting markdown and text was then edited according to the preferences of the author using rules set out in the
+   *Mastering Markdown* document at GitHub.com.
+   [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)
 
 ## Testing
 
@@ -212,7 +213,7 @@ found to function as desired on the following devices:
 
 User story 1:
 
-&quot;As someone reading _American Gods_ right now, I&#39;d love to know more about all the atmospheric locations in the novel
+&quot;As someone reading *American Gods* right now, I&#39;d love to know more about all the atmospheric locations in the novel
 so I can really put myself in Shadow&#39;s shoes as I read.&quot;
 
 How the site meets this need:
@@ -221,7 +222,7 @@ How the site meets this need:
 
 User story 2:
 
-&quot;As a huge fan of _American Gods,_ I&#39;ve wanted to make a road trip based on the novel for a long time and I&#39;d 
+&quot;As a huge fan of *American Gods*, I&#39;ve wanted to make a road trip based on the novel for a long time and I&#39;d 
 really like information on how to plan that trip.&quot;
 
 How the site meets this need:
@@ -230,7 +231,7 @@ How the site meets this need:
 
 User story 3:
 
-&quot;As someone making a road trip based on _American Gods_, I really need information on where to stay and eat, as well 
+&quot;As someone making a road trip based on *American Gods*, I really need information on where to stay and eat, as well 
 as on what to do, in each place I visit.&quot;
 
 How the site meets this need:
@@ -241,13 +242,13 @@ road trip.
 
 User story 4:
 
-&quot;As a huge fan of _American Gods,_ I found the music in the novel really atmospheric and I&#39;d love to listen to it 
+&quot;As a huge fan of *American Gods*, I found the music in the novel really atmospheric and I&#39;d love to listen to it 
 to evoke my memories of the book.&quot;
 
 How the site meets this need:
 
 - The music.html page contains a &#39;jukebox&#39; which allows users to randomly select a YouTube video from a list of 
-all the songs referenced in _American Gods_. The page also contains a link to an article which lists all of the songs individually.
+all the songs referenced in *American Gods*. The page also contains a link to an article which lists all of the songs individually.
 
 ## Requirements: Content
 
@@ -257,11 +258,11 @@ To meet the needs required above, the website requires mixed multimedia content 
 
 ## Deployment
 
-I deployed _American Gods: The Road Trip_ to GitHub Pages. To do so, I opened the project repository on GitHub, opened the Settings,
+I deployed *American Gods: The Road Trip* to GitHub Pages. To do so, I opened the project repository on GitHub, opened the Settings,
 and scrolled down to the GitHub Pages section. To build the site,I selected the Master Branch option from the drop down menu of sources.
  GitHub then published _American Gods: The Road Trip_ to GitHub Pages.
 
-To run the code for _American Gods: The Road Trip_ locally, one may:
+To run the code for *American Gods: The Road Trip* locally, one may:
 
 1. Open the main page of the repository at:[https://github.com/RossClarkScotland/Milestone2](https://github.com/RossClarkScotland/Milestone2)
 
@@ -288,13 +289,13 @@ Further details are available via: [https://docs.github.com/en/github/creating-c
 - The social media link icons code in the footer was adapted from that in the Bootstrap mini project of the User Centric Frontend Development module.
 - The code for the &quot;Return to the top of the page&quot; buttons was taken, and slightly adapted, from that given on the following web page: [https://www.computerhope.com/issues/ch001475.htm#:~:text=In%20your%20HTML%20code%2C%20find%20the%20opening%20%3Cbody%3E,you%20back%20to%20the%20top%20of%20the%20page](https://www.computerhope.com/issues/ch001475.htm#:~:text=In%20your%20HTML%20code%2C%20find%20the%20opening%20%3Cbody%3E,you%20back%20to%20the%20top%20of%20the%20page)
 - I created the game by adapting from and adding to a game built in the following tutorial: [https://www.youtube.com/watch?v=M6sA8fvMCuA&amp;t=1s](https://www.youtube.com/watch?v=M6sA8fvMCuA&amp;t=1s)
-  - NOTE: An in-depth breakdown on the rationale for the game and how the version appearing in _American Gods: The Road Trip_ differs from that given
+  - NOTE: An in-depth breakdown on the rationale for the game and how the version appearing in *American Gods: The Road Trip* differs from that given
    in the tutorial appears in a separate document.
 
 **Media:**
 
 - The image index.html background image comes from Pixabay.com. The same image is used as the banner image at the top of each page.
-- The quotes in quotes.html come from Gaiman, N.2011. _American Gods: The 10th Anniversary Edition_. HarperAudio.
+- The quotes in quotes.html come from Gaiman, N.2011. *American Gods: The 10th Anniversary Edition*. HarperAudio.
 - The video embedded in about.html is hosted on YouTube.
 - I collated the songs for the jukebox in music.html using the following article: [https://www.tor.com/2017/04/27/every-song-mentioned-in-neil-gaimans-american-gods-plus-a-few-bonus-tracks/](https://www.tor.com/2017/04/27/every-song-mentioned-in-neil-gaimans-american-gods-plus-a-few-bonus-tracks/)
 - All images in game.html were taken from [https://americangods.fandom.com/wiki/American\_Gods\_Wiki](https://americangods.fandom.com/wiki/American_Gods_Wiki). 
