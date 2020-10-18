@@ -162,6 +162,7 @@ Though the images, linear-gradient values, and button differ from those given on
     color: #fafafa;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 4rem;
 }
 
 #banner-head {
@@ -619,6 +620,12 @@ textarea {
 
 }
 
+@media only screen and (max-width:1024px) {
+    #landing-head {
+        font-size: 10rem;
+    }
+}
+
 @media only screen and (min-width:90rem) {
     .hero-text-box {
         top: 15%;
@@ -638,12 +645,19 @@ textarea {
     .banner-image {
         height: 33vh;
     }
+    .banner-text-box {
+        margin-bottom: 2.5rem;
+    }
 
+}
+
+@media only screen and (min-width: 375px) {
+    .banner-text-box {
+        margin-bottom: 3.75rem;
 }
 
 @media only screen and (min-width:767px) {
     #home-nav {
-        margin-top: 2.5rem;
         margin-left: 0.35rem;
         font-family: 'Amatic SC', 'Times', sans-serif;
     }
@@ -686,9 +700,15 @@ textarea {
 /* Only for Galaxy Fold */
 @media only screen and (max-width:280px) {
     #landing-head {
-    font-size: 4rem;
-}
+        font-size: 4rem;
+    }
     .banner-image {
         height: 30vh;
+    }
+    #banner-head {
+        font-size: 1.25rem;
+    }
+    #banner-sub {
+        font-size: 0.7rem;
     }
 }
