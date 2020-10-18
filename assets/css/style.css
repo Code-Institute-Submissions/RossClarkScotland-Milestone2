@@ -524,6 +524,7 @@ textarea {
         position: absolute;
         top: 1.5%;
         left: 55%;
+        margin-top: 3rem;
     }
 
     .navbar a {
@@ -662,14 +663,14 @@ textarea {
         font-family: 'Amatic SC', 'Times', sans-serif;
     }
     #home-nav a {
-    font-size: 2.75rem;
-    margin-right: 0.4rem;
+        font-size: 2.75rem;
+        margin-right: 0.4rem;
 }
     #landing-head {
-    font-size: 6.8rem;
+        font-size: 6.8rem;
     }
     #landing-sub {
-    font-family: 'Lato', 'Times', sans-serif;
+        font-family: 'Lato', 'Times', sans-serif;
     }
     .banner-image {
         height: 25vh;
