@@ -107,13 +107,20 @@ Though the images, linear-gradient values, and button differ from those given on
         font-size: 3rem;
     } 
 /*****************Navbars*********************/
+.navbar-nav {
+    margin-right: 1rem;
+    font-family: font-family: 'Lato', 'Times', sans-serif;
+}
 .navbar-dark .navbar-toggler {
     border-color: rgba(255,255,255,.9);
 }
 
+#home-nav {
+    font-family: 'Lato', 'Times', sans-serif;
+}
+
 #home-nav a {
     color: #fafafa;
-    font-size: 1rem;
 }
 
 #home-nav a:hover {
@@ -626,7 +633,7 @@ textarea {
 
 @media only screen and (min-width:320px) {
     #landing-head {
-    font-size: 4rem;
+    font-size: 3.25rem;
     }     
     .banner-image {
         height: 33vh;
@@ -638,10 +645,10 @@ textarea {
     #home-nav {
         margin-top: 2.5rem;
         margin-left: 0.35rem;
-        font-size: 3rem;
+        font-family: 'Amatic SC', 'Times', sans-serif;
     }
     #home-nav a {
-    font-size: 3rem;
+    font-size: 2.75rem;
     margin-right: 0.4rem;
 }
     #landing-head {
