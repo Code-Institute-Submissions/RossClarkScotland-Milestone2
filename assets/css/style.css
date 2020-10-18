@@ -86,7 +86,7 @@ Though the images, linear-gradient values, and button differ from those given on
 
 .hero-text-box {
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
@@ -621,11 +621,6 @@ textarea {
 
 }
 
-@media only screen and (max-width:1024px) {
-    #landing-head {
-        font-size: 10rem;
-    }
-}
 
 @media only screen and (min-width:90rem) {
     .hero-text-box {
@@ -640,24 +635,44 @@ textarea {
 }
 
 @media only screen and (min-width:320px) {
-    #landing-head {
-    font-size: 3.25rem;
-    }     
+    .hero-text-box {
+        top: 55%;
+    }    
     .banner-image {
         height: 33vh;
     }
     .banner-text-box {
         margin-bottom: 2.5rem;
     }
+}
 
+@media only screen and (min-width:360px) {
+    .hero-text-box {
+        top: 50%;
+    }
+    #landing-head {
+        font-size: 6rem;
 }
 
 @media only screen and (min-width: 375px) {
     .banner-text-box {
         margin-bottom: 3.75rem;
+    }
 }
 
-@media only screen and (min-width:767px) {
+@media only screen and (min-width: 411px) {
+    #landing-head {
+        font-size: 6.75rem;
+    }
+}
+
+@media only screen and (min-width: 540px) {
+    .hero-text-box {
+        top: 42%;
+    }
+}
+
+@media only screen and (min-width:768px) {
     #home-nav {
         margin-left: 0.35rem;
         font-family: 'Amatic SC', 'Times', sans-serif;
@@ -667,7 +682,7 @@ textarea {
         margin-right: 0.4rem;
 }
     #landing-head {
-        font-size: 6.8rem;
+        font-size: 9rem;
     }
     #landing-sub {
         font-family: 'Lato', 'Times', sans-serif;
@@ -686,6 +701,19 @@ textarea {
     }
 }
 
+@media only screen and (min-width:1024px) {
+    #landing-head {
+        font-size: 15rem;
+    }
+    #landing-sub {
+        font-family: 'Amatic SC', 'Times', sans-serif;
+        font-size: 8rem;
+    }
+    .hero-text-box {
+        top: 43%;
+    }
+}
+
 @media only screen and (min-width:1280px) {
     .banner-text-box {
         top: 39%;
@@ -699,12 +727,12 @@ textarea {
 }
 
 /* Only for Galaxy Fold */
-@media only screen and (max-width:280px) {
-    #landing-head {
-        font-size: 4rem;
-    }
+@media only screen and (min-width:280px) {
     .banner-image {
-        height: 30vh;
+        height: 25vh;
+    }
+    .banner-text-box {
+        margin-bottom: 0;
     }
     #banner-head {
         font-size: 1.25rem;
