@@ -11,6 +11,8 @@
 *American Gods: The Road Trip* will be a must-visit website for any fan of the novel or TV show and anyone either considering or 
 currently undertaking a road trip based on either.
 
+The full site is deployed via GitHub Pages at: https://rossclarkscotland.github.io/Milestone2/index.html
+
 ## UX
 
 NOTE: A full user experience design document, detailing the five planes of design for *American Gods: The Road Trip* appears 

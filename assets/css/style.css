@@ -98,19 +98,22 @@ Though the images, linear-gradient values, and button differ from those given on
 
     #landing-head {
         font-family: 'Lato', 'Times', sans-serif;
-        font-size: 7rem;
+        font-size: 5rem;
     }
  
     #landing-sub {
         color: #fafafa;
-        font-family: 'Lato', 'Times', sans-serif;
-        font-size: 2.5rem;
+        font-family: 'Amatic SC', 'Times', sans-serif;
+        font-size: 3rem;
     } 
 /*****************Navbars*********************/
+.navbar-dark .navbar-toggler {
+    border-color: rgba(255,255,255,.9);
+}
 
 #home-nav a {
     color: #fafafa;
-    font-size: 3rem;
+    font-size: 1rem;
 }
 
 #home-nav a:hover {
@@ -168,7 +171,6 @@ Though the images, linear-gradient values, and button differ from those given on
 .navbar {
     text-transform: uppercase;
     font-family: 'Amatic SC', cursive;
-    margin-top: 2.5rem;
 }
 
 
@@ -179,11 +181,13 @@ Though the images, linear-gradient values, and button differ from those given on
     position: fixed;
     bottom: 0;
     left: 0;
+    
 }
 
 #position-footer {
     bottom: 0;
     left: 0;
+   
 }
 
 /*Social links adapted from Resume mini-project*/
@@ -507,24 +511,11 @@ textarea {
         left: 24%;
     }
 
-    #landing-head {
-        font-size:6.5rem;
-    }
-
-    #landing-sub {
-        font-size: 3rem;
-        border: none;
-    }
-
     #home-nav {
         min-height: 0.8rem;
         position: absolute;
         top: 1.5%;
         left: 55%;
-    }
-
-    .navbar {
-        margin-top: 0;
     }
 
     .navbar a {
@@ -628,46 +619,37 @@ textarea {
 }
 
 @media only screen and (min-width:411px) {
-    .navbar {
-        margin-top: 3.5rem;
-    }
     .banner-image nav a {
     font-size: 2.5rem;
     }
 }
 
 @media only screen and (min-width:320px) {
-    .navbar {
-        margin-top: 2rem;
-    }
-
+    #landing-head {
+    font-size: 4rem;
+    }     
     .banner-image {
         height: 33vh;
-    }
-
-    #landing-head {
-        font-size: 5rem;
-    }
-}
-
-@media only screen and (min-width:360px) {
-    #landing-head {
-        font-size: 6rem;
-    }
-}
-
-@media only screen and (min-width:375px) {
-    .navbar {
-        margin-top: 3.5rem;
     }
 
 }
 
 @media only screen and (min-width:767px) {
-    .navbar {
-        margin-top: 3rem;
+    #home-nav {
+        margin-top: 2.5rem;
+        margin-left: 0.35rem;
+        font-size: 3rem;
     }
-
+    #home-nav a {
+    font-size: 3rem;
+    margin-right: 0.4rem;
+}
+    #landing-head {
+    font-size: 6.8rem;
+    }
+    #landing-sub {
+    font-family: 'Lato', 'Times', sans-serif;
+    }
     .banner-image {
         height: 25vh;
     }
@@ -679,15 +661,6 @@ textarea {
     }
     .banner-image nav a {
     font-size: 3rem;
-    }
-    #home-nav a {
-        font-size: 2.8rem;
-    }
-    #landing-head {
-        font-size: 7rem;
-    }
-    #landing-sub {
-        font-size: 4rem;
     }
 }
 
@@ -706,14 +679,9 @@ textarea {
 /* Only for Galaxy Fold */
 @media only screen and (max-width:280px) {
     #landing-head {
-        font-size: 5rem;
-    }
+    font-size: 4rem;
+}
     .banner-image {
         height: 30vh;
     }
 }
-
-
-
-
-    
