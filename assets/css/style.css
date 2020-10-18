@@ -631,7 +631,7 @@ textarea {
     }
 }
 
-@media only screen and (min-width:1025px) {
+@media only screen and (min-width:1024px) {
     .hero-text-box {
         position: absolute;
         top: 16.75%;
@@ -748,14 +748,46 @@ textarea {
 }
 
 @media only screen and (min-width:1280px) {
+    #home-nav {
+        top: 3%;
+    }
     .banner-text-box {
-        top: 39%;
+        top: 35%;
+    }
+    .hero-text-box {
+        top: 15%;
+    }
+    #banner-head {
+        font-size: 5rem;
+    }
+    #banner-sub {
+    font-size: 4rem;
+    }
+    .banner-image nav {
+        top: 10%;
+    }
+    .banner-image nav a {
+        font-size: 3rem;
+        margin-right: 0;
     }
 }
 
-@media only screen and (min-width:1440px) {
+@media only screen and (min-width: 1440px) {
+    .hero-text-box {
+        top: 16%;
+    }
+    #home-nav {
+        top: 6%;
+    }
     .banner-text-box {
-        top: 27%;
+        top: 37%;
+    }
+    .banner-image nav {
+        top: 10%;
+    }
+     .banner-image nav a {
+        font-size: 4rem;
+        margin-right: 0;
     }
 }
 
