@@ -4,7 +4,7 @@
  with a twist, for the bestselling Neil Gaiman novel *American Gods*. The novel is an urban fantasy in which the protagonist, 
  Shadow, drives from one US town to the next in order to aid his boss, Wednesday / Odin, in rallying the gods of old, pagan, 
  religions for a war against the gods of the new world, the latter being personifications of media, technology, etc. Since the
- publication of the novel, an increasing number of its fans have attempted to recreate  journey that Shadow makes by going on 
+ publication of the novel, an increasing number of its fans have attempted to recreate the journey that Shadow makes by going on 
  similar road trips in the US. Additionally, more fans have discovered *American Gods* and become interested in recreating the 
  road trip since the novel was adapted into an internationally successful television show and a bestselling graphic novel series.
 
@@ -59,6 +59,14 @@ memories of the book.&quot;
 - The navigation bar allows users to easily navigate the pages of the site by giving them a simple site overview. It also contains a 
 hover effect, creating a border around the navigation bar the user is currently hovering over, for further clarity.
 
+- As it provides a cleaner aesthetic on smaller devices, the navigation bar appears on the homepage in the form of a hamburger-style
+ dropdown menu. However, all other pages contain navigation links as texts directly on a banner image at the top of the page. 
+ This decision was made because both the changing colours between the banner image and the main page and the text atop each page 
+ would mean that a burger-style menu would be less aesthetically pleasing on all other pages as it would mix / cut across both colours
+and content. The navigation bar directly on the banner image in this case provides a better aesthetic and has the additional benefit
+of reducing the number of times users need to click to access information, i.e. by not requiring the user to click a burger menu to
+see the navigation bar before selecting another page.
+
 - The minimalist footer allows users to easily access related social media pages without encroaching on other site content. 
 The social media icons in the footer turn to green, matching the green of the aurora borealis on the hero image, whenever a user hovers over them.
 
@@ -68,6 +76,14 @@ The social media icons in the footer turn to green, matching the green of the au
 from Pixabay that evokes the journey and supernatural elements of the novel.
 - Via media queries, the background image, navigation bar, and page title will change orientation, from portrait to landscape, depending 
 on the size of the screen.
+- As stated above, index.html contains a hamburger-style dropdown navigation bar on smaller devices for a cleaner aesthetic. The homepage 
+navigation changes its design arrangement to make best use of the device on which it appears. For example, on laptops, the homepage image 
+appears as a landscape image with the title and sub-title in the Lato font and the navigation links appearing in the top-right corner in 
+Amatic SC. The same is true of tablets when index.html is viewed in a landscape view with the device held horizontally. However, when 
+index.html is viewed as a portrait image on most tablets (i.e. not larger tablets like the iPad Pro), with the device held vertically, 
+the homepage utilizes the burger-style menu with the navigation links in the Amatic SC font and the page title and sub-title in Lato. 
+For smartphones, the page title appears in Lato, the sub-title in Amatic SC and the navigation links in the burger-style dropdown in Lato, 
+given that those links would be less legible when smaller when written in Amatic SC in the the dropdown.
 
 **about.html**
 
@@ -82,14 +98,14 @@ especially fans who are invested in this particular novel enough to visit the si
 
 **route.html**
 
-- Embedded maps, via Google Maps Route Planner, which show users how to get from one road trip location to the next based on the order they 
+- Embedded maps, via Google Maps Route Planner, show users how to get from one road trip location to the next based on the order they 
 appear in the *American Gods* novel.
-- An internal navigation menu that allows users to easily navigate to each route map.
-- A &#39;Geography Challenge&#39;, powered by the Google Maps JavaScript API, which allows users to place nodes on a map of the US in an attempt
+- An internal navigation menu allows users to easily navigate to each route map.
+- A &#39;Geography Challenge&#39;, powered by the Google Maps JavaScript API, allows users to place nodes on a map of the US in an attempt
  to correctly identify the locations in the novel.
 - Users may manipulate any of the embedded maps, e.g. zooming in and out of particular locations. Users are given brief instructions above each 
 map to tell them how to interact with it.
-- &#39;Return to top&#39; links to return users back to the internal page navigation bar without having to scroll for longer periods.
+- &#39;Return to top&#39; links return users back to the internal page navigation bar without having to scroll for longer periods.
 
 **places.html**
 
@@ -305,14 +321,16 @@ N.B. these images, and this website as a whole, are used only for educational pu
 
 ## Acknowledgements:
 
-I would like to thank my wife, Anita, for not complaining when I bored her to tears talking about this project, for proof-reading site content, for double-checking functionality across 
-various devices, and, most of all, for inexplicably agreeing to remain in my general vicinity.
+I would like to thank my wife, Anita, for not complaining when I bored her to tears talking about this project, for proof-reading site content,
+for double-checking functionality across various devices, and, most of all, for inexplicably agreeing to remain in my general vicinity.
 
-I also owe a debt to my brother, Greg, for repeatedly agreeing to test and give feedback on site functionality, particularly as regards the various iterations of the game.
+I also owe a debt to my brother, Greg, for repeatedly agreeing to test and give feedback on site functionality, 
+particularly as regards the various iterations of the game.
 
 I am indebted, too, to my friends Ruth, Yan, and Mike, and to my father, George, for checking the functionality of the website on their devices.
 
-I would also like to thank my friend Milana for offering her expert feedback on all things cartographic and design, and for being a reliable font of telling me when my UX sucks.
+I would also like to thank my friend Milana for offering her expert feedback on all things cartographic and design, and for being a reliable 
+font of telling me when my UX and design suck.
 
-Finally, I would like to express my gratitude to my course mentor, Spencer Barribal, for offering encouragement and useful ideas, and to the Code Institute tutors and Slack community for 
-providing advice and for humouring me when I asked stupid questions.
+Finally, I would like to express my gratitude to my course mentor, Spencer Barribal, for offering encouragement and useful ideas, and to the 
+Code Institute tutors and Slack community for providing advice and for humouring me when I asked stupid questions.
