@@ -633,6 +633,24 @@ textarea {
 
 @media only screen and (min-width:1024px) {
     .hero-text-box {
+        top: 8.75%;
+        left: 24%;
+    }
+
+    #landing-head {
+        font-size: 5rem;
+    }
+    #landing-sub {
+        font-size: 3rem;
+    }
+    #home-nav {
+        top: 4.5%;
+        left: 0%;
+        margin-top: 0rem;
+    }
+
+@media only screen and (min-width:1025px) {
+    .hero-text-box {
         position: absolute;
         top: 16.75%;
         left: 24%;
@@ -790,5 +808,3 @@ textarea {
         margin-right: 0;
     }
 }
-
-
