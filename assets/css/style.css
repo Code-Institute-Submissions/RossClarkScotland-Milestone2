@@ -538,12 +538,6 @@ textarea {
     }
 }
 
-@media only screen and (min-width:411px) {
-    .banner-image nav a {
-    font-size: 2.5rem;
-    }
-}
-
 @media only screen and (min-width:320px) {
     .hero-text-box {
         top: 55%;
@@ -581,11 +575,83 @@ textarea {
     #landing-head {
         font-size: 6.75rem;
     }
+    .banner-image nav a {
+        font-size: 2.5rem;
+    }
 }
 
 @media only screen and (min-width: 540px) {
     .hero-text-box {
         top: 42%;
+    }
+}
+
+@media only screen and (min-width: 568px) {
+    .banner-image {
+        height: 40vh;
+    }
+    .banner-text-box {
+        margin-bottom: 0;
+    }
+    #banner-head {
+        font-size: 1.5rem;
+    }
+    #banner-sub {
+        font-size: .75rem;
+    }
+}
+
+@media only screen and (min-width: 568px) {
+     #banner-head {
+        font-size: 2.5rem;
+    }
+    #banner-sub {
+        font-size: 1rem;
+    }
+    .banner-text-box {
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (min-width: 640px) {
+    .banner-text-box {
+        margin-bottom: 0;
+    }
+    #banner-head {
+        font-size: 2.5rem;
+    }
+    #banner-sub {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 653px) {
+    #banner-head {
+        font-size: 2rem;
+    }
+    .banner-text-box {
+        margin-bottom: .5rem;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    #banner-head {
+        font-size: 3.5rem;
+    }
+     #banner-sub {
+        font-size: 2rem;
+    }
+    .banner-text-box {
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 731px) {
+    #banner-sub {
+        font-size: 1.5rem;
+    }
+    .banner-text-box {
+        margin-bottom: 1.5rem;
     }
 }
 
@@ -618,16 +684,25 @@ textarea {
     }
 }
 
-@media only screen and (min-width:1024px) {
-    #landing-head {
-        font-size: 12rem;
+@media only screen and (min-width: 812px) {
+     .banner-image {
+        height: 35vh;
     }
-    #landing-sub {
-        font-size: 5rem;
-        font-family: 'Amatic SC', sans-serif;
+    .banner-text-box {
+        margin-bottom: 0;
+        padding-top: 3rem;
     }
-    .hero-text-box {
-        top: 43%;
+    #banner-head {
+        font-size: 2.5rem;
+    }
+    #banner-sub {
+        font-size: 1.25rem;
+    }
+    .banner-image nav {
+        top: 0%;
+    }
+    .nav-link {
+        padding: 0 1rem;
     }
 }
 
@@ -636,7 +711,6 @@ textarea {
         top: 8.75%;
         left: 24%;
     }
-
     #landing-head {
         font-size: 5rem;
     }
@@ -648,6 +722,16 @@ textarea {
         left: 0%;
         margin-top: 0rem;
     }
+    .banner-image {
+        height: 25vh;
+    }
+    .banner-text-box {
+        margin-bottom: 1.5rem;
+    }
+    #banner-head {
+        font-size: 3.5rem;
+    }
+}
 
 @media only screen and (min-width:1025px) {
     .hero-text-box {
