@@ -790,6 +790,12 @@ textarea {
     }
 }
 
+@media only screen and (min-width: 1366px) {
+    #home-nav {
+        top: 7%;
+    }
+}
+
 @media only screen and (min-width: 1440px) {
     .hero-text-box {
         top: 16%;
