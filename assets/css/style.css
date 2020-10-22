@@ -513,13 +513,8 @@ textarea {
 /************************************ Media queries ***********************************/
 
 
-@media only screen and (min-width:90rem) {
-    .hero-text-box {
-        top: 15%;
-    }
-}
 
-/* Only for Galaxy Fold */
+/* Galaxy Fold vertical view*/
 @media only screen and (min-width:280px) {
     .banner-text-box {
         top: 27%;
@@ -538,6 +533,7 @@ textarea {
     }
 }
 
+/* iPhone 5/SE vertical view */
 @media only screen and (min-width:320px) {
     .hero-text-box {
         top: 55%;
@@ -550,6 +546,7 @@ textarea {
     }
 }
 
+/* Moto G4 and Galaxy S5 vertical view */
 @media only screen and (min-width:360px) {
     .hero-text-box {
         top: 50%;
@@ -565,12 +562,14 @@ textarea {
     }
 }
 
+/* iPhone 6/7/8 and iPhone X vertical view */
 @media only screen and (min-width: 375px) {
     .banner-text-box {
         margin-bottom: 3.75rem;
     }
 }
 
+/* Pixel 2 and Pixel 2 XL vertical view */
 @media only screen and (min-width: 411px) {
     #landing-head {
         font-size: 6.75rem;
@@ -580,28 +579,18 @@ textarea {
     }
 }
 
+/* Surface Duo vertical view */
 @media only screen and (min-width: 540px) {
     .hero-text-box {
         top: 42%;
     }
 }
 
+/* iphone 5/SE horizontal view */
 @media only screen and (min-width: 568px) {
     .banner-image {
         height: 40vh;
     }
-    .banner-text-box {
-        margin-bottom: 0;
-    }
-    #banner-head {
-        font-size: 1.5rem;
-    }
-    #banner-sub {
-        font-size: .75rem;
-    }
-}
-
-@media only screen and (min-width: 568px) {
      #banner-head {
         font-size: 2.5rem;
     }
@@ -613,6 +602,7 @@ textarea {
     }
 }
 
+/* Moto G4 and Galaxy S5 horizontal view */
 @media only screen and (min-width: 640px) {
     .banner-text-box {
         margin-bottom: 0;
@@ -625,6 +615,7 @@ textarea {
     }
 }
 
+/* Galaxy Fold horizontal view */
 @media only screen and (min-width: 653px) {
     #banner-head {
         font-size: 2rem;
@@ -634,6 +625,7 @@ textarea {
     }
 }
 
+/* Surface Duo horizontal view */
 @media only screen and (min-width: 720px) {
     #banner-head {
         font-size: 3.5rem;
@@ -646,6 +638,7 @@ textarea {
     }
 }
 
+/* Pixel 2 horizontal view */
 @media only screen and (min-width: 731px) {
     #banner-sub {
         font-size: 1.5rem;
@@ -655,6 +648,7 @@ textarea {
     }
 }
 
+/* iPad vertical view */
 @media only screen and (min-width:768px) {
     #home-nav {
         margin-left: 0.35rem;
@@ -705,6 +699,7 @@ textarea {
 
 }
 
+/* iPad horizontal view and iPad Pro vertical view */
 @media only screen and (min-width:1024px) {
     .hero-text-box {
         top: 8.75%;
@@ -732,6 +727,7 @@ textarea {
     }
 }
 
+/* Screen sizes above iPad width */
 @media only screen and (min-width:1025px) {
     .hero-text-box {
         position: absolute;
@@ -848,6 +844,7 @@ textarea {
 
 }
 
+/* Kindle fire HD horizontal view */
 @media only screen and (min-width:1280px) {
     #home-nav {
         top: 3%;
@@ -893,6 +890,7 @@ textarea {
     }
 }
 
+/* Laptop with HiDPI screen */
 @media only screen and (min-width: 1440px) {
     .hero-text-box {
         top: 16%;
