@@ -680,6 +680,9 @@ textarea {
 
 /* iPhone X horizontal view */
 @media only screen and (min-width: 812px) {
+     #home-nav a {
+        font-size: 1.75rem;
+    }
      .banner-image {
         height: 42vh;
     }
@@ -697,6 +700,12 @@ textarea {
         top: 0%;
     }
 
+}
+
+@media only screen and (min-width: 823px) {
+    #home-nav a {
+        font-size: 2rem;
+    }
 }
 
 /* iPad horizontal view and iPad Pro vertical view */
@@ -748,6 +757,10 @@ textarea {
         top: 1.5%;
         left: 55%;
         margin-top: 3rem;
+    }
+
+     #home-nav a {
+        font-size: 2.5rem;
     }
 
     .navbar a {
@@ -877,6 +890,16 @@ textarea {
     }
     .banner-image nav {
         top: 18%;
+    }
+}
+
+/*Laptop with touch*/
+@media only screen and (min-width: 1280px) and (min-height: 950px) {
+    #home-nav {
+        top: 5.25%;
+    }
+    .banner-image nav {
+        top: 17%;
     }
 }
 
