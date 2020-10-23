@@ -206,6 +206,26 @@ To ensure the site&#39;s functionality across various devices, I used the web de
 - Google Chrome
 - Mozilla Firefox
 - Microsoft Opera
+- Microsift Edge
+
+For each browser, I checked the preview of each of the site's pages for the following devices, in both vertical and horizontal views for mobile devices:
+
+- Kindle Fire HDX
+-Laptop with HiDPI screen
+Laptop with MDPI screen
+- Laptop with touch
+- Moto G4
+- Galaxy S5
+- Pixel 2
+- Pixel 2XL
+- iPhone 5/SE
+- iPhone 6/7/8
+- iPhone 6/7/8 plus
+- iPhone X
+- iPad
+- iPad Pro
+- Surface Duo
+- Galaxy Fold
 
 I manually checked all the pages and features of the website (i.e. navigation, links external and internal, buttons, hover effects, 
 embedded video, maps, game, contact form) across all device simulations that each browser offers.
