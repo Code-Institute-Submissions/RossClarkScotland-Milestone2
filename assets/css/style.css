@@ -109,7 +109,7 @@ Though the images, linear-gradient values, and button differ from those given on
 /*****************Navbars*********************/
 .navbar-nav {
     margin-right: 1rem;
-    font-family: font-family: 'Lato', 'Times', sans-serif;
+    font-family: 'Lato', 'Times', sans-serif;
 }
 .navbar-dark .navbar-toggler {
     border-color: rgba(255,255,255,.9);
