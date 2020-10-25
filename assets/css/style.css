@@ -52,7 +52,7 @@ p em {
 .intro {
     font-size:6rem;
     text-transform: uppercase;
-    font-family: 'Amatic SC', 'Lato', sans-serif;
+    font-family: 'Amatic SC', cursive;
 }
 
 .main-text {
@@ -103,7 +103,7 @@ Though the images, linear-gradient values, and button differ from those given on
  
     #landing-sub {
         color: #fafafa;
-        font-family: 'Amatic SC', 'Lato', sans-serif;
+        font-family: 'Amatic SC', 'Times', sans-serif;
         font-size: 3rem;
     } 
 /*****************Navbars*********************/
@@ -178,7 +178,7 @@ Though the images, linear-gradient values, and button differ from those given on
 
 .navbar {
     text-transform: uppercase;
-    font-family: 'Amatic SC', 'Lato', sans-serif;
+    font-family: 'Amatic SC', cursive;
 }
 
 
@@ -238,7 +238,7 @@ Though the images, linear-gradient values, and button differ from those given on
 #quoteScreen {
     margin: 2.5rem 0 0 0;
     font-size: 4rem;
-    font-family: 'Amatic SC', 'Lato', sans-serif;
+    font-family: 'Amatic SC', cursive;
     text-align: center;
     padding-bottom: 0;
     color: rgb(90, 88, 88);
@@ -341,13 +341,13 @@ font-size:1.5rem;
 #destinations {
     font-size: 5.5rem;
     text-transform: uppercase;
-    font-family: 'Amatic SC', 'Lato', sans-serif;
+    font-family: 'Amatic SC', cursive;
 }
 
 .destination-heading {
     font-size: 4rem;
     text-transform: uppercase;
-    font-family: 'Amatic SC', 'Lato', sans-serif;
+    font-family: 'Amatic SC', cursive;
 }
 
 .map-embed {
@@ -672,11 +672,11 @@ textarea {
 @media only screen and (min-width:768px) {
     #home-nav {
         margin-left: 0.35rem;
-        font-family: 'Amatic SC', 'Lato', sans-serif;
     }
     #home-nav a {
         font-size: 2.75rem;
         margin-right: 0.4rem;
+        font-family: 'Amatic SC', 'Times', sans-serif;
 }
     #landing-head {
         font-size: 9rem;
@@ -820,7 +820,7 @@ textarea {
     }
 
     #banner-sub {
-    font-family: 'Amatic SC', 'Lato', sans-serif;
+    font-family: 'Amatic SC', sans-serif;
     font-size: 2rem;
     }
 
