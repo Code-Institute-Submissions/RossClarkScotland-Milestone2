@@ -1,433 +1,433 @@
-const SLDine = document.getElementById("SLDine");
+const SLDine = document.querySelector("#SLDine");
 SLDine.addEventListener("click", function() {
-    document.getElementById("StLouis").setAttribute("src", 
+    document.querySelector("#StLouis").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+St+Louis+MO");
         });
            
-const SLDSee = document.getElementById("SLSee");
+const SLDSee = document.querySelector("#SLSee");
 SLSee.addEventListener("click", function() {
-    document.getElementById("StLouis").setAttribute("src", 
+    document.querySelector("##StLouis").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+St+Louis+MO");
         });
 
-const SLHotels = document.getElementById("SLHotels");
+const SLHotels = document.querySelector("#SLHotels");
 SLHotels.addEventListener("click", function() {
-    document.getElementById("StLouis").setAttribute("src", 
+    document.querySelector("#StLouis").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+St+Louis+MO");
         });
 
-const EPDine = document.getElementById("EPDine");
+const EPDine = document.querySelector("#EPDine");
 EPDine.addEventListener("click", function() {
-    document.getElementById("EaglePoint").setAttribute("src", 
+    document.querySelector("#EaglePoint").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Eagle+Point+Elkhart+Indiana");
         });
            
-const EPSee = document.getElementById("EPSee");
+const EPSee = document.querySelector("#EPSee");
 EPSee.addEventListener("click", function() {
-    document.getElementById("EaglePoint").setAttribute("src", 
+    document.querySelector("#EaglePoint").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+Eagle+Point+Elkhart+Indiana");
         });
 
-const EPHotels = document.getElementById("EPHotels");
+const EPHotels = document.querySelector("#EPHotels");
 EPHotels.addEventListener("click", function() {
-    document.getElementById("EaglePoint").setAttribute("src", 
+    document.querySelector("#EaglePoint").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Elkhart+Indiana");
         });
 
-const ChiDine = document.getElementById("ChiDine");
+const ChiDine = document.querySelector("#ChiDine");
 ChiDine.addEventListener("click", function() {
-    document.getElementById("Chicago").setAttribute("src", 
+    document.querySelector("#Chicago").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Chicago+IL");
         });
            
-const ChiSee = document.getElementById("ChiSee");
+const ChiSee = document.querySelector("#ChiSee");
 ChiSee.addEventListener("click", function() {
-    document.getElementById("Chicago").setAttribute("src", 
+    document.querySelector("#Chicago").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+Chicago+IL");
         });
 
-const ChiHotels = document.getElementById("ChiHotels");
+const ChiHotels = document.querySelector("#ChiHotels");
 ChiHotels.addEventListener("click", function() {
-    document.getElementById("Chicago").setAttribute("src", 
+    document.querySelector("#Chicago").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Chicago+IL");
         });
 
-const MadWIDine = document.getElementById("MadWIDine");
+const MadWIDine = document.querySelector("#MadWIDine");
 MadWIDine.addEventListener("click", function() {
-    document.getElementById("MadWI").setAttribute("src", 
+    document.querySelector("#MadWI").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Madison+WI");
         });
            
-const MadWISee = document.getElementById("MadWISee");
+const MadWISee = document.querySelector("#MadWISee");
 MadWISee.addEventListener("click", function() {
-    document.getElementById("MadWI").setAttribute("src", 
+    document.querySelector("#MadWI").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+Madison+WI");
         });
 
-const MadWIHotels = document.getElementById("MadWIHotels");
+const MadWIHotels = document.querySelector("#MadWIHotels");
 MadWIHotels.addEventListener("click", function() {
-    document.getElementById("MadWI").setAttribute("src", 
+    document.querySelector("#MadWI").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Madison+WI");
         });
 
-const rockDine = document.getElementById("rockDine");
+const rockDine = document.querySelector("#rockDine");
 rockDine.addEventListener("click", function() {
-    document.getElementById("rock").setAttribute("src", 
+    document.querySelector("#rock").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+near+The+House+on+the+Rock+WI");
         });
            
-const rockSee = document.getElementById("rockSee");
+const rockSee = document.querySelector("#rockSee");
 rockSee.addEventListener("click", function() {
-    document.getElementById("rock").setAttribute("src", 
+    document.querySelector("#rock").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=The+House+on+the+Rock+WI");
         });
 
-const rockHotels = document.getElementById("rockHotels");
+const rockHotels = document.querySelector("#rockHotels");
 rockHotels.addEventListener("click", function() {
-    document.getElementById("rock").setAttribute("src", 
+    document.querySelector("#rock").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+near+The+House+on+the+Rock+Wisconsin+USA");
         });
 
-const PeruDine = document.getElementById("PeruDine");
+const PeruDine = document.querySelector("#PeruDine");
 PeruDine.addEventListener("click", function() {
-    document.getElementById("Peru").setAttribute("src", 
-    "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Peru+Illinois");
+    document.querySelector("#Peru").setAttribute("src", 
+    "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Peru+Illinois+USA");
         });
            
-const PeruSee = document.getElementById("PeruSee");
+const PeruSee = document.querySelector("#PeruSee");
 PeruSee.addEventListener("click", function() {
-    document.getElementById("Peru").setAttribute("src", 
+    document.querySelector("#Peru").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+Peru+Illinois");
         });
 
-const PeruHotels = document.getElementById("PeruHotels");
+const PeruHotels = document.querySelector("#PeruHotels");
 PeruHotels.addEventListener("click", function() {
-    document.getElementById("Peru").setAttribute("src", 
+    document.querySelector("#Peru").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Peru+Illinois+USA");
         });
 
-const ElPasoDine = document.getElementById("ElPasoDine");
+const ElPasoDine = document.querySelector("#ElPasoDine");
 ElPasoDine.addEventListener("click", function() {
-    document.getElementById("ElPaso").setAttribute("src", 
+    document.querySelector("#ElPaso").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+El+Paso+Illinois");
         });
            
-const ElPasoSee = document.getElementById("ElPasoSee");
+const ElPasoSee = document.querySelector("#ElPasoSee");
 ElPasoSee.addEventListener("click", function() {
-    document.getElementById("ElPaso").setAttribute("src", 
+    document.querySelector("#ElPaso").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+El+Paso+IL");
         });
 
-const ElPasoHotels = document.getElementById("ElPasoHotels");
+const ElPasoHotels = document.querySelector("#ElPasoHotels");
 ElPasoHotels.addEventListener("click", function() {
-    document.getElementById("ElPaso").setAttribute("src", 
+    document.querySelector("#ElPaso").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+El+Paso+IL");
         });
 
-const ChesterDine = document.getElementById("ChesterDine");
+const ChesterDine = document.querySelector("#ChesterDine");
 ChesterDine.addEventListener("click", function() {
-    document.getElementById("Chester").setAttribute("src", 
+    document.querySelector("#Chester").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Chester+Illinois");
         });
            
-const ChesterSee = document.getElementById("ChesterSee");
+const ChesterSee = document.querySelector("#ChesterSee");
 ChesterSee.addEventListener("click", function() {
-    document.getElementById("Chester").setAttribute("src", 
+    document.querySelector("#Chester").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+Chester+IL");
         });
 
-const ChesterHotels = document.getElementById("ChesterHotels");
+const ChesterHotels = document.querySelector("#ChesterHotels");
 ChesterHotels.addEventListener("click", function() {
-    document.getElementById("Chester").setAttribute("src", 
+    document.querySelector("#Chester").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Chester+IL");
         });
 
-const muddyDine = document.getElementById("muddyDine");
+const muddyDine = document.querySelector("#muddyDine");
 muddyDine.addEventListener("click", function() {
-    document.getElementById("muddy").setAttribute("src", 
+    document.querySelector("#muddy").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+near+Big+Muddy+River+Illinois");
         });
            
-const muddySee = document.getElementById("muddySee");
+const muddySee = document.querySelector("#muddySee");
 muddySee.addEventListener("click", function() {
-    document.getElementById("muddy").setAttribute("src", 
+    document.querySelector("#muddy").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+near+Big+Muddy+River+Illinois");
         });
 
-const muddyHotels = document.getElementById("muddyHotels");
+const muddyHotels = document.querySelector("#muddyHotels");
 muddyHotels.addEventListener("click", function() {
-    document.getElementById("muddy").setAttribute("src", 
+    document.querySelector("#muddy").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+near+Big+Muddy+River+Illinois");
         });
 
-const CairoDine = document.getElementById("CairoDine");
+const CairoDine = document.querySelector("#CairoDine");
 CairoDine.addEventListener("click", function() {
-    document.getElementById("Cairo").setAttribute("src", 
+    document.querySelector("#Cairo").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Cairo+IL");
         });
            
-const CairoSee = document.getElementById("CairoSee");
+const CairoSee = document.querySelector("#CairoSee");
 CairoSee.addEventListener("click", function() {
-    document.getElementById("Cairo").setAttribute("src", 
+    document.querySelector("#Cairo").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+Cairo+IL");
         });
 
-const CairoHotels = document.getElementById("CairoHotels");
+const CairoHotels = document.querySelector("#CairoHotels");
 CairoHotels.addEventListener("click", function() {
-    document.getElementById("Cairo").setAttribute("src", 
+    document.querySelector("#Cairo").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Cairo+IL");
         });
 
-const LaCDine = document.getElementById("LaCDine");
+const LaCDine = document.querySelector("#LaCDine");
 LaCDine.addEventListener("click", function() {
-    document.getElementById("LaC").setAttribute("src", 
+    document.querySelector("#LaC").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+La+Crosse+WI");
         });
            
-const LaCSee = document.getElementById("LaCSee");
+const LaCSee = document.querySelector("#LaCSee");
 LaCSee.addEventListener("click", function() {
-    document.getElementById("LaC").setAttribute("src", 
+    document.querySelector("#LaC").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+La+Crosse+WI");
         });
 
-const LaCHotels = document.getElementById("LaCHotels");
+const LaCHotels = document.querySelector("#LaCHotels");
 LaCHotels.addEventListener("click", function() {
-    document.getElementById("LaC").setAttribute("src", 
+    document.querySelector("#LaC").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+La+Crosse+WI");
         });
 
-const MenDine = document.getElementById("MenDine");
+const MenDine = document.querySelector("#MenDine");
 MenDine.addEventListener("click", function() {
-    document.getElementById("Men").setAttribute("src", 
+    document.querySelector("#Men").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+Menomonie+WI");
         });
            
-const MenSee = document.getElementById("MenSee");
+const MenSee = document.querySelector("#MenSee");
 MenSee.addEventListener("click", function() {
-    document.getElementById("Men").setAttribute("src", 
+    document.querySelector("#Men").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+Menomonie+WI");
         });
 
-const MenHotels = document.getElementById("MenHotels");
+const MenHotels = document.querySelector("#MenHotels");
 MenHotels.addEventListener("click", function() {
-    document.getElementById("Men").setAttribute("src", 
+    document.querySelector("#Men").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Menomonie+WI");
         });
 
-const MRDine = document.getElementById("MRDine");
+const MRDine = document.querySelector("#MRDine");
 MRDine.addEventListener("click", function() {
-    document.getElementById("MR").setAttribute("src", 
+    document.querySelector("#MR").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+near+Mount+Rushmore");
         });
            
-const MRSee = document.getElementById("MRSee");
+const MRSee = document.querySelector("#MRSee");
 MRSee.addEventListener("click", function() {
-    document.getElementById("MR").setAttribute("src", 
+    document.querySelector("#MR").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+near+Mount+Rushmore");
         });
 
-const MRHotels = document.getElementById("MRHotels");
+const MRHotels = document.querySelector("#MRHotels");
 MRHotels.addEventListener("click", function() {
-    document.getElementById("MR").setAttribute("src", 
+    document.querySelector("#MR").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+near+Mount+Rushmore");
         });
 
-const MitchellDine = document.getElementById("MitchellDine");
+const MitchellDine = document.querySelector("#MitchellDine");
 MitchellDine.addEventListener("click", function() {
-    document.getElementById("Mitchell").setAttribute("src", 
+    document.querySelector("#Mitchell").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Mitchell+SD");
         });
            
-const MitchellSee = document.getElementById("MitchellSee");
+const MitchellSee = document.querySelector("#MitchellSee");
 MitchellSee.addEventListener("click", function() {
-    document.getElementById("Mitchell").setAttribute("src", 
+    document.querySelector("#Mitchell").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+Mitchell+SD");
         });
 
-const MitchellHotels = document.getElementById("MitchellHotels");
+const MitchellHotels = document.querySelector("#MitchellHotels");
 MitchellHotels.addEventListener("click", function() {
-    document.getElementById("Mitchell").setAttribute("src", 
+    document.querySelector("#Mitchell").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Mitchell+SD");
         });
 
-const FallsDine = document.getElementById("FallsDine");
+const FallsDine = document.querySelector("#FallsDine");
 FallsDine.addEventListener("click", function() {
-    document.getElementById("Falls").setAttribute("src", 
+    document.querySelector("#Falls").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Sioux+Falls+South+Dakota");
         });
            
-const FallsSee = document.getElementById("FallsSee");
+const FallsSee = document.querySelector("#FallsSee");
 FallsSee.addEventListener("click", function() {
-    document.getElementById("Falls").setAttribute("src", 
+    document.querySelector("#Falls").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+Sioux+Falls+South+Dakota");
         });
 
-const FallsHotels = document.getElementById("FallsHotels");
+const FallsHotels = document.querySelector("#FallsHotels");
 FallsHotels.addEventListener("click", function() {
-    document.getElementById("Falls").setAttribute("src", 
+    document.querySelector("#Falls").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Sioux+Falls+South+Dakota");
         });
 
-const PaulDine = document.getElementById("PaulDine");
+const PaulDine = document.querySelector("#PaulDine");
 PaulDine.addEventListener("click", function() {
-    document.getElementById("Paul").setAttribute("src", 
+    document.querySelector("#Paul").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+St+Paul+Minnesota");
         });
            
-const PaulSee = document.getElementById("PaulSee");
+const PaulSee = document.querySelector("#PaulSee");
 PaulSee.addEventListener("click", function() {
-    document.getElementById("Paul").setAttribute("src", 
+    document.querySelector("#Paul").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+St+Paul+Minnesota");
         });
 
-const PaulHotels = document.getElementById("PaulHotels");
+const PaulHotels = document.querySelector("#PaulHotels");
 PaulHotels.addEventListener("click", function() {
-    document.getElementById("Paul").setAttribute("src", 
+    document.querySelector("#Paul").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+St+Paul+Minnesota");
         });
 
-const BCDine = document.getElementById("BCDine");
+const BCDine = document.querySelector("#BCDine");
 BCDine.addEventListener("click", function() {
-    document.getElementById("BC").setAttribute("src", 
+    document.querySelector("#BC").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Boulder+CO");
         });
            
-const BCSee = document.getElementById("BCSee");
+const BCSee = document.querySelector("#BCSee");
 BCSee.addEventListener("click", function() {
-    document.getElementById("BC").setAttribute("src", 
+    document.querySelector("#BC").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+Boulder+CO");
         });
 
-const BCHotels = document.getElementById("BCHotels");
+const BCHotels = document.querySelector("#BCHotels");
 BCHotels.addEventListener("click", function() {
-    document.getElementById("BC").setAttribute("src", 
+    document.querySelector("#BC").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Boulder+CO");
         });
 
-const HumDine = document.getElementById("HumDine");
+const HumDine = document.querySelector("#HumDine");
 HumDine.addEventListener("click", function() {
-    document.getElementById("Hum").setAttribute("src", 
+    document.querySelector("#Hum").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Humansville+MO");
         });
            
-const Humsee = document.getElementById("HumSee");
+const Humsee = document.querySelector("#HumSee");
 HumSee.addEventListener("click", function() {
-    document.getElementById("Hum").setAttribute("src", 
+    document.querySelector("#Hum").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=parks+in+Humansville+MO");
         });
 
-const HumHotels = document.getElementById("HumHotels");
+const HumHotels = document.querySelector("#HumHotels");
 HumHotels.addEventListener("click", function() {
-    document.getElementById("Hum").setAttribute("src", 
+    document.querySelector("#Hum").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Humansville+MO");
         });
 
 
-const LKDine = document.getElementById("LKDine");
+const LKDine = document.querySelector("#LKDine");
 LKDine.addEventListener("click", function() {
-    document.getElementById("LK").setAttribute("src", 
+    document.querySelector("#LK").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Lebanon+Kansas");
         });
            
-const LKsee = document.getElementById("LKSee");
+const LKsee = document.querySelector("#LKSee");
 LKSee.addEventListener("click", function() {
-    document.getElementById("LK").setAttribute("src", 
+    document.querySelector("#LK").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+Lebanon+Kansas");
         });
 
-const LKHotels = document.getElementById("LKHotels");
+const LKHotels = document.querySelector("#LKHotels");
 LKHotels.addEventListener("click", function() {
-    document.getElementById("LK").setAttribute("src", 
+    document.querySelector("#LK").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Lebanon+Kansas");
         });
 
-const PMODine = document.getElementById("PMODine");
+const PMODine = document.querySelector("#PMODine");
  PMODine.addEventListener("click", function() {
-    document.getElementById("PMO").setAttribute("src", 
+    document.querySelector("#PMO").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Princeton+MO");
         });
            
-const PMOsee = document.getElementById("PMOSee");
+const PMOsee = document.querySelector("#PMOSee");
 PMOSee.addEventListener("click", function() {
-    document.getElementById("PMO").setAttribute("src", 
+    document.querySelector("#PMO").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=parks+in+Princeton+MO");
         });
 
-const PMOHotels = document.getElementById("PMOHotels");
+const PMOHotels = document.querySelector("#PMOHotels");
 PMOHotels.addEventListener("click", function() {
-    document.getElementById("PMO").setAttribute("src", 
+    document.querySelector("#PMO").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Princeton+MO");
         });
 
-const BVADine = document.getElementById("BVADine");
+const BVADine = document.querySelector("#BVADine");
  BVADine.addEventListener("click", function() {
-    document.getElementById("BVA").setAttribute("src", 
+    document.querySelector("#BVA").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Blacksburg+VA");
         });
            
-const BVASee = document.getElementById("BVASee");
+const BVASee = document.querySelector("#BVASee");
 BVASee.addEventListener("click", function() {
-    document.getElementById("BVA").setAttribute("src", 
+    document.querySelector("#BVA").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+Blacksburg+VA");
         });
 
-const BVAHotels = document.getElementById("BVAHotels");
+const BVAHotels = document.querySelector("#BVAHotels");
 BVAHotels.addEventListener("click", function() {
-    document.getElementById("BVA").setAttribute("src", 
+    document.querySelector("#BVA").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Blacksburg+VA");
         });
 
-const RCGADine = document.getElementById("RCGADine");
+const RCGADine = document.querySelector("#RCGADine");
 RCGADine.addEventListener("click", function() {
-    document.getElementById("RCGA").setAttribute("src", 
+    document.querySelector("#RCGA").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+near+Rock+City+Georgia+USA");
         });
            
-const RCGAsee = document.getElementById("RCGASee");
+const RCGAsee = document.querySelector("#RCGASee");
 RCGASee.addEventListener("click", function() {
-    document.getElementById("RCGA").setAttribute("src", 
+    document.querySelector("#RCGA").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+near+Rock+City+GA");
         });
 
-const RCGAHotels = document.getElementById("RCGAHotels");
+const RCGAHotels = document.querySelector("#RCGAHotels");
 RCGAHotels.addEventListener("click", function() {
-    document.getElementById("RCGA").setAttribute("src", 
+    document.querySelector("#RCGA").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+near+Rock+City+GA");
         });
 
-const FPDine = document.getElementById("FPDine");
+const FPDine = document.querySelector("#FPDine");
  FPDine.addEventListener("click", function() {
-    document.getElementById("FP").setAttribute("src", 
+    document.querySelector("#FP").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Blacksburg+VA");
         });
            
-const FPSee = document.getElementById("FPSee");
+const FPSee = document.querySelector("#FPSee");
 FPSee.addEventListener("click", function() {
-    document.getElementById("FP").setAttribute("src", 
+    document.querySelector("#FP").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+Blacksburg+VA");
         });
 
-const FPHotels = document.getElementById("FPHotels");
+const FPHotels = document.querySelector("#FPHotels");
 FPHotels.addEventListener("click", function() {
-    document.getElementById("FP").setAttribute("src", 
+    document.querySelector("#FP").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Blacksburg+VA");
         });
 
-const MADILDine = document.getElementById("MADILDine");
+const MADILDine = document.querySelector("#MADILDine");
  MADILDine.addEventListener("click", function() {
-    document.getElementById("MADIL").setAttribute("src", 
+    document.querySelector("#MADIL").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Madison+IL");
         });
            
-const MADILSee = document.getElementById("MADILSee");
+const MADILSee = document.querySelector("#MADILSee");
 MADILSee.addEventListener("click", function() {
-    document.getElementById("MADIL").setAttribute("src", 
+    document.querySelector("#MADIL").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+Madison+IL");
         });
 
-const MADILHotels = document.getElementById("MADILHotels");
+const MADILHotels = document.querySelector("#MADILHotels");
 MADILHotels.addEventListener("click", function() {
-    document.getElementById("MADIL").setAttribute("src", 
+    document.querySelector("#MADIL").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=hotels+in+Madison+IL");
         });
 

@@ -1,4 +1,4 @@
-const quoteBtn = document.getElementById('quoteBtn');
+const quoteBtn = document.querySelector('#quoteBtn');
  
 quoteBtn.addEventListener("click", function() {
     let quotes = [
@@ -39,6 +39,6 @@ quoteBtn.addEventListener("click", function() {
     "I believe that mankind's destiny lies in the stars. I believe that candy really did taste better when I was a kid, that it's aerodynamically impossible for a bumble bee to fly, that light is a wave and a particle, that there's a cat in a box somewhere who's alive and dead at the same time (although if they don't ever open the box to feed it it'll eventually just be two different kinds of dead), and that there are stars in the universe billions of years older than the universe itself."
 ];
     const randomNum = Math.floor(Math.random() * (quotes.length));
-    document.getElementById('quoteScreen').innerHTML = quotes[randomNum];
+    document.querySelector('#quoteScreen').innerHTML = quotes[randomNum];
 }); 
 

@@ -1,7 +1,7 @@
 /*Adapted from instructions given in documentation for Google Maps JavaScript API https://developers.google.com/maps/documentation/javascript/examples/event-arguments*/
 
 function initMap() {
-  const map = new google.maps.Map(document.getElementById("map"), {
+  const map = new google.maps.Map(document.querySelector("#map"), {
     zoom: 4.2,
     center: { lat: 36.6437, lng: -93.2185 },
   });
