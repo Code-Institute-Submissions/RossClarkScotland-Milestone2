@@ -6,7 +6,7 @@ SLDine.addEventListener("click", function() {
            
 const SLDSee = document.querySelector("#SLSee");
 SLSee.addEventListener("click", function() {
-    document.querySelector("##StLouis").setAttribute("src", 
+    document.querySelector("#StLouis").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+St+Louis+MO");
         });
 
