@@ -52,7 +52,7 @@ p em {
 .intro {
     font-size:6rem;
     text-transform: uppercase;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Amatic SC', 'Lato', sans-serif;
 }
 
 .main-text {
@@ -69,9 +69,9 @@ p em {
 
 #hero-image {
 
-    background-image:-webkit-gradient(linear, left top, left bottom, from(rgb(7, 7, 7)), to(rgba(75, 73, 73, 0.3))), url("../images/highwaysmall.png");
-
     background-image:-o-linear-gradient(rgb(7, 7, 7), rgba(75, 73, 73, 0.3)), url("../images/highwaysmall.png");
+
+    background-image:-webkit-gradient(linear, left top, left bottom, from(rgb(7, 7, 7)), to(rgba(75, 73, 73, 0.3))), url("../images/highwaysmall.png");
 
     background-image:linear-gradient(rgb(7, 7, 7), rgba(75, 73, 73, 0.3)), url("../images/highwaysmall.png");
     width: 100vw;
@@ -103,7 +103,7 @@ Though the images, linear-gradient values, and button differ from those given on
  
     #landing-sub {
         color: #fafafa;
-        font-family: 'Amatic SC', 'Times', sans-serif;
+        font-family: 'Amatic SC', 'Lato', sans-serif;
         font-size: 3rem;
     } 
 /*****************Navbars*********************/
@@ -129,8 +129,8 @@ Though the images, linear-gradient values, and button differ from those given on
 
 
 .banner-image {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 0, 0)), to(rgba(54, 56, 54, 0.5))), url("../images/stars.png");
     background-image: -o-linear-gradient(rgb(0, 0, 0), rgba(54, 56, 54, 0.5)), url("../images/stars.png");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 0, 0)), to(rgba(54, 56, 54, 0.5))), url("../images/stars.png");
     background-image: linear-gradient(rgb(0, 0, 0), rgba(54, 56, 54, 0.5)), url("../images/stars.png");
     width: 100vw;
     height: 10vh;
@@ -178,7 +178,7 @@ Though the images, linear-gradient values, and button differ from those given on
 
 .navbar {
     text-transform: uppercase;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Amatic SC', 'Lato', sans-serif;
 }
 
 
@@ -238,7 +238,7 @@ Though the images, linear-gradient values, and button differ from those given on
 #quoteScreen {
     margin: 2.5rem 0 0 0;
     font-size: 4rem;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Amatic SC', 'Lato', sans-serif;
     text-align: center;
     padding-bottom: 0;
     color: rgb(90, 88, 88);
@@ -341,13 +341,13 @@ font-size:1.5rem;
 #destinations {
     font-size: 5.5rem;
     text-transform: uppercase;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Amatic SC', 'Lato', sans-serif;
 }
 
 .destination-heading {
     font-size: 4rem;
     text-transform: uppercase;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Amatic SC', 'Lato', sans-serif;
 }
 
 .map-embed {
@@ -496,6 +496,26 @@ font-size:1.5rem;
 
 .form-control {
     height: calc(4rem + 2px);
+}
+
+::-webkit-input-placeholder {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+::-moz-placeholder {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+:-ms-input-placeholder {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+::-ms-input-placeholder {
+    font-size: 1.8rem;
+    text-transform: uppercase;
 }
 
 ::placeholder {
@@ -652,7 +672,7 @@ textarea {
 @media only screen and (min-width:768px) {
     #home-nav {
         margin-left: 0.35rem;
-        font-family: 'Amatic SC', 'Times', sans-serif;
+        font-family: 'Amatic SC', 'Lato', sans-serif;
     }
     #home-nav a {
         font-size: 2.75rem;
@@ -800,7 +820,7 @@ textarea {
     }
 
     #banner-sub {
-    font-family: 'Amatic SC', sans-serif;
+    font-family: 'Amatic SC', 'Lato', sans-serif;
     font-size: 2rem;
     }
 
