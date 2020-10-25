@@ -199,7 +199,7 @@ To ensure that the site contains valid HTML, the HTML code was checked by direct
 
 To check valid CSS, direct input via the W3C CSS Validation Service was used: [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
 
-To test the validity of the JavaScript used in each of the JavaScript files Espirima and JShint was used: [https://esprima.org/demo/validate.html](https://esprima.org/demo/validate.html) , [https://jshint.com/](https://jshint.com/)
+To test the validity of the JavaScript used in each of the JavaScript files Espirima and JShint were used: [https://esprima.org/demo/validate.html](https://esprima.org/demo/validate.html) , [https://jshint.com/](https://jshint.com/)
 
 To ensure the site&#39;s functionality across various devices, I used the web developer tools inspection feature of each of the following browsers:
 
@@ -211,8 +211,8 @@ To ensure the site&#39;s functionality across various devices, I used the web de
 For each browser, I checked the preview of each of the site's pages for the following devices, in both vertical and horizontal views for mobile devices:
 
 - Kindle Fire HDX
--Laptop with HiDPI screen
-Laptop with MDPI screen
+- Laptop with HiDPI screen
+- Laptop with MDPI screen
 - Laptop with touch
 - Moto G4
 - Galaxy S5
@@ -254,8 +254,8 @@ found to function as desired on the following devices:
   new line. As such, the HTML validator shows a warning for sections without headings for each relevant page. I checked this with a 
   course tutor and was informed it was not a issue of concern.
 - Similarly, some sections in the game.html page do not have headings becuase the innerHTML is only added later via JS functions
-  in response to user events.
-- For the game, once the game is over is the player has been informed whether they have won or lost, the player is still able to click
+  in response to user events. Here, too, the validator shows warnings.
+- For the game, once the game is over is and the player has been informed whether they have won or lost, the player is still able to click
   buttons and receive messages about their results, though they will still have won lost. I was unable to set a JS function to stop this,
   so this would be a bug to fix in a future version.
 
@@ -361,8 +361,7 @@ particularly as regards the various iterations of the game.
 
 I am indebted, too, to my friends Ruth, Yan, and Mike, and to my father, George, for checking the functionality of the website on their devices.
 
-I would also like to thank my friend Milana for offering her expert feedback on all things cartographic and design, and for being a reliable 
-font of telling me when my UX and design suck.
+I would also like to thank my friend Milana for being a reliable font of telling me when my design sucks.
 
 Finally, I would like to express my gratitude to my course mentor, Spencer Barribal, for offering encouragement and useful ideas, and to the 
 Code Institute tutors and Slack community for providing advice and for humouring me when I asked stupid questions.
