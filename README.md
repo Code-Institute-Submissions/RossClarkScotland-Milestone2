@@ -199,7 +199,7 @@ To ensure that the site contains valid HTML, the HTML code was checked by direct
 
 To check valid CSS, direct input via the W3C CSS Validation Service was used: [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
 
-To test the validity of the JavaScript used in each of the JavaScript files JShint was used: [https://jshint.com/](https://jshint.com/)
+To test the validity of the JavaScript used in each of the JavaScript files Espirima and JShint was used: [https://esprima.org/demo/validate.html](https://esprima.org/demo/validate.html) , [https://jshint.com/](https://jshint.com/)
 
 To ensure the site&#39;s functionality across various devices, I used the web developer tools inspection feature of each of the following browsers:
 
@@ -246,6 +246,18 @@ found to function as desired on the following devices:
   - iPhone XR (checked by my brother, Greg)
   - iPhone SE (checked by my friend Ruth)
   - Samsung S7 (checked by my friend Mike)
+
+## Bugs
+
+- Due to the literary typeface style used to begin most pages, with the first few words large in Amatic SC and the following text
+  smaller and in Lato, these sections cannot begin with headings, given that headings necessitate the text following moving to a 
+  new line. As such, the HTML validator shows a warning for sections without headings for each relevant page. I checked this with a 
+  course tutor and was informed it was not a issue of concern.
+- Similarly, some sections in the game.html page do not have headings becuase the innerHTML is only added later via JS functions
+  in response to user events.
+- For the game, once the game is over is the player has been informed whether they have won or lost, the player is still able to click
+  buttons and receive messages about their results, though they will still have won lost. I was unable to set a JS function to stop this,
+  so this would be a bug to fix in a future version.
 
 ## How the site meets user needs
 
