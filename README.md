@@ -249,12 +249,13 @@ found to function as desired on the following devices:
 
 ## Bugs and fixes
 - Originally, the results of hitting the ‘Attack!’, ‘Retreat’, and ‘Go nuclear!’ buttons and the announcement of the end of the game were communicated
-  to the player only via window alerts. However, test users with pop-ups disabled reported not being able to follow the game. As such, deployed version
+  to the player only via window alerts. However, test users with pop-ups disabled reported not being able to follow the game. As such, the deployed version
   of the game communicates this information to users by changing the inner HTML on the game interface page accordingly after each round of play.
+  The alerts have, however, been retained to add a sense of immediacy to the gameplay for those users whose devices do allow window alerts.
 - Originally, the game contained a bug in that after the game was finished users could still hit any of the three buttons and receive alerts regarding
-  the results of those moves. This bug was fixed by adding and if statement at the beginning of each button’s respective JS function which, if either 
+  the results of those moves. This bug was fixed by adding an 'if' statement at the beginning of each button’s respective JS function which, if either 
   the player’s or the opponent’s health score is at or below zero, sends an alert and changes the page’s inner HMTL to tell the user that the game is 
-  over and they must refresh. The remainders of the original functions are now enclosed in else if statements.
+  over and they must refresh. The remainders of the original functions are now enclosed in 'else if' statements.
 
 ## Notes
 
