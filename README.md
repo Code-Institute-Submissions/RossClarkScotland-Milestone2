@@ -247,7 +247,16 @@ found to function as desired on the following devices:
   - iPhone SE (checked by my friend Ruth)
   - Samsung S7 (checked by my friend Mike)
 
-## Bugs
+## Bugs and fixes
+- Originally, the results of hitting the ‘Attack!’, ‘Retreat’, and ‘Go nuclear!’ buttons and the announcement of the end of the game were communicated
+  to the player only via window alerts. However, test users with pop-ups disabled reported not being able to follow the game. As such, deployed version
+  of the game communicates this information to users by changing the inner HTML on the game interface page accordingly after each round of play.
+- Originally, the game contained a bug in that after the game was finished users could still hit any of the three buttons and receive alerts regarding
+  the results of those moves. This bug was fixed by adding and if statement at the beginning of each button’s respective JS function which, if either 
+  the player’s or the opponent’s health score is at or below zero, sends an alert and changes the page’s inner HMTL to tell the user that the game is 
+  over and they must refresh. The remainders of the original functions are now enclosed in else if statements.
+
+## Notes
 
 - Due to the literary typeface style used to begin most pages, with the first few words large in Amatic SC and the following text
   smaller and in Lato, these sections cannot begin with headings, given that headings necessitate the text following moving to a 
@@ -255,9 +264,7 @@ found to function as desired on the following devices:
   course tutor and was informed it was not a issue of concern.
 - Similarly, some sections in the game.html page do not have headings becuase the innerHTML is only added later via JS functions
   in response to user events. Here, too, the validator shows warnings.
-- For the game, once the game is over is and the player has been informed whether they have won or lost, the player is still able to click
-  buttons and receive messages about their results, though they will still have won lost. I was unable to set a JS function to stop this,
-  so this would be a bug to fix in a future version.
+
 
 ## How the site meets user needs
 
