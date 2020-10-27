@@ -19,6 +19,7 @@ let PlayerMoves = {
     calcAttack: function() {
           if (player.health <= 0 || opponent.health <= 0) {
             alert("Game over, man! Refresh your browser to play again.");
+            document.querySelector("#scoreboard").innerHTML = "Game over, man! Refresh your browser to play again.";
             document.querySelector("#scoreboard1").innerHTML = "";
             document.querySelector("#scoreboard2").innerHTML = "";
             document.querySelector("#scoreboard3").innerHTML = "";
@@ -152,6 +153,7 @@ let PlayerMoves = {
 function retreat() {
     if (player.health <= 0 || opponent.health <= 0) {
         alert("Game over, man! Refresh your browser to play again.");
+        document.querySelector("#scoreboard").innerHTML = "Game over, man! Refresh your browser to play again.";
         document.querySelector("#scoreboard1").innerHTML = "";
         document.querySelector("#scoreboard2").innerHTML = "";
         document.querySelector("#scoreboard3").innerHTML = "";
@@ -196,6 +198,7 @@ function retreat() {
 function nuclearOption() {
     if (player.health <= 0 || opponent.health <= 0) {
         alert("Game over, man! Refresh your browser to play again.");
+        document.querySelector("#scoreboard").innerHTML = "Game over, man! Refresh your browser to play again.";
         document.querySelector("#scoreboard1").innerHTML = "";
         document.querySelector("#scoreboard2").innerHTML = "";
         document.querySelector("#scoreboard3").innerHTML = "";
