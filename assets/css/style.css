@@ -987,7 +987,7 @@ textarea {
         margin: 6rem 10rem 6rem 10rem;
     }
     p {
-        font-size: 7.25rem;
+        font-size: 6rem;
     }
     .intro {
         font-size: 12rem;
@@ -1042,13 +1042,22 @@ textarea {
     .profile-text-2 {
         font-size: 5rem;
     }
+    .game-fight-heading {
+    font-size: 10rem;
+    }
+    .fight-btn {
+        width: 50rem;
+    }
+    h4 {
+        font-size: 8rem;
+    }
     #jukebox {
         display: block;
         width: 90%;
         height: 100rem;
     }
     p a {
-        font-size: 7.25rem;
+        font-size: 6rem;
     }
     #contact-header {
         font-size:  15rem;
