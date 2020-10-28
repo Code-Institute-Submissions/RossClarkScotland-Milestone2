@@ -227,6 +227,7 @@ For each browser, I checked the preview of each of the site's pages for the foll
 - iPad Pro
 - Surface Duo
 - Galaxy Fold
+- The site has also been checked on developer tools at a width of 3840px / 4k
 
 I manually checked all the pages and features of the website (i.e. navigation, links external and internal, buttons, hover effects, 
 embedded video, maps, game, contact form) across all device simulations that each browser offers.

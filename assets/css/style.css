@@ -968,19 +968,22 @@ textarea {
         font-size: 6.75rem;
         margin-right: 4rem;
     }
-    #banner-head {
-        font-size: 8rem;
+    .banner-image {
+        height: 18vh;
+        margin-bottom: 10rem;
     }
- 
+    #banner-head {
+        font-size: 10rem;
+    }
     #banner-sub {
-        font-size: 5rem;
+        font-size: 7rem;
     }
     .banner-image nav {
         top: 18%;
         left: 60%;
     }
     .banner-image nav a {
-        font-size: 5rem;
+        font-size: 7.5rem;
         margin-right: 3rem;
     } 
     .main-text {
@@ -993,7 +996,7 @@ textarea {
         font-size: 12rem;
     }
     .btn {
-    font-size: 6rem;
+        font-size: 6rem;
     }
     #quoteScreen {
         font-size: 15rem;
@@ -1005,9 +1008,13 @@ textarea {
         border-radius: 50%;
         font-size: 2.5rem;
     }
+    .container {
+        max-width: 380rem;
+        margin-bottom: 10rem;
+    }
     #routes-list {
-        width: 100%;
-        margin: 1rem 1rem 3.5rem 1rem;   
+        width: 90%;
+        margin: 1rem auto 3.5rem auto;
     }
 
     #routes-list a {
@@ -1017,12 +1024,15 @@ textarea {
     .destination-heading {
         font-size: 14rem;
     }
+    #destinations-list a {
+        font-size: 5rem;
+    }
     .route-map {
         width: 40%;
         height: 90rem; 
     }
     .top-return {
-    font-size: 6rem;
+        font-size: 6rem;
     }
     .map-embed {
         width: 40%;
@@ -1031,6 +1041,16 @@ textarea {
     .map-btn {
         width: 100%;
         margin-top: 5rem;
+    }
+    .game-img {
+        width: 95%;
+        height: auto;
+        margin: 8rem auto auto 3rem;
+    }
+    .image-avatar {
+        width: 95%;
+        height: 80%;
+        margin: 10rem 1rem 0 0;
     }
     .god-name {
         font-size: 10rem;
