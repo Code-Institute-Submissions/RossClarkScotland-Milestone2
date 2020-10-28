@@ -953,7 +953,8 @@ textarea {
     }
 }
 
-@media only screen and (min-width: 3800px) {
+/* 3840px / 4k */
+@media only screen and (min-width: 3840px) {
     #landing-head {
         font-size: 18.5rem;
         }
@@ -982,5 +983,88 @@ textarea {
         font-size: 5rem;
         margin-right: 3rem;
     } 
+    .main-text {
+        margin: 6rem 10rem 6rem 10rem;
+    }
+    p {
+        font-size: 7.25rem;
+    }
+    .intro {
+        font-size: 12rem;
+    }
+    .btn {
+    font-size: 6rem;
+    }
+    #quoteScreen {
+        font-size: 15rem;
+    }
+    .social-links li a i {
+        width: 5rem;
+        height: 5rem;
+        padding: 2rem 0;
+        border-radius: 50%;
+        font-size: 2.5rem;
+    }
+    #routes-list {
+        width: 100%;
+        margin: 1rem 1rem 3.5rem 1rem;   
+    }
+
+    #routes-list a {
+        font-size: 5rem;
+        letter-spacing: 0.07rem;
+    }
+    .destination-heading {
+        font-size: 14rem;
+    }
+    .route-map {
+        width: 40%;
+        height: 90rem; 
+    }
+    .top-return {
+    font-size: 6rem;
+    }
+    .map-embed {
+        width: 40%;
+        height: 90rem; 
+    }
+    .map-btn {
+        width: 100%;
+        margin-top: 5rem;
+    }
+    .god-name {
+        font-size: 10rem;
+        margin-top: 2rem;
+    }
+    .profile-text-1 {
+        font-size: 8rem;
+    }
+    .profile-text-2 {
+        font-size: 5rem;
+    }
+    #jukebox {
+        display: block;
+        width: 90%;
+        height: 100rem;
+    }
+    p a {
+        font-size: 7.25rem;
+    }
+    #contact-header {
+        font-size:  15rem;
+    }
+    #contact-sub {
+        font-size:  8rem;
+    }
+    .center-form {
+        padding-top: 1rem;
+        margin: 0 auto;
+        max-width: 90%;
+    }
+    .form-control {
+        height: calc(10rem + 5px);
+    }
 }
+
+
 
