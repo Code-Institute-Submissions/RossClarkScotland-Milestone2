@@ -60,12 +60,10 @@ memories of the book.&quot;
 hover effect, creating a border around the navigation bar the user is currently hovering over, for further clarity.
 
 - As it provides a cleaner aesthetic on smaller devices, the navigation bar appears on the homepage in the form of a hamburger-style
- dropdown menu. However, all other pages contain navigation links as texts directly on a banner image at the top of the page. 
- This decision was made because both the changing colours between the banner image and the main page and the text atop each page 
- would mean that a burger-style menu would be less aesthetically pleasing on all other pages as it would mix / cut across both colours
-and content. The navigation bar directly on the banner image in this case provides a better aesthetic and has the additional benefit
-of reducing the number of times users need to click to access information, i.e. by not requiring the user to click a burger menu to
-see the navigation bar before selecting another page.
+ dropdown menu. However, all other pages contain navigation links as text directly on a banner image at the top of the page. 
+ This decision was made both to integrate the Amatic SC font within the integral page design, as the font hints at the playful
+ elements of the novel, and to reduce the number of times users need to click to access information, i.e. by not requiring the 
+ user to click a burger menu to see the navigation bar before selecting another page.
 
 - The minimalist footer allows users to easily access related social media pages without encroaching on other site content. 
 The social media icons in the footer turn to green, matching the green of the aurora borealis on the hero image, whenever a user hovers over them.
@@ -80,10 +78,10 @@ on the size of the screen.
 navigation changes its design arrangement to make best use of the device on which it appears. For example, on laptops, the homepage image 
 appears as a landscape image with the title and sub-title in the Lato font and the navigation links appearing in the top-right corner in 
 Amatic SC. The same is true of tablets when index.html is viewed in a landscape view with the device held horizontally. However, when 
-index.html is viewed as a portrait image on most tablets (i.e. not larger tablets like the iPad Pro), with the device held vertically, 
+index.html is viewed as a portrait image on most tablets, with the device held vertically, 
 the homepage utilizes the burger-style menu with the navigation links in the Amatic SC font and the page title and sub-title in Lato. 
 For smartphones, the page title appears in Lato, the sub-title in Amatic SC and the navigation links in the burger-style dropdown in Lato, 
-given that those links would be less legible when smaller when written in Amatic SC in the the dropdown.
+given that those links would be less legible when smaller when written in Amatic SC in the dropdown.
 
 **about.html**
 
@@ -105,13 +103,16 @@ appear in the *American Gods* novel.
  to correctly identify the locations in the novel.
 - Users may manipulate any of the embedded maps, e.g. zooming in and out of particular locations. Users are given brief instructions above each 
 map to tell them how to interact with it.
+- Instructions above each section inform users on how to interact with the maps. These instructions are repeated in each section, i.e. 
+rather than simply being stated once at the beginning, to ensure than users receive this information even if they navigate straight 
+to a location without reading the introductory page information.
 - &#39;Return to top&#39; links return users back to the internal page navigation bar without having to scroll for longer periods.
 
 **places.html**
 
 - This page contains easy-to-access maps and information on accommodation, eateries, and tourist sights for every suggested location on the 
 *American Gods* road trip.
-- The internal page navigation bar, coded as an unordered list, allows users to quickly jump to any of the 24 locations covered on the page 
+- The internal page navigation bar allows users to quickly jump to any of the 24 locations covered on the page 
 by providing an inner-page hyperlink to each.
 - Each section contains the relevant location, background information on the role this location plays in *American Gods*, maps, and information 
 on accommodation, eateries, and tourist sights in the area. Sections begin with a default map showing accommodation in the area, but users may 
@@ -342,8 +343,8 @@ Further details are available via: [https://docs.github.com/en/github/creating-c
 
 **Content:**
 
-- The linear-gradient method used on the landing page image was based on the design and code used for the CSS project on the following Udemy course 
-(though the image and linear gradient values themselves differ from those on that course): [https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/)
+- I learned the the linear-gradient method used on the landing page from the following Udemy course:
+ [https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/)
 - The social media link icons code in the footer was adapted from that in the Bootstrap mini project of the User Centric Frontend Development module.
 - The code for the &quot;Return to the top of the page&quot; buttons was taken, and slightly adapted, from that given on the following web page: [https://www.computerhope.com/issues/ch001475.htm#:~:text=In%20your%20HTML%20code%2C%20find%20the%20opening%20%3Cbody%3E,you%20back%20to%20the%20top%20of%20the%20page](https://www.computerhope.com/issues/ch001475.htm#:~:text=In%20your%20HTML%20code%2C%20find%20the%20opening%20%3Cbody%3E,you%20back%20to%20the%20top%20of%20the%20page)
 - I created the game by adapting from and adding to a game built in the following tutorial: [https://www.youtube.com/watch?v=M6sA8fvMCuA&amp;t=1s](https://www.youtube.com/watch?v=M6sA8fvMCuA&amp;t=1s)
