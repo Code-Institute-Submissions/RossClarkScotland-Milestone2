@@ -115,7 +115,7 @@ ElPasoDine.addEventListener("click", function() {
 const ElPasoSee = document.querySelector("#ElPasoSee");
 ElPasoSee.addEventListener("click", function() {
     document.querySelector("#ElPaso").setAttribute("src", 
-    "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+El+Paso+Illinois+USA");
+    "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=parks+in+El+Paso+Illinois");
         });
 
 const ElPasoHotels = document.querySelector("#ElPasoHotels");
