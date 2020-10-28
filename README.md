@@ -257,6 +257,9 @@ found to function as desired on the following devices:
   the results of those moves. This bug was fixed by adding an 'if' statement at the beginning of each button’s respective JS function which, if either 
   the player’s or the opponent’s health score is at or below zero, sends an alert and changes the page’s inner HMTL to tell the user that the game is 
   over and they must refresh. The remainders of the original functions are now enclosed in 'else if' statements.
+- In some cases, highting the 'Show places to see' butting on places.html resulted in Google Maps showing a map of either the whole world or of the
+  region the user was in. On the assumption that the places in question may have been too small for Google Maps to log "tourist attractions" for the area,
+  the searches conducted via mapEmbeds.js were amended to search instead for 'parks'.
 
 ## Notes
 
