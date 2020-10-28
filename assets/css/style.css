@@ -953,3 +953,34 @@ textarea {
     }
 }
 
+@media only screen and (min-width: 3800px) {
+    #landing-head {
+        font-size: 18.5rem;
+        }
+    #landing-sub {
+        font-size: 12rem;
+        }
+    #home-nav {
+        top: 7.5%;
+        }
+    #home-nav a {
+        font-size: 6.75rem;
+        margin-right: 4rem;
+    }
+    #banner-head {
+        font-size: 8rem;
+    }
+ 
+    #banner-sub {
+        font-size: 5rem;
+    }
+    .banner-image nav {
+        top: 18%;
+        left: 60%;
+    }
+    .banner-image nav a {
+        font-size: 5rem;
+        margin-right: 3rem;
+    } 
+}
+
