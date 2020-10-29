@@ -251,4 +251,3 @@ function scoreboard() {
         document.querySelector("#scoreboard5").innerHTML = "";
     }  
 }
-
