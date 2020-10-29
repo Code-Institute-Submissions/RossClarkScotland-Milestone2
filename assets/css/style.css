@@ -955,6 +955,7 @@ textarea {
 
 /* 3840px / 4k */
 @media only screen and (min-width: 3840px) {
+    /* Landing page */
     #landing-head {
         font-size: 18.5rem;
         }
@@ -968,6 +969,7 @@ textarea {
         font-size: 6.75rem;
         margin-right: 4rem;
     }
+    /* All other pages */
     .banner-image {
         height: 18vh;
         margin-bottom: 10rem;
@@ -998,9 +1000,6 @@ textarea {
     .btn {
         font-size: 6rem;
     }
-    #quoteScreen {
-        font-size: 15rem;
-    }
     .social-links li a i {
         width: 5rem;
         height: 5rem;
@@ -1012,11 +1011,15 @@ textarea {
         max-width: 380rem;
         margin-bottom: 10rem;
     }
+    /* quotes.html */
+    #quoteScreen {
+        font-size: 15rem;
+    }
+    /* route.html */
     #routes-list {
         width: 90%;
         margin: 1rem auto 3.5rem auto;
     }
-
     #routes-list a {
         font-size: 5rem;
         letter-spacing: 0.07rem;
@@ -1034,6 +1037,7 @@ textarea {
     .top-return {
         font-size: 6rem;
     }
+    /* places.html */
     .map-embed {
         width: 40%;
         height: 90rem; 
@@ -1042,6 +1046,7 @@ textarea {
         width: 100%;
         margin-top: 5rem;
     }
+    /* game.html */
     .game-img {
         width: 95%;
         height: auto;
@@ -1071,6 +1076,7 @@ textarea {
     h4 {
         font-size: 8rem;
     }
+    /* music.html */
     #jukebox {
         display: block;
         width: 90%;
@@ -1079,6 +1085,7 @@ textarea {
     p a {
         font-size: 6rem;
     }
+    /* contact.html */
     #contact-header {
         font-size:  15rem;
     }
