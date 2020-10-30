@@ -19,7 +19,6 @@ let PlayerMoves = {
     calcAttack: function() {
           if (player.health <= 0 || opponent.health <= 0) {
             alert("Game over, man! Refresh your browser to play again.");
-            document.querySelector("#scoreboard").innerHTML = "Game over, man! Refresh your browser to play again."; 
         } else {
             //  Determines whether player or opponent attacks first
             let getPlayerSpeed = player.speed;
@@ -148,7 +147,6 @@ let PlayerMoves = {
 function retreat() {
     if (player.health <= 0 || opponent.health <= 0) {
         alert("Game over, man! Refresh your browser to play again.");
-        document.querySelector("#scoreboard").innerHTML = "Game over, man! Refresh your browser to play again.";
     } else {
         let retreatScore = Math.floor(Math.random() * 4 + 1);
         let getPlayerHealth = document.querySelector(".health-player");
@@ -188,7 +186,6 @@ function retreat() {
 function nuclearOption() {
     if (player.health <= 0 || opponent.health <= 0) {
         alert("Game over, man! Refresh your browser to play again.");
-        document.querySelector("#scoreboard").innerHTML = "Game over, man! Refresh your browser to play again.";
     } else {
         let nuclear = Math.floor(Math.random() * 2 + 1);
         let getPlayerHealth = document.querySelector(".health-player");
