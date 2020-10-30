@@ -19,12 +19,7 @@ let PlayerMoves = {
     calcAttack: function() {
           if (player.health <= 0 || opponent.health <= 0) {
             alert("Game over, man! Refresh your browser to play again.");
-            document.querySelector("#scoreboard").innerHTML = "Game over, man! Refresh your browser to play again.";
-            document.querySelector("#scoreboard1").innerHTML = "";
-            document.querySelector("#scoreboard2").innerHTML = "";
-            document.querySelector("#scoreboard3").innerHTML = "";
-            document.querySelector("#scoreboard4").innerHTML = "";
-            getPlayerHealth.innerHTML = "";
+            document.querySelector("#scoreboard").innerHTML = "Game over, man! Refresh your browser to play again."; 
         } else {
             //  Determines whether player or opponent attacks first
             let getPlayerSpeed = player.speed;
@@ -154,11 +149,6 @@ function retreat() {
     if (player.health <= 0 || opponent.health <= 0) {
         alert("Game over, man! Refresh your browser to play again.");
         document.querySelector("#scoreboard").innerHTML = "Game over, man! Refresh your browser to play again.";
-        document.querySelector("#scoreboard1").innerHTML = "";
-        document.querySelector("#scoreboard2").innerHTML = "";
-        document.querySelector("#scoreboard3").innerHTML = "";
-        document.querySelector("#scoreboard4").innerHTML = "";
-        getPlayerHealth.innerHTML = "";
     } else {
         let retreatScore = Math.floor(Math.random() * 4 + 1);
         let getPlayerHealth = document.querySelector(".health-player");
@@ -199,11 +189,6 @@ function nuclearOption() {
     if (player.health <= 0 || opponent.health <= 0) {
         alert("Game over, man! Refresh your browser to play again.");
         document.querySelector("#scoreboard").innerHTML = "Game over, man! Refresh your browser to play again.";
-        document.querySelector("#scoreboard1").innerHTML = "";
-        document.querySelector("#scoreboard2").innerHTML = "";
-        document.querySelector("#scoreboard3").innerHTML = "";
-        document.querySelector("#scoreboard4").innerHTML = "";
-        getPlayerHealth.innerHTML = "";
     } else {
         let nuclear = Math.floor(Math.random() * 2 + 1);
         let getPlayerHealth = document.querySelector(".health-player");
@@ -238,6 +223,7 @@ function scoreboard() {
     if (player.health <= 0) {
         document.querySelector("#scoreboard").innerHTML = "You lose! Refresh your browser to resurrect yourself and do battle again.";
         document.querySelector("#scoreboard3").innerHTML = "- YOUR HEALTH: 0";
+        document.querySelector("#scoreboard4").innerHTML = '- OPPONENT HEALTH: ' + opponent.health;
         document.querySelector("#scoreboard5").innerHTML = "";
     } else if (opponent.health <= 0) {
         document.querySelector("#scoreboard").innerHTML ="You win! Refresh your browser to do battle again.";
