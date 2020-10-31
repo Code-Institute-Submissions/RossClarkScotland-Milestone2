@@ -190,8 +190,11 @@ nodes on a map of the US in an attempt to correctly identify the locations in th
   - The site uses Font Awesome to integrate social media icons into the footer.
 - Autoprefixer CSS online: [https://autoprefixer.github.io/](https://autoprefixer.github.io/)
   - Autoprefixer was used to automatically add vendor prefixes to style.css in order to aid cross-browser compatability.
+- Favicon.io
+    - favicon.io was used to add a favicon to the site.
+     [https://favicon.io/favicon-generator/](https://favicon.io/favicon-generator/)
 - word2md.com: https://word2md.com/
-   - To ensure correct markdown in the first draft of this Read Me file a Microsoft Word document of the text was run through word2md.com.
+    - To ensure correct markdown in the first draft of this Read Me file a Microsoft Word document of the text was run through word2md.com.
    The resulting markdown and text was then edited according to the preferences of the author using rules set out in the
    *Mastering Markdown* document at GitHub.com.
    [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)
