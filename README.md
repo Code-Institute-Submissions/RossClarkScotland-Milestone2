@@ -147,6 +147,8 @@ Scoreboard&#39; at the top of the page, for which the inner HTML changes to to c
 - This page allows users to contact the site by filling out a contact form, the content of which will link directly to a valid email address 
 used by the site administrator.
 - A clearly marked call to action button enables users to send their messages.
+- The innerHTML of both the page heading and sub-heading change upon form submission
+  to inform the user whether or not submission was successful.
 
 ## Features: Features left to implement
 
