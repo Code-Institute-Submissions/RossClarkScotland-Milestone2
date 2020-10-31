@@ -4,7 +4,7 @@ SLDine.addEventListener("click", function() {
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+St+Louis+MO");
         });
            
-const SLDSee = document.querySelector("#SLSee");
+const SLSee = document.querySelector("#SLSee");
 SLSee.addEventListener("click", function() {
     document.querySelector("#StLouis").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+St+Louis+MO");
@@ -310,7 +310,7 @@ HumDine.addEventListener("click", function() {
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Humansville+MO");
         });
            
-const Humsee = document.querySelector("#HumSee");
+const HumSee = document.querySelector("#HumSee");
 HumSee.addEventListener("click", function() {
     document.querySelector("#Hum").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=parks+in+Humansville+MO");
@@ -329,7 +329,7 @@ LKDine.addEventListener("click", function() {
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Lebanon+Kansas");
         });
            
-const LKsee = document.querySelector("#LKSee");
+const LKSee = document.querySelector("#LKSee");
 LKSee.addEventListener("click", function() {
     document.querySelector("#LK").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+in+Lebanon+Kansas");
@@ -347,7 +347,7 @@ const PMODine = document.querySelector("#PMODine");
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+in+Princeton+MO");
         });
            
-const PMOsee = document.querySelector("#PMOSee");
+const PMOSee = document.querySelector("#PMOSee");
 PMOSee.addEventListener("click", function() {
     document.querySelector("#PMO").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=parks+in+Princeton+MO");
@@ -383,7 +383,7 @@ RCGADine.addEventListener("click", function() {
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=restaurants+near+Rock+City+Georgia+USA");
         });
            
-const RCGAsee = document.querySelector("#RCGASee");
+const RCGASee = document.querySelector("#RCGASee");
 RCGASee.addEventListener("click", function() {
     document.querySelector("#RCGA").setAttribute("src", 
     "https://www.google.com/maps/embed/v1/search?key=AIzaSyDGCPoH-xwhnwXsd7kMVchttZMdFIIyiu8&q=tourist+attractions+near+Rock+City+GA");

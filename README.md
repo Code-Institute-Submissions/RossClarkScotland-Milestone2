@@ -202,7 +202,10 @@ To ensure that the site contains valid HTML, the HTML code was checked by direct
 
 To check valid CSS, direct input via the W3C CSS Validation Service was used: [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
 
-To test the validity of the JavaScript used in each of the JavaScript files Espirima and JShint were used: [https://esprima.org/demo/validate.html](https://esprima.org/demo/validate.html) , [https://jshint.com/](https://jshint.com/)
+To test the validity of the JavaScript used in each of the JavaScript files Espirima and JShint were used. Espirima
+was used as the lead validator, given that JShint always shows warnings for features of JavaScript available in ES6,
+and for longer JavaScript documents stops validating after a certain number of these warnings.
+[https://esprima.org/demo/validate.html](https://esprima.org/demo/validate.html) , [https://jshint.com/](https://jshint.com/)
 
 To ensure the site&#39;s functionality across various devices, I used the web developer tools inspection feature of each of the following browsers:
 
