@@ -180,8 +180,8 @@ nodes on a map of the US in an attempt to correctly identify the locations in th
 - Google Maps Embed API: [https://developers.google.com/maps/documentation/embed/get-started](https://developers.google.com/maps/documentation/embed/get-started)
   - The places.html page uses the Google Maps JavaScript API to provide users with maps and further information on accommodation, eateries, and tourist sights in each 
   of the towns on the *American Gods* road trip.
-- Formspark: [https://formspark.io/](https://formspark.io/)
-  - Formspark was use to link the contact form on contact.html to a functioning email account.
+- EmailJS: [https://www.emailjs.com/](https://www.emailjs.com/)
+  - EmailJS was use to link the contact form on contact.html to a functioning email account.
 - Google Fonts: [https://fonts.google.com/](https://fonts.google.com/)
   - The site uses Google Fonts to integrate the Lato and Amatic SC fonts into the website.
 - Fontawesome: [https://fontawesome.com/](https://fontawesome.com/)
@@ -255,12 +255,19 @@ found to function as desired on the following devices:
   of the game communicates this information to users by changing the inner HTML on the game interface page accordingly after each round of play.
   The alerts have, however, been retained to add a sense of immediacy to the gameplay for those users whose devices do allow window alerts.
 - Originally, the game contained a bug in that after the game was finished users could still hit any of the three buttons and receive alerts regarding
-  the results of those moves. This bug was fixed by adding an 'if' statement at the beginning of each button’s respective JS function which, if either 
-  the player’s or the opponent’s health score is at or below zero, sends an alert and changes the page’s inner HMTL to tell the user that the game is 
-  over and they must refresh. The remainders of the original functions are now enclosed in 'else if' statements.
+  the results of those moves. This was fixed by adding an 'if' statement at the beginning of each button’s respective JS function which, if either 
+  the player’s or the opponent’s health score is at or below zero, sends an alert and to tell the user that the game is 
+  over and they must refresh. Upon once the game is over (the innerHTML of the page heading also tells the user who won 
+  and instructs them to refresh). The remainders of the original functions are now enclosed in 'else if' statements.
 - In some cases, highting the 'Show places to see' butting on places.html resulted in Google Maps showing a map of either the whole world or of the
   region the user was in. On the assumption that the places in question may have been too small for Google Maps to log "tourist attractions" for the area,
   the searches conducted via mapEmbeds.js were amended to search instead for 'parks'.
+- Originally, the contact form submission was powered by formspark. However, this led to console errors after submission
+  due to inherent errors on the back-end. As such, the formspark was switched out for emailJS.
+- Unlike formspark, emailJS does not provide an automatic message telling the user that their form has been submitted,
+  which led to both myself and a test user submitting multiple times by mistake. To overcome this, the innerHTML
+  of the Contact page heading and sub-heading now change upon the user clicking the 'submit' button to inform them
+  whether or not the submission has been successful.
 
 ## Notes
 
