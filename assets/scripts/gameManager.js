@@ -30,7 +30,6 @@ let gameManager = {
     setPreFight: function() {
         let getHeader = document.querySelector(".game-header");
         let getActions = document.querySelector(".actions");
-        let getBattleground = document.querySelector(".battleground");
         getHeader.innerHTML = '<h3 class="game-fight-heading">Hit the button below to find your opponent!</h3>';
         getActions.innerHTML = '<section class="actions container-fluid"><div class="row"><div class="col-sm-12 text-center"><a href="#" class="btn btn-success btn-lg" onclick="gameManager.setFight()">Search!</a></div></div></section>';
     },
