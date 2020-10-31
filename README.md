@@ -200,6 +200,8 @@ nodes on a map of the US in an attempt to correctly identify the locations in th
    [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)
 
 ## Testing
+I manually tested the site for errors by having the Google Chrome Developer Tools console open while performing
+every user event possible on the site, i.e. clicks and form entry.
 
 To ensure that the site contains valid HTML, the HTML code was checked by direct input using the W3C Markup Validation Service: [https://validator.w3.org/](https://validator.w3.org/)
 
