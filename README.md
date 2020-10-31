@@ -213,7 +213,7 @@ To check valid CSS, direct input via the W3C CSS Validation Service was used: [h
 To test the validity of the JavaScript used in each of the JavaScript files Espirima, JShint and BeautifyTools were used. 
 
 ### Notes
--The JS files pass through Espirima with no warnings. For BeutifyTools and JShint, the larger files must be validated
+- The JS files pass through Espirima with no warnings. For BeutifyTools and JShint, the larger files must be validated
 in separate parts, given that both tools issue warnings for features used in ES6 and stop the validation after a certain
 number of these warnings. Both JShint and BeautifyTools also issue warnings for undefined and unused variables; however,
 these variables are either: defined in other JS files, used as shortcuts to change innerHTML, function names, or part of
