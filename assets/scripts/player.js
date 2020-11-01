@@ -13,102 +13,6 @@ function Player(classType, health, strength, speed, intelligence, agility, endur
     this.endurance = endurance;
 }
 
-function retreat() {
-    if (player.health <= 0 || opponent.health <= 0) {
-        $('#retreatModal').modal('show');
-        document.querySelector("#retreatTitle").innerHTML = "Game over, man!";
-        document.querySelector("#retreatReport").innerHTML = "Refresh your page to play again.";
-    } else {
-        let retreatScore = Math.floor(Math.random() * 4 + 1);
-        let getPlayerHealth = document.querySelector(".health-player");
-        let getOpponentHealth = document.querySelector(".health-opponent");
-        if (retreatScore === 1) {
-            player.health = player.health - 20;
-            $('#retreatModal').modal('show');
-            document.querySelector("#retreatTitle").innerHTML = "Scoreboard";
-            document.querySelector("#retreatReport").innerHTML = "You stumbled and fell! Your opponent hit you for 20 damage points!";
-            document.querySelector("#scoreboard1").innerHTML = "- You stumbled and fell! Your opponent hit you for 20 damage points!";
-            document.querySelector("#scoreboard2").innerHTML = "";
-            getPlayerHealth.innerHTML = 'Health: ' + player.health;
-        } else if (retreatScore === 2) {
-            player.health = player.health - 30;
-            $('#retreatModal').modal('show');
-            document.querySelector("#retreatTitle").innerHTML = "Scoreboard";
-            document.querySelector("#retreatReport").innerHTML = "You tripped and and fell badly! Your opponent hit you for 30 damage points!";
-            document.querySelector("#scoreboard1").innerHTML = "- You tripped and and fell badly! Your opponent hit you for 30 damage points!";
-            document.querySelector("#scoreboard2").innerHTML = "";
-            getPlayerHealth.innerHTML = 'Health: ' + player.health;
-        } else if (retreatScore === 3) {
-            player.health = player.health + 20;
-            $('#retreatModal').modal('show');
-            document.querySelector("#retreatTitle").innerHTML = "Scoreboard";
-            document.querySelector("#retreatReport").innerHTML = "You stepped out of your opponent's range and caught your breath for 20 health points!";
-            document.querySelector("#scoreboard1").innerHTML = "- You stepped out of your opponent's range and caught your breath for 20 health points!";
-            document.querySelector("#scoreboard2").innerHTML = "";
-            getPlayerHealth.innerHTML = 'Health: ' + player.health;
-        } else {
-            player.health = player.health + 30;
-            $('#retreatModal').modal('show');
-            document.querySelector("#retreatTitle").innerHTML = "Scoreboard";
-            document.querySelector("#retreatReport").innerHTML = "You retreated to higher ground and rested for 30 health points!";
-            document.querySelector("#scoreboard1").innerHTML = "- You retreated to higher ground and rested for 30 health points!";
-            document.querySelector("#scoreboard2").innerHTML = "";
-            getPlayerHealth.innerHTML = 'Health: ' + player.health;
-        }
-        if (player.health <= 0) {
-            $('#loseModal').modal('show');
-            document.querySelector("#loseTitle").innerHTML = "YOU LOSE!";
-            document.querySelector("#loseReport").innerHTML = "Refresh your browser to resurrect yourself and do battle again.";
-            getPlayerHealth.innerHTML = "Health: 0";
-        }
-    }
-}
-
-function nuclearOption() {
-    if (player.health <= 0 || opponent.health <= 0) {
-        $('#nuclearModal').modal('show');
-        document.querySelector("#nuclearTitle").innerHTML = "Game over, man!";
-        document.querySelector("#nuclearReport").innerHTML = "Refresh your page to play again.";
-    } else {
-        let nuclear = Math.floor(Math.random() * 2 + 1);
-        let getPlayerHealth = document.querySelector(".health-player");
-        let getOpponentHealth = document.querySelector(".health-opponent");
-        if (nuclear === 1) {
-            player.health = 0;
-            $('#nuclearModal').modal('show');
-            document.querySelector("#nuclearTitle").innerHTML = "YOU BLEW YOURSELF UP!";
-            document.querySelector("#nuclearReport").innerHTML = "Such was the will of the gods.";
-            document.querySelector("#scoreboard1").innerHTML = "- YOU BLEW YOURSELF UP!";
-            document.querySelector("#scoreboard2").innerHTML = "";
-            document.querySelector("#scoreboard3").innerHTML = "- YOUR HEALTH: " + player.health;
-            document.querySelector("#scoreboard4").innerHTML = "- OPPONENT HEALTH: " + opponent.health;
-            getPlayerHealth.innerHTML = 'Health: ' + player.health;
-        } else {
-            opponent.health = 0;
-            $('#nuclearModal').modal('show');
-            document.querySelector("#nuclearTitle").innerHTML = "YOU WENT NUCLEAR ON YOUR OPPONENT AND ENDED THEM!";
-            document.querySelector("#nuclearReport").innerHTML = "Give thanks to the gods for your victory.";
-            document.querySelector("#scoreboard1").innerHTML = "- YOU WENT NUCLEAR ON YOUR OPPONENT AND ENDED THEM!";
-            document.querySelector("#scoreboard2").innerHTML = "";
-            document.querySelector("#scoreboard3").innerHTML = "- YOUR HEALTH: " + player.health;
-            document.querySelector("#scoreboard4").innerHTML = "- OPPONENT HEALTH: " + opponent.health;
-            getOpponentHealth.innerHTML = 'Health: ' + opponent.health;
-        }
-        if (player.health <= 0) {
-            $('#loseModal').modal('show');
-            document.querySelector("#loseTitle").innerHTML = "YOU LOSE!";
-            document.querySelector("#loseReport").innerHTML = "Refresh your browser to resurrect yourself and do battle again.";
-        }
-        if (opponent.health <= 0) {
-            $('#winModal').modal('show');
-            document.querySelector("#winTitle").innerHTML = "YOU WIN!";
-            document.querySelector("#winReport").innerHTML = "Refresh your browser to do battle again.";
-        }
-    }
-}
-
-
-
 let PlayerMoves = {
     calcAttack: function() {
           if (player.health <= 0 || opponent.health <= 0) {
@@ -271,6 +175,100 @@ let PlayerMoves = {
         }
     }
 };
+
+function retreat() {
+    if (player.health <= 0 || opponent.health <= 0) {
+        $('#retreatModal').modal('show');
+        document.querySelector("#retreatTitle").innerHTML = "Game over, man!";
+        document.querySelector("#retreatReport").innerHTML = "Refresh your page to play again.";
+    } else {
+        let retreatScore = Math.floor(Math.random() * 4 + 1);
+        let getPlayerHealth = document.querySelector(".health-player");
+        let getOpponentHealth = document.querySelector(".health-opponent");
+        if (retreatScore === 1) {
+            player.health = player.health - 20;
+            $('#retreatModal').modal('show');
+            document.querySelector("#retreatTitle").innerHTML = "Scoreboard";
+            document.querySelector("#retreatReport").innerHTML = "You stumbled and fell! Your opponent hit you for 20 damage points!";
+            document.querySelector("#scoreboard1").innerHTML = "- You stumbled and fell! Your opponent hit you for 20 damage points!";
+            document.querySelector("#scoreboard2").innerHTML = "";
+            getPlayerHealth.innerHTML = 'Health: ' + player.health;
+        } else if (retreatScore === 2) {
+            player.health = player.health - 30;
+            $('#retreatModal').modal('show');
+            document.querySelector("#retreatTitle").innerHTML = "Scoreboard";
+            document.querySelector("#retreatReport").innerHTML = "You tripped and and fell badly! Your opponent hit you for 30 damage points!";
+            document.querySelector("#scoreboard1").innerHTML = "- You tripped and and fell badly! Your opponent hit you for 30 damage points!";
+            document.querySelector("#scoreboard2").innerHTML = "";
+            getPlayerHealth.innerHTML = 'Health: ' + player.health;
+        } else if (retreatScore === 3) {
+            player.health = player.health + 20;
+            $('#retreatModal').modal('show');
+            document.querySelector("#retreatTitle").innerHTML = "Scoreboard";
+            document.querySelector("#retreatReport").innerHTML = "You stepped out of your opponent's range and caught your breath for 20 health points!";
+            document.querySelector("#scoreboard1").innerHTML = "- You stepped out of your opponent's range and caught your breath for 20 health points!";
+            document.querySelector("#scoreboard2").innerHTML = "";
+            getPlayerHealth.innerHTML = 'Health: ' + player.health;
+        } else {
+            player.health = player.health + 30;
+            $('#retreatModal').modal('show');
+            document.querySelector("#retreatTitle").innerHTML = "Scoreboard";
+            document.querySelector("#retreatReport").innerHTML = "You retreated to higher ground and rested for 30 health points!";
+            document.querySelector("#scoreboard1").innerHTML = "- You retreated to higher ground and rested for 30 health points!";
+            document.querySelector("#scoreboard2").innerHTML = "";
+            getPlayerHealth.innerHTML = 'Health: ' + player.health;
+        }
+        if (player.health <= 0) {
+            $('#loseModal').modal('show');
+            document.querySelector("#loseTitle").innerHTML = "YOU LOSE!";
+            document.querySelector("#loseReport").innerHTML = "Refresh your browser to resurrect yourself and do battle again.";
+            getPlayerHealth.innerHTML = "Health: 0";
+        }
+    }
+}
+
+function nuclearOption() {
+    if (player.health <= 0 || opponent.health <= 0) {
+        $('#nuclearModal').modal('show');
+        document.querySelector("#nuclearTitle").innerHTML = "Game over, man!";
+        document.querySelector("#nuclearReport").innerHTML = "Refresh your page to play again.";
+    } else {
+        let nuclear = Math.floor(Math.random() * 2 + 1);
+        let getPlayerHealth = document.querySelector(".health-player");
+        let getOpponentHealth = document.querySelector(".health-opponent");
+        if (nuclear === 1) {
+            player.health = 0;
+            $('#nuclearModal').modal('show');
+            document.querySelector("#nuclearTitle").innerHTML = "YOU BLEW YOURSELF UP!";
+            document.querySelector("#nuclearReport").innerHTML = "Such was the will of the gods.";
+            document.querySelector("#scoreboard1").innerHTML = "- YOU BLEW YOURSELF UP!";
+            document.querySelector("#scoreboard2").innerHTML = "";
+            document.querySelector("#scoreboard3").innerHTML = "- YOUR HEALTH: " + player.health;
+            document.querySelector("#scoreboard4").innerHTML = "- OPPONENT HEALTH: " + opponent.health;
+            getPlayerHealth.innerHTML = 'Health: ' + player.health;
+        } else {
+            opponent.health = 0;
+            $('#nuclearModal').modal('show');
+            document.querySelector("#nuclearTitle").innerHTML = "YOU WENT NUCLEAR ON YOUR OPPONENT AND ENDED THEM!";
+            document.querySelector("#nuclearReport").innerHTML = "Give thanks to the gods for your victory.";
+            document.querySelector("#scoreboard1").innerHTML = "- YOU WENT NUCLEAR ON YOUR OPPONENT AND ENDED THEM!";
+            document.querySelector("#scoreboard2").innerHTML = "";
+            document.querySelector("#scoreboard3").innerHTML = "- YOUR HEALTH: " + player.health;
+            document.querySelector("#scoreboard4").innerHTML = "- OPPONENT HEALTH: " + opponent.health;
+            getOpponentHealth.innerHTML = 'Health: ' + opponent.health;
+        }
+        if (player.health <= 0) {
+            $('#loseModal').modal('show');
+            document.querySelector("#loseTitle").innerHTML = "YOU LOSE!";
+            document.querySelector("#loseReport").innerHTML = "Refresh your browser to resurrect yourself and do battle again.";
+        }
+        if (opponent.health <= 0) {
+            $('#winModal').modal('show');
+            document.querySelector("#winTitle").innerHTML = "YOU WIN!";
+            document.querySelector("#winReport").innerHTML = "Refresh your browser to do battle again.";
+        }
+    }
+}
 
 function scoreboard() {
     if (player.health <= 0) {
