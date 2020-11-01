@@ -467,12 +467,21 @@ font-size:1.5rem;
 
 .game-instruction {
     margin: 0 5rem 2rem 5rem;
-    font-family: 'Lato', 'Times', sans-serif;
 }
 
-.fight-btn {
+.fight-btn, 
+.windowBtn {
     width: 20rem;
     margin: 0.5rem auto 0.5rem auto;
+}
+
+#playerTitle,
+#opponentTitle,
+#retreatTitle,
+#nuclearTitle,
+#winTitle, 
+#loseTitle {
+    text-transform: uppercase;
 }
 /************************************ Contact page ***********************************/
 

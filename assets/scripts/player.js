@@ -61,17 +61,17 @@ let PlayerMoves = {
             opponent.health = opponent.health - totalDamage;
             if (totalDamage > 0) {
                 $('#playerModal').modal('show');
-                document.querySelector("#playerTitle").innerHTML = "Scoreboard";
+                document.querySelector("#playerTitle").innerHTML = "Scoreboard: Blow-by-blow";
                 document.querySelector("#playerReport").innerHTML = "You scored " + totalDamage + " damage points!";
                 document.querySelector("#scoreboard1").innerHTML = "- You scored " + totalDamage + " damage points!";
             } else if (totalDamage === 0 && playerAttackValues[0] % 2 === 0) {
                 $('#playerModal').modal('show');
-                document.querySelector("#playerTitle").innerHTML = "Scoreboard";
+                document.querySelector("#playerTitle").innerHTML = "Scoreboard: Blow-by-blow";
                 document.querySelector("#playerReport").innerHTML = "Your opponent blocked your strike!";
                 document.querySelector("#scoreboard1").innerHTML = "- Your opponent blocked your strike!";
             } else {
                 $('#playerModal').modal('show');
-                document.querySelector("#playerTitle").innerHTML = "Scoreboard";
+                document.querySelector("#playerTitle").innerHTML = "Scoreboard: Blow-by-blow";
                 document.querySelector("#playerReport").innerHTML = "Your opponent evaded your strike!";
                 document.querySelector("#scoreboard1").innerHTML = "- Your opponent evaded your strike!";
             }
@@ -89,17 +89,17 @@ let PlayerMoves = {
                 player.health = player.health - totalDamage;
                 if (totalDamage > 0) {
                     $('#opponentModal').modal('show');
-                    document.querySelector("#opponentTitle").innerHTML = "Scoreboard";
+                    document.querySelector("#opponentTitle").innerHTML = "Scoreboard: Blow-by-blow";
                     document.querySelector("#opponentReport").innerHTML = "Your opponent scored " + totalDamage + " damage points!";
                     document.querySelector("#scoreboard2").innerHTML = "- Your opponent scored " + totalDamage + " damage points!";
                 } else if (totalDamage === 0 && opponentAttackValues[0] % 2 === 0) {
                     $('#opponentModal').modal('show');
-                    document.querySelector("#opponentTitle").innerHTML = "Scoreboard";
+                    document.querySelector("#opponentTitle").innerHTML = "Scoreboard: Blow-by-blow";
                     document.querySelector("#opponentReport").innerHTML = "You blocked your opponent's strike!";
                     document.querySelector("#scoreboard2").innerHTML = "- You blocked your opponent's strike!";
                 } else {
                     $('#opponentModal').modal('show');
-                    document.querySelector("#opponentTitle").innerHTML = "Scoreboard";
+                    document.querySelector("#opponentTitle").innerHTML = "Scoreboard: Blow-by-blow";
                     document.querySelector("#opponentReport").innerHTML = "You evaded your opponent's strike!";
                     document.querySelector("#scoreboard2").innerHTML = "- You evaded your opponent's strike!";
                 }
@@ -119,17 +119,17 @@ let PlayerMoves = {
                     player.health = player.health - totalDamage;
                 if (totalDamage > 0) {
                     $('#opponentModal').modal('show');
-                    document.querySelector("#opponentTitle").innerHTML = "Scoreboard";
+                    document.querySelector("#opponentTitle").innerHTML = "Scoreboard: Blow-by-blow";
                     document.querySelector("#opponentReport").innerHTML = "Your opponent scored " + totalDamage + " damage points!";
                     document.querySelector("#scoreboard2").innerHTML = "- Your opponent scored " + totalDamage + " damage points!";
                 } else if (totalDamage === 0 && opponentAttackValues[0] % 2 === 0) {
                     $('#opponentModal').modal('show');
-                    document.querySelector("#opponentTitle").innerHTML = "Scoreboard";
+                    document.querySelector("#opponentTitle").innerHTML = "Scoreboard: Blow-by-blow";
                     document.querySelector("#opponentReport").innerHTML = "You blocked your opponent's strike!";
                     document.querySelector("#scoreboard2").innerHTML = "- You blocked your opponent's strike!";
                 } else {
                     $('#opponentModal').modal('show');
-                    document.querySelector("#opponentTitle").innerHTML = "Scoreboard";
+                    document.querySelector("#opponentTitle").innerHTML = "Scoreboard: Blow-by-blow";
                     document.querySelector("#opponentReport").innerHTML = "You evaded your opponent's strike!";
                     document.querySelector("#scoreboard2").innerHTML = "- You evaded your opponent's strike!";
                 }
@@ -147,17 +147,17 @@ let PlayerMoves = {
                     opponent.health = opponent.health - totalDamage;
                     if (totalDamage > 0) {
                         $('#playerModal').modal('show');
-                        document.querySelector("#playerTitle").innerHTML = "Scoreboard";
+                        document.querySelector("#playerTitle").innerHTML = "Scoreboard: Blow-by-blow";
                         document.querySelector("#playerReport").innerHTML = "You scored " + totalDamage + " damage points!";
                         document.querySelector("#scoreboard1").innerHTML = "- You scored " + totalDamage + " damage points!";
                 } else if (totalDamage === 0 && playerAttackValues[0] % 2 === 0) {
                     $('#playerModal').modal('show');
-                    document.querySelector("#playerTitle").innerHTML = "Scoreboard";
+                    document.querySelector("#playerTitle").innerHTML = "Scoreboard: Blow-by-blow";
                     document.querySelector("#playerReport").innerHTML = "Your opponent blocked your strike!";
                     document.querySelector("#scoreboard1").innerHTML = "- Your opponent blocked your strike!";
                 } else {
                     $('#playerModal').modal('show');
-                    document.querySelector("#playerTitle").innerHTML = "Scoreboard";
+                    document.querySelector("#playerTitle").innerHTML = "Scoreboard: Blow-by-blow";
                     document.querySelector("#playerReport").innerHTML = "Your opponent evaded your strike!";
                     document.querySelector("#scoreboard1").innerHTML = "- Your opponent evaded your strike!";
                 }
@@ -188,7 +188,7 @@ function retreat() {
         if (retreatScore === 1) {
             player.health = player.health - 20;
             $('#retreatModal').modal('show');
-            document.querySelector("#retreatTitle").innerHTML = "Scoreboard";
+            document.querySelector("#retreatTitle").innerHTML = "Scoreboard: Blow-by-blow";
             document.querySelector("#retreatReport").innerHTML = "You stumbled and fell! Your opponent hit you for 20 damage points!";
             document.querySelector("#scoreboard1").innerHTML = "- You stumbled and fell! Your opponent hit you for 20 damage points!";
             document.querySelector("#scoreboard2").innerHTML = "";
@@ -196,7 +196,7 @@ function retreat() {
         } else if (retreatScore === 2) {
             player.health = player.health - 30;
             $('#retreatModal').modal('show');
-            document.querySelector("#retreatTitle").innerHTML = "Scoreboard";
+            document.querySelector("#retreatTitle").innerHTML = "Scoreboard: Blow-by-blow";
             document.querySelector("#retreatReport").innerHTML = "You tripped and and fell badly! Your opponent hit you for 30 damage points!";
             document.querySelector("#scoreboard1").innerHTML = "- You tripped and and fell badly! Your opponent hit you for 30 damage points!";
             document.querySelector("#scoreboard2").innerHTML = "";
@@ -204,7 +204,7 @@ function retreat() {
         } else if (retreatScore === 3) {
             player.health = player.health + 20;
             $('#retreatModal').modal('show');
-            document.querySelector("#retreatTitle").innerHTML = "Scoreboard";
+            document.querySelector("#retreatTitle").innerHTML = "Scoreboard: Blow-by-blow";
             document.querySelector("#retreatReport").innerHTML = "You stepped out of your opponent's range and caught your breath for 20 health points!";
             document.querySelector("#scoreboard1").innerHTML = "- You stepped out of your opponent's range and caught your breath for 20 health points!";
             document.querySelector("#scoreboard2").innerHTML = "";
@@ -212,7 +212,7 @@ function retreat() {
         } else {
             player.health = player.health + 30;
             $('#retreatModal').modal('show');
-            document.querySelector("#retreatTitle").innerHTML = "Scoreboard";
+            document.querySelector("#retreatTitle").innerHTML = "Scoreboard: Blow-by-blow";
             document.querySelector("#retreatReport").innerHTML = "You retreated to higher ground and rested for 30 health points!";
             document.querySelector("#scoreboard1").innerHTML = "- You retreated to higher ground and rested for 30 health points!";
             document.querySelector("#scoreboard2").innerHTML = "";
