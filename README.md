@@ -138,9 +138,8 @@ reader&#39;s enjoyment of the novel by allowing them to play as and against char
 - The game page enables users to play as one of 4 characters by clicking on a character profile.
 - Once users choose a character, they find one of 4 opponents by clicking a button at the bottom of the page.
 - During the game, users play by pressing one of 3 call to action buttons: &#39;Attack!&#39;, &#39;Retreat!&#39;, or &#39;Go nuclear!&#39;.
-- The narrative and events of the game are communicated to users via window alerts, or, for those whose devices block window alerts a &#39;
-Scoreboard&#39; at the top of the page, for which the inner HTML changes to to contain the relevant information after each move. In cases
- where devices do allow window alerts, the inner HTML at the top of the page simply acts as a scoreboard and summary of each round of play.
+- The narrative and events of the game are communicated to users via Bootstrap modal alerts and a &#39;
+Scoreboard&#39; at the top of the page, for which the inner HTML changes to to contain the relevant information after each move.
 
 **contact.html**
 
@@ -176,7 +175,9 @@ location-based Augmented Reality via Mapbox to enable users to take, albeit limi
   - The site uses JavaScript to enable interactive user events and to incorporate features from the following APIs: Google Maps JavaScript API, Google Maps Embed API, Formspark.
 - Google Maps JavaScript API: [https://developers.google.com/maps/documentation/javascript/overview](https://developers.google.com/maps/documentation/javascript/overview)
     - The route.html page uses the Google Maps JavaScript API to power a &#39;Geography Challenge&#39;, which allows users to place 
-nodes on a map of the US in an attempt to correctly identify the locations in the novel.
+    nodes on a map of the US in an attempt to correctly identify the locations in the novel.
+- jQuery: [https://code.jquery.com/](https://code.jquery.com/)
+    - The site uses jQuery to integrate bootstrap modal alerts within the game.
 - Google Maps Route Planner: [https://www.google.de/maps?ie=UTF8&amp;hl=de&amp;daddr=Wegelerstrasse+6,+Bonn&amp;f=d&amp;om=1](https://www.google.de/maps?ie=UTF8&amp;hl=de&amp;daddr=Wegelerstrasse+6,+Bonn&amp;f=d&amp;om=1)
   - The route.html page contains embedded maps showing possible routes from one road trip destination to the next:
 - Google Maps Embed API: [https://developers.google.com/maps/documentation/embed/get-started](https://developers.google.com/maps/documentation/embed/get-started)
@@ -277,10 +278,11 @@ found to function as desired on the following devices:
 - Originally, the results of hitting the ‘Attack!’, ‘Retreat’, and ‘Go nuclear!’ buttons and the announcement of the end of the game were communicated
   to the player only via window alerts. However, test users with pop-ups disabled reported not being able to follow the game. As such, the deployed version
   of the game communicates this information to users by changing the inner HTML on the game interface page accordingly after each round of play.
-  The alerts have, however, been retained to add a sense of immediacy to the gameplay for those users whose devices do allow window alerts.
+  The alerts were nevertheless originally retained to add a sense of immediacy to the gameplay for those users whose devices do allow window alerts.
+  However, after asking a tutor whether window alerts followed best practices, I changed the window alerts for Bootstrap modal alerts.
 - Originally, the game contained a bug in that after the game was finished users could still hit any of the three buttons and receive alerts regarding
   the results of those moves. This was fixed by adding an 'if' statement at the beginning of each button’s respective JS function which, if either 
-  the player’s or the opponent’s health score is at or below zero, sends an alert and to tell the user that the game is 
+  the player’s or the opponent’s health score is at or below zero, sends a modal alert and to tell the user that the game is 
   over and they must refresh. Upon once the game is over (the innerHTML of the page heading also tells the user who won 
   and instructs them to refresh). The remainders of the original functions are now enclosed in 'else if' statements.
 - In some cases, highting the 'Show places to see' butting on places.html resulted in Google Maps showing a map of either the whole world or of the
