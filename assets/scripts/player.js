@@ -289,7 +289,7 @@ function scoreboard() {
     } 
 }
 
-let gameBtn = document.querySelector("#gameBtn");
-gameBtn.addEventListener("click", function() {
-    $('#gameModal').modal({ show: false});
+let windowBtn = document.querySelector(".windowBtn");
+windowBtn.addEventListener("click", function() {
+    $('.windowBtn').modal({ show: false});
 });
