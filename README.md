@@ -142,10 +142,10 @@ reader&#39;s enjoyment of the novel by allowing them to play as and against char
 Scoreboard&#39; at the top of the page, for which the inner HTML changes to to contain the relevant information after each move.
 
 **contact.html**
-
 - This page allows users to contact the site by filling out a contact form, the content of which will link directly to a valid email address 
 used by the site administrator.
 - A clearly marked call to action button enables users to send their messages.
+- A Bootstrap modal alert informs the user whether or not their form submission was successful.
 - The innerHTML of both the page heading and sub-heading change upon form submission
   to inform the user whether or not submission was successful.
 
@@ -177,7 +177,8 @@ location-based Augmented Reality via Mapbox to enable users to take, albeit limi
     - The route.html page uses the Google Maps JavaScript API to power a &#39;Geography Challenge&#39;, which allows users to place 
     nodes on a map of the US in an attempt to correctly identify the locations in the novel.
 - jQuery: [https://code.jquery.com/](https://code.jquery.com/)
-    - The site uses jQuery to integrate bootstrap modal alerts within the game.
+    - The site uses jQuery to integrate bootstrap modal alerts within the game on the contact page to alert the user as to the
+    status of their contact form submission.
 - Google Maps Route Planner: [https://www.google.de/maps?ie=UTF8&amp;hl=de&amp;daddr=Wegelerstrasse+6,+Bonn&amp;f=d&amp;om=1](https://www.google.de/maps?ie=UTF8&amp;hl=de&amp;daddr=Wegelerstrasse+6,+Bonn&amp;f=d&amp;om=1)
   - The route.html page contains embedded maps showing possible routes from one road trip destination to the next:
 - Google Maps Embed API: [https://developers.google.com/maps/documentation/embed/get-started](https://developers.google.com/maps/documentation/embed/get-started)
@@ -204,7 +205,8 @@ location-based Augmented Reality via Mapbox to enable users to take, albeit limi
 I manually tested the site for errors by having the Google Chrome Developer Tools console open while performing
 every user event possible on the site, i.e. clicks and form entry.
 
-To ensure that the site contains valid HTML, the HTML code was checked by direct input using the W3C Markup Validation Service: [https://validator.w3.org/](https://validator.w3.org/)
+To ensure that the site contains valid HTML, the HTML code was checked by direct input using the W3C Markup Validation Service: 
+[https://validator.w3.org/](https://validator.w3.org/)
 
 ### Notes
 - Due to the literary typeface style used to begin most pages, with the first few words large in Amatic SC and the following text
@@ -214,18 +216,19 @@ To ensure that the site contains valid HTML, the HTML code was checked by direct
 - Similarly, some sections in the game.html page do not have headings becuase the innerHTML is only added later via JS functions
   in response to user events. Here, too, the validator shows warnings.
 
-To check valid CSS, direct input via the W3C CSS Validation Service was used: [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
+To check valid CSS, direct input via the W3C CSS Validation Service was used:
+ [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
 
-To test the validity of the JavaScript used in each of the JavaScript files Espirima, JShint and BeautifyTools were used. 
-
-### Notes
-- The JS files pass through Espirima with no warnings. For BeutifyTools and JShint, the larger files must be validated
-in separate parts, given that both tools issue warnings for features used in ES6 and stop the validation after a certain
-number of these warnings. Both JShint and BeautifyTools also issue warnings for undefined and unused variables; however,
-these variables are either: defined in other JS files, used as shortcuts to change innerHTML, function names, or part of
-the Google Maps or EmailJS templates.
+To test the validity of the JavaScript used in each of the JavaScript files Esprima, JShint and BeautifyTools were used. 
 [https://esprima.org/demo/validate.html](https://esprima.org/demo/validate.html) , [https://jshint.com/](https://jshint.com/) ,
 [http://beautifytools.com/javascript-validator.php](http://beautifytools.com/javascript-validator.php)
+
+### Notes
+- All JS files pass through Esprima with no warnings. For BeutifyTools and JShint, the larger files must be validated
+in separate parts, given that both tools issue warnings for features used in ES6 and stop the validation after a certain
+number of these warnings. Both JShint and BeautifyTools also issue warnings for undefined and unused variables; however,
+these variables are either: defined in other JS files, jQuery $ signs which the validator does not pick up on,
+used as shortcuts to change innerHTML, function names, or part of the Google Maps or EmailJS templates.
 
 To ensure the site&#39;s functionality across various devices, I used the web developer tools inspection feature of each of the following browsers:
 
@@ -291,9 +294,9 @@ found to function as desired on the following devices:
 - Originally, the contact form submission was powered by formspark. However, this led to console errors after submission
   due to inherent errors on the back-end. As such, the formspark was switched out for emailJS.
 - Unlike formspark, emailJS does not provide an automatic message telling the user that their form has been submitted,
-  which led to both myself and a test user submitting multiple times by mistake. To overcome this, the innerHTML
-  of the Contact page heading and sub-heading now change upon the user clicking the 'submit' button to inform them
-  whether or not the submission has been successful.
+  which led to both myself and a test user submitting multiple times by mistake. To overcome this, a Bootstrap modal
+  alert informs the user of the status of their submission and the innerHTMLof the Contact page heading and sub-heading 
+  now change upon the user clicking the 'submit' button to inform themwhether or not the submission has been successful.
 
 
 ## How the site meets user needs

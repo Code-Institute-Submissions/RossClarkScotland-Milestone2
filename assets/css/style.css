@@ -538,6 +538,10 @@ textarea {
     border-style: solid;
 }
 
+#submitTitle {
+    text-transform: uppercase;
+}
+
 
 /************************************ Media queries ***********************************/
 
