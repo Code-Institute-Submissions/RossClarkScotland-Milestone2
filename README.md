@@ -177,7 +177,7 @@ location-based Augmented Reality via Mapbox to enable users to take, albeit limi
     - The route.html page uses the Google Maps JavaScript API to power a &#39;Geography Challenge&#39;, which allows users to place 
     nodes on a map of the US in an attempt to correctly identify the locations in the novel.
 - jQuery: [https://code.jquery.com/](https://code.jquery.com/)
-    - The site uses jQuery to integrate bootstrap modal alerts within the game on the contact page to alert the user as to the
+    - The site uses jQuery to integrate bootstrap modal alerts within the game, and on the contact page to alert the user as to the
     status of their contact form submission.
 - Google Maps Route Planner: [https://www.google.de/maps?ie=UTF8&amp;hl=de&amp;daddr=Wegelerstrasse+6,+Bonn&amp;f=d&amp;om=1](https://www.google.de/maps?ie=UTF8&amp;hl=de&amp;daddr=Wegelerstrasse+6,+Bonn&amp;f=d&amp;om=1)
   - The route.html page contains embedded maps showing possible routes from one road trip destination to the next:
@@ -224,7 +224,7 @@ To test the validity of the JavaScript used in each of the JavaScript files Espr
 [http://beautifytools.com/javascript-validator.php](http://beautifytools.com/javascript-validator.php)
 
 ### Notes
-- All JS files pass through Esprima with no warnings. For BeutifyTools and JShint, the larger files must be validated
+- All JS files pass through Esprima with no warnings. For BeautifyTools and JShint, the larger files must be validated
 in separate parts, given that both tools issue warnings for features used in ES6 and stop the validation after a certain
 number of these warnings. Both JShint and BeautifyTools also issue warnings for undefined and unused variables; however,
 these variables are either: defined in other JS files, jQuery $ signs which the validator does not pick up on,
@@ -296,7 +296,7 @@ found to function as desired on the following devices:
 - Unlike formspark, emailJS does not provide an automatic message telling the user that their form has been submitted,
   which led to both myself and a test user submitting multiple times by mistake. To overcome this, a Bootstrap modal
   alert informs the user of the status of their submission and the innerHTMLof the Contact page heading and sub-heading 
-  now change upon the user clicking the 'submit' button to inform themwhether or not the submission has been successful.
+  now change upon the user clicking the 'submit' button to inform them on whether or not the submission has been successful.
 
 
 ## How the site meets user needs
